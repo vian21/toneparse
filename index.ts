@@ -1,10 +1,6 @@
 import fs from "fs"
 import { NeuralDSPParser } from "./lib/NeuralDSPParser"
-
-const LoggingFormat = {
-    JSON: 0,
-    MARKDOWN: 2,
-}
+import { log_preset, LoggingFormat } from "./lib/logging"
 
 function show_help(): never {
     console.log("Toneparse - Parse Neural DSP and Logic Pro preset files")
@@ -24,50 +20,24 @@ function read_file(file: string) {
     }
 }
 
-function parseBuffer(buffer: Buffer): NeuralDSPPreset {
+function parse_buffer(buffer: Buffer): NeuralDSPPreset {
     const parser = new NeuralDSPParser(buffer)
     return parser.parse()
 }
 
-function log_preset(preset: NeuralDSPPreset, format = LoggingFormat.MARKDOWN) {
-    switch (format) {
-        case LoggingFormat.JSON:
-            console.log(JSON.stringify(preset, null, 2))
-            break
-        case LoggingFormat.MARKDOWN:
-            log_md(preset)
-            break
-    }
-}
-
-function log_md(preset: NeuralDSPPreset) {
-    console.log("| ", preset.name, " |")
-    for (const module of preset.modules) {
-        console.log("-".repeat(10))
-        console.log("| ", module.name, " |")
-        console.log("-".repeat(10))
-
-        for (const [k, v] of Object.entries(module.settings)) {
-            console.log("| ", k, " |", v, "|")
-        }
-        console.log("-".repeat(10))
-    }
-}
-
 function main() {
-    // if (process.argv.length == 2) show_help()
-    // if (!process.argv[2]) return
+    if (process.argv.length == 2) show_help()
+    if (!process.argv[2]) return
 
-    // const buffer = read_file(process.argv[2])
-    const buffer = read_file("tests/assets/timmons.xml")
-    const preset = parseBuffer(buffer)
-    log_preset(preset)
+    let format = LoggingFormat.MARKDOWN
+    if (process.argv[3] && process.argv[3].includes("json")) {
+        format = LoggingFormat.JSON
+    }
 
-    console.log("------ -----")
+    const buffer = read_file(process.argv[2])
+    const preset = parse_buffer(buffer)
 
-    const buffer2 = read_file("tests/assets/fortin.xml")
-    // const preset2 = parseBuffer(buffer2)
-    // log_preset(preset2)
+    log_preset(preset, format)
 }
 
 main()

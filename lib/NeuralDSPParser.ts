@@ -8,34 +8,48 @@ export class NeuralDSPParser extends BaseParser {
         this.pointer = 0 // Initialize pointer to point at start of every string
     }
     parse() {
-        const preset: NeuralDSPPreset = { name: "", amps: [], pedals: [] }
+        const preset: NeuralDSPPreset = { name: "", modules: [] }
 
         preset.name = this.read_string()
-        console.log("Preset name:", preset.name)
 
         let key: string, value: string | string[]
+        let module: NeuralDSPModule = {
+            name: "",
+            settings: {},
+        }
+
         while (true) {
             this.read_until_print_char()
             key = this.read_string()
+
             if (this.has_null_value()) {
-                preset[key] = null
-                console.log(key, null)
+                module.settings[key] = null
                 continue
             }
 
             this.read_until_print_char()
-            if (this.offset === this.buffer.length) {
-                preset[key] = ""
-                console.log(key, "")
-                break
-            }
+            if (this.offset === this.buffer.length) break
+
             value = this.read_string()
             if (value === "listElements") {
                 value = this.read_list_elements()
             }
 
-            preset[key] = value
-            console.log(key, value)
+            // Start Module transaction
+            if (key == "subModels") {
+                //Commit previous module if it exists
+                if (module.name !== "") {
+                    preset.modules.push(module)
+                }
+
+                module = {
+                    name: value.toString(),
+                    settings: {},
+                }
+                continue
+            }
+
+            module.settings[key] = value.toString()
         }
 
         return preset

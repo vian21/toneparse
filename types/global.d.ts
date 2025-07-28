@@ -3,10 +3,12 @@ interface Preset {
 }
 
 interface NeuralDSPPreset extends Preset {
-    modules: {
-        name: string
-        settings: Record<string, string>
-    }
+    modules: NeuralDSPModule[]
+}
+
+interface NeuralDSPModule {
+    name: string
+    settings: Record<string, string | null>
 }
 
 interface Amp {

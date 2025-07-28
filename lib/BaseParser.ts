@@ -1,6 +1,6 @@
 export abstract class BaseParser {
     buffer: Buffer
-    offset: number = 0
+    offset: number
     constructor(buffer: Buffer) {
         this.buffer = buffer
         this.offset = 0
@@ -11,8 +11,6 @@ export abstract class BaseParser {
     read_until(code: number) {
         for (; this.buffer[this.offset] != code; this.offset++) {}
     }
-
-    skip_whitespace() {}
 
     skip_nbytes(n: number) {
         this.offset += n

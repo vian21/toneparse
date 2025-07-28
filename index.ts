@@ -23,19 +23,24 @@ function parseBuffer(buffer: Buffer): NeuralDSPPreset {
     return parser.parse()
 }
 
+function log_preset(preset: NeuralDSPPreset) {
+    console.log(JSON.stringify(preset, null, 2))
+}
+
 function main() {
     // if (process.argv.length == 2) show_help()
     // if (!process.argv[2]) return
 
     // const buffer = read_file(process.argv[2])
     const buffer = read_file("tests/assets/timmons.xml")
-    const buffer2 = read_file("tests/assets/fortin.xml")
-
-    parseBuffer(buffer)
-    console.log("------ -----")
-    // parseBuffer(buffer2)
-
+    const preset = parseBuffer(buffer)
     // log_preset(preset)
+
+    console.log("------ -----")
+
+    const buffer2 = read_file("tests/assets/fortin.xml")
+    // const preset2 = parseBuffer(buffer2)
+    // log_preset(preset2)
 }
 
 main()

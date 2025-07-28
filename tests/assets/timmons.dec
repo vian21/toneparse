@@ -7,8 +7,7 @@ selectedCab 2.
 selectedAmp 1.
 ampCabLinkedState    true
 subModels    midiMap
-subModels...listElements
-fixedParameters
+subModels...listElements fixedParameters
 subModels...parameters ...
 inputGain.... 0.
 transpose....0
@@ -194,4 +193,5 @@ leadAmpTreble....0.5.
 leadAmpMaster....0.5.
 leadAmpPresence....0.805296.
 leadAmpOutput....0.5
-subModels...meters....subModels...
+subModels...meters....
+subModels...

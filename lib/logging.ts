@@ -42,7 +42,7 @@ function log_md(preset: NeuralDSPPreset) {
 
     // Create centered header for preset name
     const tableWidth = 30
-    console.log(createCenteredCell(`Preset Name: ${preset.name}`, tableWidth))
+    console.log(createCenteredCell(`Plugin Name: ${preset.name}`, tableWidth))
 
     for (const module of preset.modules) {
         const divider = "-".repeat(tableWidth + 4) // +4 for the cell borders

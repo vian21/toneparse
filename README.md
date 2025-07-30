@@ -12,8 +12,14 @@ bun run index.ts FILE.[xml|cts]
 -   Every string is `Nul Terminated`
 -   The format is a `Key-value` pair `String:String`
 -   If field has a string value. That value will also be Nul terminated and the next follows directly
--   NULL fields are demarked by `0x010205`
+-   NULL fields are demarked by `0x010205` ( `0x10906` for windows?). But they seem to be both used
 -   `listElements` are demarked by `0x000101`
+-   `submodels` are used to group similar setting together e.g Delay, Reverb1
+-   Legacy format are made of single module - All settings are just listed/dumped without grouping(like `submodels`) - Starts with `PARAM` has `id`:`string` and `value`:`doubleLE(64bit) | string` - `value` has a `tab` after it and 8 bits to represent the value
+    `hex
+PARAM 00 01 02 id 00 01 06 05 gate 00 value 00   01 09 04 00 00 00 00 00 80 51 C0 00
+                                            NUL [           double(64bit)          ]
+    `
 
 ### References
 

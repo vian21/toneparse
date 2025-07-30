@@ -108,7 +108,7 @@ export class NeuralDSPParser extends BaseParser {
 
     has_null_value() {
         const MARKER_POSIX = 0x010205
-        const MARKER_DOS = 0x10906
+        const MARKER_DOS = 0x010906
 
         return (
             this.offset < this.buffer.length - 3 &&

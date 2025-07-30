@@ -9,7 +9,12 @@ export abstract class BaseParser {
     abstract parse(): Preset
 
     read_until(code: number) {
-        for (; this.buffer[this.offset] != code; this.offset++) {}
+        for (
+            ;
+            this.offset < this.buffer.length &&
+            this.buffer[this.offset] != code;
+            this.offset++
+        ) {}
     }
 
     skip_nbytes(n: number) {

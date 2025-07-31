@@ -1,6 +1,6 @@
 export abstract class BaseParser {
-    buffer: Buffer
-    offset: number
+    protected buffer: Buffer
+    protected offset: number
     constructor(buffer: Buffer) {
         this.buffer = buffer
         this.offset = 0
@@ -8,7 +8,7 @@ export abstract class BaseParser {
 
     abstract parse(): Preset
 
-    read_until(code: number) {
+    protected read_until(code: number) {
         for (
             ;
             this.offset < this.buffer.length &&
@@ -17,7 +17,11 @@ export abstract class BaseParser {
         ) {}
     }
 
-    skip_nbytes(n: number) {
+    protected skip_nbytes(n: number) {
         this.offset += n
+    }
+
+    private print_offset() {
+        console.log(this.offset.toString(16), this.buffer.length.toString(16))
     }
 }

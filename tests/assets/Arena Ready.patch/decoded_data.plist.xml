@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>channels</key>
+	<array>
+		<dict>
+			<key>Channel_outputIsStereo</key>
+			<true/>
+			<key>Root</key>
+			<true/>
+			<key>Channel_inputIndex_1</key>
+			<integer>0</integer>
+			<key>Channel_isMuted</key>
+			<false/>
+			<key>Channel_receiveChannel</key>
+			<integer>0</integer>
+			<key>Filename</key>
+			<string>#Root.cst</string>
+			<key>Channel_sends</key>
+			<array>
+				<dict>
+					<key>auxTag</key>
+					<string>Large Hall/6.6s Botta Church</string>
+					<key>sendMode</key>
+					<integer>1</integer>
+					<key>sendVolume</key>
+					<real>0.37007874250411987</real>
+					<key>sendIsMuted</key>
+					<false/>
+					<key>sendOutputIndex</key>
+					<integer>0</integer>
+				</dict>
+				<dict/>
+			</array>
+			<key>Channel_isSolo</key>
+			<false/>
+			<key>UUID</key>
+			<string>BFC5995E-D1B1-4D04-BDBE-A13910249E53</string>
+			<key>Channel_outputIndex</key>
+			<integer>0</integer>
+			<key>Channel_inputIsBus</key>
+			<false/>
+			<key>Channel_instID</key>
+			<integer>88</integer>
+			<key>Channel_userDidModifySmartControls</key>
+			<true/>
+			<key>Channel_seqColorIndex</key>
+			<integer>0</integer>
+			<key>Channel_name</key>
+			<string>Arena Ready</string>
+			<key>Channel_chaStrCategory</key>
+			<string>./Audio/Electric Guitar and Bass/03 Distorted Guitar</string>
+			<key>Track_icon</key>
+			<integer>4163</integer>
+			<key>Channel_outputIsBus</key>
+			<false/>
+		</dict>
+	</array>
+	<key>VersionPatches</key>
+	<integer>40014</integer>
+</dict>
+</plist>

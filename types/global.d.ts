@@ -26,3 +26,15 @@ interface Pedal {
         value: number
     }
 }
+
+interface LogicProPreset extends Preset {
+    audio_units: LogicProAudioUnit[]
+    channel_name: string
+    filename: string
+}
+
+interface LogicProAudioUnit {
+    name: string
+    type: string
+    parameters: Record<string, number | string>
+}

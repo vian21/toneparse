@@ -4,7 +4,7 @@
     "type": "module",
     "private": true,
     "scripts": {
-        "dev": "bun run --watch index.ts tests/assets/timmons.xml"
+        "dev": "bun run --watch index.ts 'tests/assets/Arena Ready.patch'"
     },
     "devDependencies": {
         "@types/bun": "latest"

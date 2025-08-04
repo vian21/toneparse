@@ -3,10 +3,15 @@ import path from "path"
 import { NeuralDSPParser } from "./lib/NeuralDSPParser"
 import { LogicProCSTParser } from "./lib/LogicProCSTParser"
 import { log_preset, LoggingFormat } from "./lib/logging"
+import parseBuffer from "bplist-universal"
 
 function show_help(): never {
-    console.log("Toneparse - Parse Neural DSP and Logic Pro preset files")
-    console.log("Usage: toneparse PRESET_FILE.[xml|patch|cst] -f=[md|json]")
+    console.log(
+        "Toneparse - Parse Neural DSP, Logic Pro preset, and binary plist files"
+    )
+    console.log(
+        "Usage: toneparse PRESET_FILE.[xml|patch|cst|plist] -f=[md|json]"
+    )
     console.log(
         "-f        logging format. Values: md=markdown(default) | json=JSON"
     )
@@ -41,6 +46,19 @@ function parse_file(filename: string): Preset {
         case ".patch":
             const logicParser = new LogicProCSTParser(buffer)
             return logicParser.parse()
+        case ".plist":
+            // Check if this is a binary plist file
+            if (buffer.toString("ascii", 0, 6) != "bplist")
+                throw new Error("Invalid Binary Plist file provide")
+            try {
+                const parsedPlist = parseBuffer(buffer)
+                const result = parsedPlist[0]
+
+                log_preset(result, LoggingFormat.JSON)
+                process.exit(0)
+            } catch (error) {
+                throw new Error("Error parsing binary plist:" + error)
+            }
         default:
             throw new Error(`Unsupported file extension: ${ext}`)
     }

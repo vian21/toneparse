@@ -1,15 +1,18 @@
 {
     "name": "toneparse",
     "module": "index.ts",
-    "type": "module",
-    "private": true,
-    "scripts": {
-        "dev": "bun run --watch index.ts 'tests/assets/Arena Ready.patch'"
-    },
     "devDependencies": {
         "@types/bun": "latest"
     },
     "peerDependencies": {
         "typescript": "^5"
+    },
+    "private": true,
+    "scripts": {
+        "dev": "bun run --watch index.ts 'tests/assets/Arena Ready.patch'"
+    },
+    "type": "module",
+    "dependencies": {
+        "bplist-universal": "^1.1.0"
     }
 }

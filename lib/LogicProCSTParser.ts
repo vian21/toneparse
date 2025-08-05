@@ -12,36 +12,22 @@ const AUDIO_UNIT_IDENTIFIERS: Record<string, string> = {
 }
 
 export class LogicProCSTParser extends BaseParser {
-    // Track parsing statistics
-    private parsedBytes = 0
-    private totalBytes = 0
-    private bplistCount = 0
-
     parse(): LogicProPreset {
-        this.totalBytes = this.buffer.length
-
         const preset: LogicProPreset = {
             name: "",
             audio_units: [],
             channel_name: "",
-            parsing_stats: {
-                total_bytes: this.totalBytes,
-                parsed_bytes: 0,
-                parsed_percentage: 0,
-                bplist_count: 0,
-            },
         }
 
-        // Parse the binary format
         while (this.offset < this.buffer.length) {
             if (this.check_signature("OCuA") || this.check_signature("UCuA")) {
-                this.skip_nbytes(4) // Skip signature
+                this.skip_nbytes(4, true) // Skip signature
+
                 const chunk = this.parse_chunk()
                 if (chunk) {
                     preset.audio_units.push(chunk)
                 }
             } else if (this.check_signature("bplist")) {
-                // Try to parse standalone bplists outside of audio unit chunks
                 const start = this.offset
 
                 // Find a reasonable end for this bplist (looking for 32-byte trailer)
@@ -88,18 +74,16 @@ export class LogicProCSTParser extends BaseParser {
                         }
 
                         preset.audio_units.push(plistUnit)
-                        this.bplistCount++
-                        this.parsedBytes += end - start
                     }
 
                     // Skip past this bplist
                     this.offset = end
                 } catch (error) {
                     // If parsing fails, just move forward
-                    this.offset += 8 // Skip signature at minimum
+                    this.skip_nbytes(8) // Skip signature at minimum
                 }
             } else {
-                this.offset++
+                this.skip_nbytes(1)
             }
         }
 
@@ -116,21 +100,12 @@ export class LogicProCSTParser extends BaseParser {
             }
         }
 
-        // Update parsing statistics
-        preset.parsing_stats = {
-            total_bytes: this.totalBytes,
-            parsed_bytes: this.parsedBytes,
-            parsed_percentage: Math.round(
-                (this.parsedBytes / this.totalBytes) * 100
-            ),
-            bplist_count: this.bplistCount,
-        }
-
         return preset
     }
 
     private check_signature(sig: string): boolean {
         if (this.offset + sig.length > this.buffer.length) return false
+
         return (
             this.buffer
                 .subarray(this.offset, this.offset + sig.length)
@@ -185,9 +160,6 @@ export class LogicProCSTParser extends BaseParser {
                     chunk_start,
                     chunk_end
                 )
-                // Track successful bplist parsing
-                this.bplistCount++
-                this.parsedBytes += plistInfo.end - plistInfo.start
             }
 
             // Add identifier metadata if found
@@ -200,9 +172,6 @@ export class LogicProCSTParser extends BaseParser {
 
             // Refine type based on extracted parameters
             this.refine_audio_unit_type(audio_unit)
-
-            // Track parsing progress for this chunk
-            this.parsedBytes += chunk_size
 
             // Move to end of chunk
             this.offset = Math.min(chunk_end, this.buffer.length)
@@ -536,10 +505,7 @@ export class LogicProCSTParser extends BaseParser {
             ) {
                 const paramName = this.cleanBinaryPlistKey(key)
                 if (paramName) {
-                    const mappedKey = this.mapBinaryPlistKey(
-                        paramName,
-                        audio_unit.type
-                    )
+                    const mappedKey = this.mapBinaryPlistKey(paramName)
                     let paramValue: number | string
 
                     // Convert to appropriate type
@@ -824,7 +790,7 @@ export class LogicProCSTParser extends BaseParser {
                         let value = 0
                         if (size === 4 && this.offset + 4 <= chunk_end) {
                             value = this.buffer.readFloatBE(this.offset) // Binary plists use big endian
-                            this.offset += 4
+                            this.skip_nbytes(4)
                         } else if (size === 8 && this.offset + 8 <= chunk_end) {
                             value = this.buffer.readDoubleBE(this.offset) // Binary plists use big endian
                             this.offset += 8
@@ -854,17 +820,17 @@ export class LogicProCSTParser extends BaseParser {
                         let value = 0
                         if (size === 1 && this.offset + 1 <= chunk_end) {
                             value = this.buffer.readUInt8(this.offset)
-                            this.offset += 1
+                            this.skip_nbytes(1, true)
                         } else if (size === 2 && this.offset + 2 <= chunk_end) {
                             value = this.buffer.readUInt16BE(this.offset) // Binary plists use big endian
-                            this.offset += 2
+                            this.skip_nbytes(2, true)
                         } else if (size === 4 && this.offset + 4 <= chunk_end) {
                             value = this.buffer.readUInt32BE(this.offset) // Binary plists use big endian
-                            this.offset += 4
+                            this.skip_nbytes(4, true)
                         } else if (size === 8 && this.offset + 8 <= chunk_end) {
                             // JavaScript can't handle 64-bit integers directly, so we'll read just the first 32 bits
                             value = this.buffer.readUInt32BE(this.offset)
-                            this.offset += 8
+                            this.skip_nbytes(8, true)
                         }
 
                         values.push(value)
@@ -1342,15 +1308,19 @@ export class LogicProCSTParser extends BaseParser {
 
     private read_uint32_le(): number {
         if (this.offset + 4 > this.buffer.length) return 0
+
         const value = this.buffer.readUInt32LE(this.offset)
-        this.offset += 4
+        this.skip_nbytes(4) //value
+
         return value
     }
 
     private read_float32_le(): number {
         if (this.offset + 4 > this.buffer.length) return 0
+
         const value = this.buffer.readFloatLE(this.offset)
-        this.offset += 4
+        this.skip_nbytes(4, true) // Value
+
         return value
     }
 }

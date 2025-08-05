@@ -12,10 +12,6 @@ describe("Logic Pro CST Parser Results", () => {
             "Arena Ready.patch",
             "#Root.cst"
         )
-        if (!fs.existsSync(cstFilePath)) {
-            console.log("Arena Ready.patch not found, skipping test")
-            return
-        }
 
         const buffer = fs.readFileSync(cstFilePath)
         const parser = new LogicProCSTParser(buffer)
@@ -24,7 +20,6 @@ describe("Logic Pro CST Parser Results", () => {
         // Basic structure checks
         expect(preset).toHaveProperty("name")
         expect(preset).toHaveProperty("audio_units")
-        expect(preset).toHaveProperty("parsing_stats")
         expect(Array.isArray(preset.audio_units)).toBe(true)
 
         // Check we're finding some plugins
@@ -48,7 +43,6 @@ describe("Logic Pro CST Parser Results", () => {
         )
         expect(hasParameterizedUnits).toBe(true)
 
-        // Check for binary plist parsing
-        expect(preset.parsing_stats?.bplist_count).toBeGreaterThan(0)
+        console.log(`Coverage: ${parser.get_coverage()}%`)
     })
 })

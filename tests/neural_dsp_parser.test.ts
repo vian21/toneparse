@@ -17,8 +17,11 @@ const files = fs
 
 test.each(files)("%s", (file) => {
     console.log("\n🔘 Testing:", path.basename(file))
+
     const parser = new NeuralDSPParser(fs.readFileSync(file))
     parser.parse()
+
+    console.log(`🔘 Coverage: ${parser.get_coverage()}%`)
 })
 
 test("Accuracy - modern format", () => {

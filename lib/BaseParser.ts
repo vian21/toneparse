@@ -1,6 +1,10 @@
 export abstract class BaseParser {
     protected buffer: Buffer
     protected offset: number
+
+    // Number of bytes that were skipped using skip_nbytes(). This will be used to calculate coverage
+    protected skipped_bytes: number = 0
+
     constructor(buffer: Buffer) {
         this.buffer = buffer
         this.offset = 0
@@ -17,8 +21,14 @@ export abstract class BaseParser {
         ) {}
     }
 
-    protected skip_nbytes(n: number) {
+    protected skip_nbytes(n: number, known = false) {
         this.offset += n
+
+        if (!known) this.skipped_bytes += n
+    }
+
+    public get_coverage() {
+        return ((1 - this.skipped_bytes / this.buffer.length) * 100).toFixed(2)
     }
 
     private print_offset() {

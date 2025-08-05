@@ -98,7 +98,7 @@ export class NeuralDSPParser extends BaseParser {
             elements.push(this.read_string())
         }
 
-        this.offset += 4
+        this.skip_nbytes(4, true)
         return elements
     }
 
@@ -183,9 +183,9 @@ export class NeuralDSPParser extends BaseParser {
             return this.read_string()
         }
 
-        this.offset += 4
+        this.skip_nbytes(4, true) // padding
         const value = this.buffer.readDoubleLE(this.offset).toString()
-        this.offset += 8
+        this.skip_nbytes(8, true) // Value size
         return value
     }
 }

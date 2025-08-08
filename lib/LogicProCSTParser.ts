@@ -647,15 +647,22 @@ export class LogicProCSTParser extends BaseParser {
             return result
         }
 
+        // Sort by index, but keep original order mapping of raw bytes sequentially.
         const defs = map[pluginKey]!.slice().sort((a, b) => a.index - b.index)
 
-        const n = Math.min(defs.length, values.length)
-        for (let i = 0; i < n; i++) {
-            const name = defs[i]!.name
-            const raw = values[i]!
-            result[name] = this.post_process_raw_value(pluginKey!, raw, name)
+        // Build index->name map for sparse index sets (e.g. Noise Gate has index 13 first in file)
+        const index_to_name: Record<number, string> = {}
+        for (const d of defs) index_to_name[d.index] = d.name
+
+        // Assign sequential raw values to ascending indices
+        for (let i = 0; i < values.length && i < defs.length; i++) {
+            const def = defs[i]
+            const raw = values[i]
+            if (!def) continue
+            result[def.name] = this.post_process_raw_value(pluginKey!, raw, def.name)
         }
 
+        const n = Math.min(defs.length, values.length)
         for (let i = n; i < values.length; i++) {
             result[`param_${i}`] = Number(values[i]!)
         }

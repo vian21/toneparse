@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Dry</string>
+		<string>1 Wet</string>
+		<string>2 Room Type</string>
+		<string>5 Decay Time</string>
+		<string>6 DecayTime Sync</string>
+		<string>15 Freeze</string>
+		<string>3 Predelay</string>
+		<string>4 Predelay Sync</string>
+		<string>7 Attack</string>
+		<string>8 Size</string>
+		<string>9 Density</string>
+		<string>10 Distance</string>
+		<string>19 Modulation Speed</string>
+		<string>18 Modulation Amount</string>
+		<string>20 Modulation Waveform</string>
+		<string>21 Modulation Shape</string>
+		<string>11 Early/Late Mix</string>
+		<string>12 Width</string>
+		<string>13 Mono Maker</string>
+		<string>14 Mono Maker Freq</string>
+		<string>23 Damping Low Shelf Freq</string>
+		<string>16 Quality</string>
+		<string>62 Animation On/Off</string>
+		<string>-1</string>
+		<string>24 Damping Low Shelf Ratio</string>
+		<string>25 Damping Low Shelf Q</string>
+		<string>26 Damping Low Peak Freq</string>
+		<string>27 Damping Low Peak Ratio</string>
+		<string>28 Damping Low Peak Q</string>
+		<string>29 Damping High Peak Freq</string>
+		<string>30 Damping High Peak Ratio</string>
+		<string>31 Damping High Peak Q</string>
+		<string>32 Damping High Shelf Freq</string>
+		<string>33 Damping High Shelf Ratio</string>
+		<string>34 Damping High Shelf Q</string>
+		<string>-1</string>
+		<string>-1</string>
+		<string>-1</string>
+		<string>-1</string>
+		<string>-1</string>
+		<string>-1</string>
+		<string>-1</string>
+		<string>-1</string>
+		<string>36 EQ On/Off</string>
+		<string>37 Low Cut On/Off</string>
+		<string>38 Low Cut Freq</string>
+		<string>39 Low Cut Order</string>
+		<string>40 Low Cut Q</string>
+		<string>41 Low Shelf On/Off</string>
+		<string>42 Low Shelf Freq</string>
+		<string>43 Low Shelf Gain</string>
+		<string>44 Low Shelf Q</string>
+		<string>45 Low Peak On/Off</string>
+		<string>46 Low Peak Freq</string>
+		<string>47 Low Peak Gain</string>
+		<string>48 Low Peak Q</string>
+		<string>49 High Peak On/Off</string>
+		<string>50 High Peak Freq</string>
+		<string>51 High Peak Gain</string>
+		<string>52 High Peak Q</string>
+		<string>53 High Shelf On/Off</string>
+		<string>54 High Shelf Freq</string>
+		<string>55 High Shelf Gain</string>
+		<string>56 High Shelf Q</string>
+		<string>57 High Cut On/Off</string>
+		<string>58 High Cut Freq</string>
+		<string>59 High Cut Order</string>
+		<string>60 High Cut Q</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+</dict>
+</plist>

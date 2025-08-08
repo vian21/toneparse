@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>7 Note</string>
+		<string>8 Groove</string>
+		<string>9 Smooth</string>
+		<string>5 Low Cut</string>
+		<string>4 High Cut</string>
+		<string>3 Feedback</string>
+		<string>19 Dry</string>
+		<string>20 Wet</string>
+		<string>0 Mix</string>
+		<string>1 Delay coarse</string>
+		<string>2 Delay fine</string>
+		<string>6 Sync To Tempo</string>
+		<string>10 Flutter Rate</string>
+		<string>11 Flutter Int.</string>
+		<string>12 LFO Rate</string>
+		<string>13 LFO Depth</string>
+		<string>14 Freeze</string>
+		<string>15 Delay Tempo</string>
+		<string>21 Distortion Level</string>
+		<string>22 Delay time</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>7 Note</string>
+		<string>8 Groove</string>
+		<string>3 Feedback</string>
+		<string>0 Mix</string>
+		<string>5 Low Cut</string>
+		<string>4 High Cut</string>
+		<string>11 Flutter Int.</string>
+		<string>13 LFO Depth</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>7 Note</string>
+		<string>8 Groove</string>
+		<string>3 Feedback</string>
+		<string>12 LFO Rate</string>
+		<string>13 LFO Depth</string>
+		<string>5 Low Cut</string>
+		<string>4 High Cut</string>
+		<string>19 Dry</string>
+		<string>20 Wet</string>
+	</array>
+</dict>
+</plist>

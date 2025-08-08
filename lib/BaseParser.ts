@@ -24,7 +24,7 @@ export abstract class BaseParser {
             this.offset < this.buffer.length &&
             this.buffer[this.offset] != code;
             this.offset++
-        ) { }
+        ) {}
     }
 
     protected read_until_print_char() {

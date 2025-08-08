@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>175 X</string>
+		<string>176 Y</string>
+		<string>0</string>
+		<string>64 Master Input Gain</string>
+		<string>65 Master Mix</string>
+		<string>66 Master Output</string>
+		<string>67 Master Limiter</string>
+		<string>0</string>
+		<string>1 Bandpass On</string>
+		<string>2 Bandpass Low Cutoff</string>
+		<string>3 Bandpass High Cutoff</string>
+		<string>4 Bandpass Low Resonance</string>
+		<string>5 Bandpass High Resonance</string>
+		<string>6 Bandpass Reject Mix</string>
+		<string>7 Bandpass Type</string>
+		<string>0</string>
+		<string>13 Distortion On</string>
+		<string>14 Distortion 1 Type</string>
+		<string>15 Distortion 1</string>
+		<string>16 Distortion 2 Type</string>
+		<string>17 Distortion 2</string>
+		<string>18 Distortion 3 Type</string>
+		<string>19 Distortion 3</string>
+		<string>0</string>
+		<string>26 Filter On</string>
+		<string>27 Filter Type</string>
+		<string>28 Filter Cutoff</string>
+		<string>29 Filter Resonance</string>
+		<string>30 Filter Drive</string>
+		<string>31 Filter Mix</string>
+		<string>0</string>
+		<string>0</string>
+		<string>37 Mod FX On</string>
+		<string>38 Mod FX Mix</string>
+		<string>39 Mod FX Rate</string>
+		<string>40 Mod FX Mode</string>
+		<string>46 Bass Enhancer On</string>
+		<string>47 Bass Enhancer Amount</string>
+		<string>48 Bass Enhancer Tune</string>
+		<string>49 Bass Enhancer Mode</string>
+		<string>55 Compressor On</string>
+		<string>56 Compressor Amount</string>
+		<string>57 Compressor Release</string>
+		<string>58 Compressor Mode</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+		<string>173 XY Pad X On</string>
+		<string>174 XY Pad Y On</string>
+		<string>177 XY Pad X Target 1</string>
+		<string>178 XY Pad X Depth 1</string>
+		<string>179 XY Pad X Target 2</string>
+		<string>180 XY Pad X Depth 2</string>
+		<string>193 XY Pad Y Target 1</string>
+		<string>194 XY Pad Y Depth 1</string>
+		<string>195 XY Pad Y Target 2</string>
+		<string>196 XY Pad Y Depth 2</string>
+		<string>0</string>
+		<string>210 Env On</string>
+		<string>211 Envelope Target</string>
+		<string>212 Envelope Attack</string>
+		<string>213 Envelope Release</string>
+		<string>214 Envelope Depth</string>
+		<string>220 LFO 1 On</string>
+		<string>221 LFO 1 Target</string>
+		<string>222 LFO 1 Shape</string>
+		<string>223 LFO 1 Sync</string>
+		<string>224 LFO 1 Rate</string>
+		<string>225 LFO 1 Depth</string>
+		<string>0</string>
+		<string>0</string>
+		<string>230 LFO 2 On</string>
+		<string>231 LFO 2 Target</string>
+		<string>232 LFO 2 Shape</string>
+		<string>233 LFO 2 Sync</string>
+		<string>234 LFO 2 Rate</string>
+		<string>235 LFO 2 Depth</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>175 X</string>
+		<string>176 Y</string>
+		<string>65 Master Mix</string>
+		<string>66 Master Output</string>
+		<string>2 Bandpass Low Cutoff</string>
+		<string>4 Bandpass Low Resonance</string>
+		<string>3 Bandpass High Cutoff</string>
+		<string>5 Bandpass High Resonance</string>
+	</array>
+</dict>
+</plist>

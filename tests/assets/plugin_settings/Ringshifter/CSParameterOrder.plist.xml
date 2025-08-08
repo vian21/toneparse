@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>7 Operating Mode</string>
+		<string>1 Frequency</string>
+		<string>15 Env Follower On</string>
+		<string>4 Env-&gt;Osc Modulation</string>
+		<string>20 LFO On</string>
+		<string>5 LFO-&gt;Osc Modulation</string>
+		<string>22 LFO Rate</string>
+		<string>11 Dry/Wet</string>
+		<string>1 Frequency</string>
+		<string>3 Freq. Shift Mode</string>
+		<string>4 Env-&gt;Osc Modulation</string>
+		<string>5 LFO-&gt;Osc Modulation</string>
+		<string>7 Operating Mode</string>
+		<string>8 Feedback</string>
+		<string>9 Stereo Width</string>
+		<string>11 Dry/Wet</string>
+		<string>12 Env-&gt;Dry/Wet Modulation</string>
+		<string>13 LFO-&gt;Dry/Wet Modulation</string>
+		<string>15 Env Follower On</string>
+		<string>16 Env Sensivity</string>
+		<string>17 Env Attack</string>
+		<string>18 Env Release</string>
+		<string>20 LFO On</string>
+		<string>21 LFO Sync</string>
+		<string>22 LFO Rate</string>
+		<string>23 LFO Symmetry</string>
+		<string>24 LFO Smooth</string>
+		<string>26 Delay Amount</string>
+		<string>27 Delay Sync</string>
+		<string>28 Delay Time</string>
+		<string>29 LowCut</string>
+		<string>30 HighCut</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>1 Frequency</string>
+		<string>9 Stereo Width</string>
+		<string>8 Feedback</string>
+		<string>11 Dry/Wet</string>
+		<string>5 LFO-&gt;Osc Modulation</string>
+		<string>22 LFO Rate</string>
+		<string>4 Env-&gt;Osc Modulation</string>
+		<string>16 Env Sensivity</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>1 Frequency</string>
+		<string>11 Dry/Wet</string>
+		<string>8 Feedback</string>
+		<string>26 Delay Amount</string>
+		<string>28 Delay Time</string>
+	</array>
+</dict>
+</plist>

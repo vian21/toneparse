@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>599 Pitch</string>
+		<string>739</string>
+		<string>774</string>
+		<string>634</string>
+		<string>704</string>
+		<string>809 Decay</string>
+		<string>844 Volume</string>
+		<string>1000 Key Tracking</string>
+		<string>1003 Mode</string>
+		<string>590 SoundModule</string>
+		<string>589 SoundCategory</string>
+		<string>591 Reset</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>599 Pitch</string>
+		<string>739 Shape</string>
+		<string>774 Sweep</string>
+		<string>634 Tone</string>
+		<string>704 Saturation</string>
+		<string>809 Decay</string>
+	</array>
+</dict>
+</plist>

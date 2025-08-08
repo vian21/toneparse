@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>164 X</string>
+		<string>165 Y</string>
+		<string>0</string>
+		<string>55 Master Input Gain</string>
+		<string>56 Master Mix</string>
+		<string>57 Master Output</string>
+		<string>0</string>
+		<string>0</string>
+		<string>3 Filter On</string>
+		<string>4 Filter Type</string>
+		<string>5 Filter Cutoff</string>
+		<string>6 Filter Resonance</string>
+		<string>7 Filter Mix</string>
+		<string>14 Distortion On</string>
+		<string>15 Distortion Exciter</string>
+		<string>16 Distortion Dirt</string>
+		<string>22 Mod FX On</string>
+		<string>23 Mod FX Delay</string>
+		<string>24 Mod FX Rate</string>
+		<string>25 Mod FX Depth</string>
+		<string>26 Mod FX Feedback</string>
+		<string>27 Mod FX Mix</string>
+		<string>0</string>
+		<string>0</string>
+		<string>33 Delay On</string>
+		<string>34 Delay Feedback</string>
+		<string>35 Delay Cutoff</string>
+		<string>36 Delay Mix</string>
+		<string>37 Delay Sync</string>
+		<string>38 Delay L Rate</string>
+		<string>39 Delay R Rate</string>
+		<string>40 Delay Mode</string>
+		<string>46 Reverb On</string>
+		<string>47 Reverb Time</string>
+		<string>48 Reverb Mix</string>
+		<string>49 Reverb Mode</string>
+		<string>162 XY Pad X On</string>
+		<string>163 XY Pad Y On</string>
+		<string>166 XY Pad X Target 1</string>
+		<string>167 XY Pad X Depth 1</string>
+		<string>168 XY Pad X Target 2</string>
+		<string>169 XY Pad X Depth 2</string>
+		<string>182 XY Pad Y Target 1</string>
+		<string>183 XY Pad Y Depth 1</string>
+		<string>184 XY Pad Y Target 2</string>
+		<string>185 XY Pad Y Depth 2</string>
+		<string>0</string>
+		<string>0</string>
+		<string>201 Step Mod 1 On</string>
+		<string>202 Step Mod 1 Target</string>
+		<string>203 Step Mod 1 Depth</string>
+		<string>205 Step Mod 1 Rate</string>
+		<string>206 Step Mod 1 Swing</string>
+		<string>207 Step Mod 1 Attack</string>
+		<string>208 Step Mod 1 Attack Curve</string>
+		<string>209 Step Mod 1 Hold</string>
+		<string>210 Step Mod 1 Release</string>
+		<string>211 Step Mod 1 Release Curve</string>
+		<string>3801 Step Mod 2 On</string>
+		<string>3802 Step Mod 2 Target</string>
+		<string>3803 Step Mod 2 Depth</string>
+		<string>3805 Step Mod 2 Rate</string>
+		<string>3806 Step Mod 2 Swing</string>
+		<string>3807 Step Mod 2 Attack</string>
+		<string>3808 Step Mod 2 Attack Curve</string>
+		<string>3809 Step Mod 2 Hold</string>
+		<string>3810 Step Mod 2 Release</string>
+		<string>3811 Step Mod 2 Release Curve</string>
+		<string>7401 Step Mod 3 On</string>
+		<string>7402 Step Mod 3 Target</string>
+		<string>7403 Step Mod 3 Depth</string>
+		<string>7405 Step Mod 3 Rate</string>
+		<string>7406 Step Mod 3 Swing</string>
+		<string>7407 Step Mod 3 Attack</string>
+		<string>7408 Step Mod 3 Attack Curve</string>
+		<string>7409 Step Mod 3 Hold</string>
+		<string>7410 Step Mod 3 Release</string>
+		<string>7411 Step Mod 3 Release Curve</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>164 X</string>
+		<string>165 Y</string>
+		<string>56 Master Mix</string>
+		<string>57 Master Output</string>
+		<string>5 Filter Cutoff</string>
+		<string>6 Filter Resonance</string>
+		<string>203 Step Mod 1 Depth</string>
+		<string>3803 Step Mod 2 Depth</string>
+	</array>
+</dict>
+</plist>

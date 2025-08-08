@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>17 Model</string>
+		<string>18 Complexity</string>
+		<string>19 Enhance</string>
+		<string>8 Freeze</string>
+		<string>9 Clear</string>
+		<string>10 Add</string>
+		<string>3 Reverb Time</string>
+		<string>6 Room Size</string>
+		<string>7 Reverb Density</string>
+		<string>4 Reverb Low x</string>
+		<string>15 Xover Low</string>
+		<string>5 Reverb High x</string>
+		<string>16 Xover High</string>
+		<string>129 L R:  Reverb Width</string>
+		<string>23 Reverb High Cut</string>
+		<string>20 Bass Gain</string>
+		<string>21 Bass Xover</string>
+		<string>2 Reverb Delay</string>
+		<string>11 1st Reflection Time</string>
+		<string>124 1st Refl. Spread</string>
+		<string>0 Dry Level</string>
+		<string>1 Reverb Level</string>
+		<string>12 1st Reflection Level</string>
+		<string>120 Dry Source</string>
+		<string>125 1st Refl. Source</string>
+		<string>134 L: Correlation pattern</string>
+		<string>135 R: Correlation pattern</string>
+		<string>22 Subsonic</string>
+	</array>
+</dict>
+</plist>

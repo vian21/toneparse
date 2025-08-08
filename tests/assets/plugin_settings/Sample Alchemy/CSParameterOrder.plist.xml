@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Position A</string>
+		<string>1 Position B</string>
+		<string>2 Position C</string>
+		<string>3 Position D</string>
+		<string>4 Expression A</string>
+		<string>5 Expression B</string>
+		<string>6 Expression C</string>
+		<string>7 Expression D</string>
+		<string>8 Playback Speed A</string>
+		<string>9 Playback Speed B</string>
+		<string>10 Playback Speed C</string>
+		<string>11 Playback Speed D</string>
+		<string>130 Volume A</string>
+		<string>131 Volume B</string>
+		<string>132 Volume C</string>
+		<string>133 Volume D</string>
+		<string>8191 Source On A</string>
+		<string>8192 Source On B</string>
+		<string>8193 Source On C</string>
+		<string>8194 Source On D</string>
+		<string>16399 Play Mode</string>
+		<string>16400 Snap</string>
+		<string>276 Volume</string>
+		<string>8458 Polyphony</string>
+		<string>12 Attack</string>
+		<string>13 Decay</string>
+		<string>14 Sustain</string>
+		<string>15 Release</string>
+		<string>482 Attack</string>
+		<string>514 Decay</string>
+		<string>530 Sustain</string>
+		<string>546 Release</string>
+		<string>134 Pan A</string>
+		<string>135 Pan B</string>
+		<string>136 Pan C</string>
+		<string>137 Pan D</string>
+		<string>138 Tune Coarse A</string>
+		<string>139 Tune Coarse B</string>
+		<string>140 Tune Coarse C</string>
+		<string>141 Tune Coarse D</string>
+		<string>142 Tune Fine A</string>
+		<string>143 Tune Fine B</string>
+		<string>144 Tune Fine C</string>
+		<string>145 Tune Fine D</string>
+		<string>16383 Synth Mode A</string>
+		<string>16384 Synth Mode B</string>
+		<string>16385 Synth Mode C</string>
+		<string>16386 Synth Mode D</string>
+		<string>16387 Additive Effect A</string>
+		<string>16388 Additive Effect B</string>
+		<string>16389 Additive Effect C</string>
+		<string>16390 Additive Effect D</string>
+		<string>16391 Spectral Effect A</string>
+		<string>16392 Spectral Effect B</string>
+		<string>16393 Spectral Effect C</string>
+		<string>16394 Spectral Effect D</string>
+		<string>15358 Granular Size A</string>
+		<string>15359 Granular Size B</string>
+		<string>15360 Granular Size C</string>
+		<string>15361 Granular Size D</string>
+		<string>15362 Granular Density A</string>
+		<string>15363 Granular Density B</string>
+		<string>15364 Granular Density C</string>
+		<string>15365 Granular Density D</string>
+		<string>15366 Granular Random Time A</string>
+		<string>15367 Granular Random Time B</string>
+		<string>15368 Granular Random Time C</string>
+		<string>15369 Granular Random Time D</string>
+		<string>15370 Granular Random Pan A</string>
+		<string>15371 Granular Random Pan B</string>
+		<string>15372 Granular Random Pan C</string>
+		<string>15373 Granular Random Pan D</string>
+		<string>16405 Filter Global Mode</string>
+		<string>8444 Filter 1 On</string>
+		<string>8347 Filter 1 On A</string>
+		<string>8348 Filter 1 On B</string>
+		<string>8349 Filter 1 On C</string>
+		<string>8350 Filter 1 On D</string>
+		<string>16410 Global Filter Type</string>
+		<string>16406 Filter Type A</string>
+		<string>16407 Filter Type B</string>
+		<string>16408 Filter Type C</string>
+		<string>16409 Filter Type D</string>
+		<string>262 Filter 1 Cutoff</string>
+		<string>226 Filter 1 Cutoff A</string>
+		<string>227 Filter 1 Cutoff B</string>
+		<string>228 Filter 1 Cutoff C</string>
+		<string>229 Filter 1 Cutoff D</string>
+		<string>263 Filter 1 Res</string>
+		<string>230 Filter 1 Res A</string>
+		<string>231 Filter 1 Res B</string>
+		<string>232 Filter 1 Res C</string>
+		<string>233 Filter 1 Res D</string>
+		<string>275 Glide</string>
+		<string>8453 Play Mode</string>
+		<string>8473 Pitch Bend</string>
+		<string>16422 Preview Mode</string>
+		<string>16426 Pitch Lock</string>
+		<string>16432 Reverse</string>
+		<string>16425 Root Key</string>
+		<string>12225 MIDI Mono Mode</string>
+		<string>12226 Pitch Bend Range</string>
+		<string>12227 Ctrl A</string>
+		<string>12228 Ctrl B</string>
+		<string>12229 Ctrl C</string>
+		<string>12230 Ctrl D</string>
+		<string>16431 SampleLock</string>
+		<string>16411 Record Enabled</string>
+		<string>16414 Record Trigger</string>
+		<string>16415 Record Mode</string>
+		<string>16423 Duration</string>
+		<string>16418 Loop Start</string>
+		<string>16419 Loop End</string>
+		<string>16427 Edit Source A</string>
+		<string>16428 Edit Source B</string>
+		<string>16429 Edit Source C</string>
+		<string>16430 Edit Source D</string>
+		<string>8876 Mod 1 Depth</string>
+		<string>8881 Mod 2 Depth</string>
+		<string>8886 Mod 3 Depth</string>
+		<string>8891 Mod 4 Depth</string>
+		<string>16401 Mod Source 1</string>
+		<string>16402 Mod Source 2</string>
+		<string>16403 Mod Source 3</string>
+		<string>16404 Mod Source 4</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Instrument</string>
+		<string>155 Prev. Inst.</string>
+		<string>156 Next. Inst.</string>
+		<string>42 Env1 Attack</string>
+		<string>43 Env1 Att. via Vel</string>
+		<string>44 Env1 Decay</string>
+		<string>45 Env1 Sustain</string>
+		<string>46 Env1 Release</string>
+		<string>47 Time via Key</string>
+		<string>48 Attack Curve</string>
+		<string>1 Edit</string>
+		<string>2 Options</string>
+		<string>3 Output Volume</string>
+		<string>4 Key Scale +/-</string>
+		<string>5 Pitch Bend (Up)</string>
+		<string>6 Pitch Bend Down</string>
+		<string>7 Mono Mode</string>
+		<string>8 Voices</string>
+		<string>11 Transpose</string>
+		<string>12 Coarse Tune</string>
+		<string>13 Fine Tune</string>
+		<string>14 Glide Time</string>
+		<string>15 Pitcher</string>
+		<string>16 Pitcher via Vel</string>
+		<string>20 Filter</string>
+		<string>21 Filter Type</string>
+		<string>22 Filter Fat</string>
+		<string>25 Filter Cutoff</string>
+		<string>26 Filter Resonance</string>
+		<string>27 Filter Drive</string>
+		<string>28 Filter via Key</string>
+		<string>32 Level Fixed</string>
+		<string>33 Level via Vel</string>
+		<string>37 LFO 1 Dec./Delay</string>
+		<string>38 LFO 1 Rate</string>
+		<string>39 LFO 1 Waveform</string>
+		<string>40 LFO 2 Waveform</string>
+		<string>41 LFO 2 Rate</string>
+		<string>49 Env2 (Amp) Attack</string>
+		<string>50 Env2 Att. via Vel</string>
+		<string>51 Env2 (Amp) Decay</string>
+		<string>52 Env2 (Amp) Sustain</string>
+		<string>53 Env2 (Amp) Release</string>
+		<string>54 Velocity Offset</string>
+		<string>55 Random Detune</string>
+		<string>56 Velocity X-Fade</string>
+		<string>57 Vel X-Fade Type</string>
+		<string>58 Unison</string>
+		<string>59 LFO 3 Rate</string>
+		<string>60 Coarse Tune Remote</string>
+		<string>61 Hold via</string>
+		<string>63 Destination 1</string>
+		<string>64 Source 1</string>
+		<string>65 Via 1</string>
+		<string>66 Amount 1</string>
+		<string>67 Amount 1 Via</string>
+		<string>68 Invert 1</string>
+		<string>69 Invert 1 Via</string>
+		<string>70 Bypass 1</string>
+		<string>72 Destination 2</string>
+		<string>73 Source 2</string>
+		<string>74 Via 2</string>
+		<string>75 Amount 2</string>
+		<string>76 Amount 2 Via</string>
+		<string>77 Invert 2</string>
+		<string>78 Invert 2 Via</string>
+		<string>79 Bypass 2</string>
+		<string>81 Destination 3</string>
+		<string>82 Source 3</string>
+		<string>83 Via 3</string>
+		<string>84 Amount 3</string>
+		<string>85 Amount 3 Via</string>
+		<string>86 Invert 3</string>
+		<string>87 Invert 3 Via</string>
+		<string>88 Bypass 3</string>
+		<string>90 Destination 4</string>
+		<string>91 Source 4</string>
+		<string>92 Via 4</string>
+		<string>93 Amount 4</string>
+		<string>94 Amount 4 Via</string>
+		<string>95 Invert 4</string>
+		<string>96 Invert 4 Via</string>
+		<string>97 Bypass 4</string>
+		<string>99 Destination 5</string>
+		<string>100 Source 5</string>
+		<string>101 Via 5</string>
+		<string>102 Amount 5</string>
+		<string>103 Amount 5 Via</string>
+		<string>104 Invert 5</string>
+		<string>105 Invert 5 Via</string>
+		<string>106 Bypass 5</string>
+		<string>108 Destination 6</string>
+		<string>109 Source 6</string>
+		<string>110 Via 6</string>
+		<string>111 Amount 6</string>
+		<string>112 Amount 6 Via</string>
+		<string>113 Invert 6</string>
+		<string>114 Invert 6 Via</string>
+		<string>115 Bypass 6</string>
+		<string>117 Destination 7</string>
+		<string>118 Source 7</string>
+		<string>119 Via 7</string>
+		<string>120 Amount 7</string>
+		<string>121 Amount 7 Via</string>
+		<string>122 Invert 7</string>
+		<string>123 Invert 7 Via</string>
+		<string>124 Bypass 7</string>
+		<string>126 Destination 8</string>
+		<string>127 Source 8</string>
+		<string>128 Via 8</string>
+		<string>129 Amount 8</string>
+		<string>130 Amount 8 Via</string>
+		<string>131 Invert 8</string>
+		<string>132 Invert 8 Via</string>
+		<string>133 Bypass 8</string>
+		<string>135 Destination 9</string>
+		<string>136 Source 9</string>
+		<string>137 Via 9</string>
+		<string>138 Amount 9</string>
+		<string>139 Amount 9 Via</string>
+		<string>140 Invert 9</string>
+		<string>141 Invert 9 Via</string>
+		<string>142 Bypass 9</string>
+		<string>144 Destination10</string>
+		<string>145 Source10</string>
+		<string>146 Via10</string>
+		<string>147 Amount10</string>
+		<string>148 Amount10 Via</string>
+		<string>149 Invert10</string>
+		<string>150 Invert10 Via</string>
+		<string>151 Bypass10</string>
+		<string>161 MIDI Mono Mode</string>
+		<string>162 Mono Mode Pitch Range</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<array>
+			<string>49 Env2 (Amp) Attack$Amp Attack</string>
+			<string>50 Env2 Att. via Vel</string>
+		</array>
+		<string>51 Env2 (Amp) Decay$Amp Decay</string>
+		<string>52 Env2 (Amp) Sustain$Amp Sustain</string>
+		<string>53 Env2 (Amp) Release$Amp Release</string>
+		<array>
+			<string>42 Env1 Attack</string>
+			<string>43 Env1 Att. via Vel</string>
+		</array>
+		<string>44 Env1 Decay</string>
+		<string>45 Env1 Sustain</string>
+		<string>46 Env1 Release</string>
+		<string>25 Filter Cutoff</string>
+		<string>26 Filter Resonance</string>
+		<string>20 Filter</string>
+		<string>22 Filter Fat</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+</dict>
+</plist>

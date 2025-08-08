@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>40 Comp. Threshold 1</string>
+		<string>29 Comp. Threshold 2</string>
+		<string>18 Comp. Threshold 3</string>
+		<string>7 Comp. Threshold 4</string>
+		<string>42 Make Up 1</string>
+		<string>31 Make Up 2</string>
+		<string>20 Make Up 3</string>
+		<string>9 Make Up 4</string>
+		<string>41 Comp. Ratio 1</string>
+		<string>30 Comp. Ratio 2</string>
+		<string>19 Comp. Ratio 3</string>
+		<string>8 Comp. Ratio 4</string>
+		<string>-1</string>
+		<string>24 Xover Frequency 1/2</string>
+		<string>13 Xover Frequency 2/3</string>
+		<string>2 Xover Frequency 3/4</string>
+		<string>43 Attack 1</string>
+		<string>32 Attack 2</string>
+		<string>21 Attack 3</string>
+		<string>10 Attack 4</string>
+		<string>44 Release 1</string>
+		<string>33 Release 2</string>
+		<string>22 Release 3</string>
+		<string>11 Release 4</string>
+		<string>36 Det. Attack Time 1</string>
+		<string>25 Det. Attack Time 2</string>
+		<string>14 Det. Attack Time 3</string>
+		<string>3 Det. Attack Time 4</string>
+		<string>39 Exp. Ratio 1</string>
+		<string>28 Exp. Ratio 2</string>
+		<string>17 Exp. Ratio 3</string>
+		<string>6 Exp. Ratio 4</string>
+		<string>38 Exp. Threshold 1</string>
+		<string>27 Exp. Threshold 2</string>
+		<string>16 Exp. Threshold 3</string>
+		<string>5 Exp. Threshold 4</string>
+		<string>37 Reduction 1</string>
+		<string>26 Reduction 2</string>
+		<string>15 Reduction 3</string>
+		<string>4 Reduction 4</string>
+		<string>52 Bypass 1</string>
+		<string>51 Bypass 2</string>
+		<string>50 Bypass 3</string>
+		<string>49 Bypass 4</string>
+		<string>56 Solo 1</string>
+		<string>55 Solo 2</string>
+		<string>54 Solo 3</string>
+		<string>53 Solo 4</string>
+		<string>45 Monitor Band 1</string>
+		<string>34 Monitor Band 2</string>
+		<string>23 Monitor Band 3</string>
+		<string>12 Monitor Band 4</string>
+		<string>-1</string>
+		<string>1 Lookahead</string>
+		<string>48 AutoGain</string>
+		<string>46 Master Gain</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>29 Comp. Threshold 2</string>
+		<string>30 Comp. Ratio 2</string>
+		<string>32 Attack 2</string>
+		<string>31 Make Up 2</string>
+		<string>18 Comp. Threshold 3</string>
+		<string>19 Comp. Ratio 3</string>
+		<string>21 Attack 3</string>
+		<string>20 Make Up 3</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>46 Master Gain</string>
+	</array>
+</dict>
+</plist>

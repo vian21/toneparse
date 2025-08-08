@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>303 Macro Wave</string>
+		<string>299 Macro Cutoff</string>
+		<string>300 Macro Resonance</string>
+		<string>301 Macro ModDepth</string>
+		<string>304 Macro Attack</string>
+		<string>305 Macro Decay</string>
+		<string>306 Macro Sustain</string>
+		<string>307 Macro Release</string>
+		<string>39 Level</string>
+		<string>302 Macro Tuning</string>
+		<string>0 Voices</string>
+		<string>1 Tune</string>
+		<string>2 Analog</string>
+		<string>3 Filter Reset</string>
+		<string>4 Osc Start</string>
+		<string>5 Bender Range Up</string>
+		<string>6 Glide</string>
+		<string>7 Keyboard Mode</string>
+		<string>8 Unison</string>
+		<string>9 Const. Beat</string>
+		<string>10 Osc1</string>
+		<string>11 Osc1 Semi</string>
+		<string>12 Osc1 Detune</string>
+		<string>13 Osc1 Wave</string>
+		<string>14 Osc1 DigiWave</string>
+		<string>15 Osc2</string>
+		<string>16 Osc2 Semi</string>
+		<string>17 Osc2 Detune</string>
+		<string>18 Osc2 Wave</string>
+		<string>19 Osc2 DigiWave</string>
+		<string>20 Osc3</string>
+		<string>21 Osc3 Semi</string>
+		<string>22 Osc3 Detune</string>
+		<string>23 Osc3 Wave</string>
+		<string>24 Osc3 DigiWave</string>
+		<string>25 OscLevelX</string>
+		<string>26 OscLevelY</string>
+		<string>27 Drive</string>
+		<string>28 Filter Struct</string>
+		<string>29 FilterBlend</string>
+		<string>30 MMF Mode</string>
+		<string>31 MMF Cutoff</string>
+		<string>32 MMF Resonance</string>
+		<string>33 LPF Mode</string>
+		<string>34 Fatness</string>
+		<string>35 LPF Cutoff</string>
+		<string>36 LPF Resonance</string>
+		<string>37 LPF FM</string>
+		<string>38 Sine Level</string>
+		<string>39 Level</string>
+		<string>40 R0 Target</string>
+		<string>41 R0 Source</string>
+		<string>42 R0 Via</string>
+		<string>43 R0 Intensity Fixed</string>
+		<string>44 R0 Intensity Via</string>
+		<string>45 R1 Target</string>
+		<string>46 R1 Source</string>
+		<string>47 R1 Via</string>
+		<string>48 R1 Intensity Fixed</string>
+		<string>49 R1 Intensity Via</string>
+		<string>50 R2 Target</string>
+		<string>51 R2 Source</string>
+		<string>52 R2 Via</string>
+		<string>53 R2 Intensity Fixed</string>
+		<string>54 R2 Intensity Via</string>
+		<string>55 R3 Target</string>
+		<string>56 R3 Source</string>
+		<string>57 R3 Via</string>
+		<string>58 R3 Intensity Fixed</string>
+		<string>59 R3 Intensity Via</string>
+		<string>60 R4 Target</string>
+		<string>61 R4 Source</string>
+		<string>62 R4 Via</string>
+		<string>63 R4 Intensity Fixed</string>
+		<string>64 R4 Intensity Via</string>
+		<string>65 R5 Target</string>
+		<string>66 R5 Source</string>
+		<string>67 R5 Via</string>
+		<string>68 R5 Intensity Fixed</string>
+		<string>69 R5 Intensity Via</string>
+		<string>70 R6 Target</string>
+		<string>71 R6 Source</string>
+		<string>72 R6 Via</string>
+		<string>73 R6 Intensity Fixed</string>
+		<string>74 R6 Intensity Via</string>
+		<string>75 R7 Target</string>
+		<string>76 R7 Source</string>
+		<string>77 R7 Via</string>
+		<string>78 R7 Intensity Fixed</string>
+		<string>79 R7 Intensity Via</string>
+		<string>80 R8 Target</string>
+		<string>81 R8 Source</string>
+		<string>82 R8 Via</string>
+		<string>83 R8 Intensity Fixed</string>
+		<string>84 R8 Intensity Via</string>
+		<string>85 R9 Target</string>
+		<string>86 R9 Source</string>
+		<string>87 R9 Via</string>
+		<string>88 R9 Intensity Fixed</string>
+		<string>89 R9 Intensity Via</string>
+		<string>90 LFO1 Waveform</string>
+		<string>91 LFO1 Rate</string>
+		<string>92 LFO1 EG</string>
+		<string>93 LFO2 Waveform</string>
+		<string>94 LFO2 Rate</string>
+		<string>95 Env1 Mode</string>
+		<string>96 Env1 Trigger</string>
+		<string>97 Env1 Attack0</string>
+		<string>98 Env1 Attack127</string>
+		<string>99 Env1 Dec/Rel</string>
+		<string>100 Env2 Attack0</string>
+		<string>101 Env2 Attack127</string>
+		<string>102 Env2 Decay</string>
+		<string>103 Env2 SusTime</string>
+		<string>104 Env2 Sustain</string>
+		<string>105 Env2 Release</string>
+		<string>106 Env2 VeloLevel</string>
+		<string>107 Env3 Attack0</string>
+		<string>108 Env3 Attack127</string>
+		<string>109 Env3 Decay</string>
+		<string>110 Env3 SusTime</string>
+		<string>111 Env3 Sustain</string>
+		<string>112 Env3 Release</string>
+		<string>113 Env3 VeloLevel</string>
+		<string>114 Bypass Filter</string>
+		<string>115 FX Dist Type</string>
+		<string>116 FX Dist Gain</string>
+		<string>117 FX Dist Tone</string>
+		<string>118 FX Mod Type</string>
+		<string>119 FX Mod Rate</string>
+		<string>120 FX Mod Intensity</string>
+		<string>121 ModPad X</string>
+		<string>122 ModPad Y</string>
+		<string>123 Vector X Target</string>
+		<string>124 Vector X Amount</string>
+		<string>125 Vector Y Target</string>
+		<string>126 Vector Y Amount</string>
+		<string>127 VecEnv TimeScale</string>
+		<string>128 VecEnv Time</string>
+		<string>129 VecEnv RelTime</string>
+		<string>130 VecEnv LoopSmooth</string>
+		<string>131 VecEnv LoopRate</string>
+		<string>132 VecEnv SelectPoint</string>
+		<string>133 VecEnv PointSolo</string>
+		<string>134 VecEnv EndSegment</string>
+		<string>135 VecEnv SustainSeg</string>
+		<string>136 VecEnv StopMode</string>
+		<string>137 VecEnv LoopMode</string>
+		<string>138 VecEnv LoopCount</string>
+		<string>139 VecEnv LoopSeg</string>
+		<string>140 VecEnv FixTimeScl</string>
+		<string>141 Vector Mode</string>
+		<string>142 RND Trigger</string>
+		<string>143 RND Intensity</string>
+		<string>144 RND Group</string>
+		<string>145 Display</string>
+		<string>146 R0 Bypass</string>
+		<string>147 R0 ViaInvert</string>
+		<string>148 R1 Bypass</string>
+		<string>149 R1 ViaInvert</string>
+		<string>150 R2 Bypass</string>
+		<string>151 R2 ViaInvert</string>
+		<string>152 R3 Bypass</string>
+		<string>153 R3 ViaInvert</string>
+		<string>154 R4 Bypass</string>
+		<string>155 R4 ViaInvert</string>
+		<string>156 R5 Bypass</string>
+		<string>157 R5 ViaInvert</string>
+		<string>158 R6 Bypass</string>
+		<string>159 R6 ViaInvert</string>
+		<string>160 R7 Bypass</string>
+		<string>161 R7 ViaInvert</string>
+		<string>162 R8 Bypass</string>
+		<string>163 R8 ViaInvert</string>
+		<string>164 R9 Bypass</string>
+		<string>165 R9 ViaInvert</string>
+		<string>166 Bender Range Down</string>
+		<string>167 VecEnv Curve</string>
+		<string>168 Ctrl A Assign</string>
+		<string>169 Ctrl B Assign</string>
+		<string>170 Ctrl C Assign</string>
+		<string>171 Ctrl D Assign</string>
+		<string>172 Ctrl E Assign</string>
+		<string>173 Ctrl F Assign</string>
+		<string>299 Macro Cutoff</string>
+		<string>300 Macro Resonance</string>
+		<string>301 Macro ModDepth</string>
+		<string>302 Macro Tuning</string>
+		<string>303 Macro Wave</string>
+		<string>304 Macro Attack</string>
+		<string>305 Macro Decay</string>
+		<string>306 Macro Sustain</string>
+		<string>307 Macro Release</string>
+		<string>308 Vector Envelope Context Menu</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<array>
+			<string>31 MMF Cutoff$Cutoff</string>
+			<string>35 LPF Cutoff</string>
+		</array>
+		<array>
+			<string>32 MMF Resonance$Resonance</string>
+			<string>36 LPF Resonance</string>
+		</array>
+		<array>
+			<string>107 Env3 Attack0$Attack</string>
+			<string>108 Env3 Attack127</string>
+		</array>
+		<string>109 Env3 Decay$Decay</string>
+		<string>29 FilterBlend</string>
+		<string>37 LPF FM</string>
+		<string>27 Drive</string>
+		<string>38 Sine Level</string>
+		<string>90 LFO1 Waveform</string>
+		<string>91 LFO1 Rate</string>
+		<string>92 LFO1 EG</string>
+		<string>93 LFO2 Waveform</string>
+		<string>94 LFO2 Rate</string>
+		<string>95 Env1 Mode</string>
+		<string>96 Env1 Trigger</string>
+		<string>97 Env1 Attack0</string>
+		<string>98 Env1 Attack127</string>
+		<string>99 Env1 Dec/Rel</string>
+		<string>100 Env2 Attack0</string>
+		<string>101 Env2 Attack127</string>
+		<string>102 Env2 Decay</string>
+		<string>103 Env2 SusTime</string>
+		<string>104 Env2 Sustain</string>
+		<string>105 Env2 Release</string>
+		<string>106 Env2 VeloLevel</string>
+		<string>110 Env3 SusTime</string>
+		<string>111 Env3 Sustain</string>
+		<string>112 Env3 Release</string>
+		<string>113 Env3 VeloLevel</string>
+	</array>
+</dict>
+</plist>

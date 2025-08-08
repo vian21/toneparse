@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>29 Ratio Coarse</string>
+		<string>36 Osc Mix / Fmint</string>
+		<string>35 Noise Volume</string>
+		<string>32 Cutoff</string>
+		<string>33 Resonance</string>
+		<string>42 ENV Attack</string>
+		<string>43 ENV Release</string>
+		<string>46 Output Level</string>
+		<string>0 Bands</string>
+		<string>1 Low Frequency</string>
+		<string>2 High Frequency</string>
+		<string>3 Formant Shift</string>
+		<string>4 LFO Rate</string>
+		<string>5 LFO Waveform</string>
+		<string>6 LFO -&gt; Formant</string>
+		<string>7 Formant Stretch</string>
+		<string>8 Resonance</string>
+		<string>9 LowBand Mode</string>
+		<string>10 HiBand Mode</string>
+		<string>12 Freeze</string>
+		<string>13 Attack</string>
+		<string>14 Release</string>
+		<string>15 Stereo</string>
+		<string>16 U/V Source</string>
+		<string>17 U/V Sensivity</string>
+		<string>18 U/V Level</string>
+		<string>19 Voices</string>
+		<string>20 Tune</string>
+		<string>21 Analog</string>
+		<string>22 Bender Range</string>
+		<string>23 Glide</string>
+		<string>24 Synthesis</string>
+		<string>25 Kybd Mode</string>
+		<string>26 Osc1 Octave</string>
+		<string>27 Ratio Fine</string>
+		<string>29 Ratio Coarse</string>
+		<string>30 Osc 1 Wave</string>
+		<string>31 Osc 2 Wave</string>
+		<string>32 Cutoff</string>
+		<string>33 Resonance</string>
+		<string>34 Noise Color</string>
+		<string>35 Noise Volume</string>
+		<string>36 Osc Mix / Fmint</string>
+		<string>38 LFO2 Rate</string>
+		<string>39 LFO2 Waveform</string>
+		<string>40 Min. Vibrato</string>
+		<string>41 Max. Vibrato</string>
+		<string>42 ENV Attack</string>
+		<string>43 ENV Release</string>
+		<string>44 Unison</string>
+		<string>45 Out</string>
+		<string>46 Output Level</string>
+		<string>47 Ensemble</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>36 Osc Mix / Fmint</string>
+		<string>29 Ratio Coarse</string>
+		<string>42 ENV Attack</string>
+		<string>43 ENV Release</string>
+		<string>32 Cutoff</string>
+		<string>33 Resonance</string>
+		<string>6 LFO -&gt; Formant</string>
+		<string>4 LFO Rate</string>
+		<string>35 Noise Volume</string>
+		<string>46 Output Level</string>
+		<string>0 Bands</string>
+	</array>
+</dict>
+</plist>

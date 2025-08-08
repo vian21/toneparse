@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>16 Time</string>
+		<string>17 Repeat</string>
+		<string>18 Color</string>
+		<string>19 Dry</string>
+		<string>20 Wet</string>
+	</array>
+</dict>
+</plist>

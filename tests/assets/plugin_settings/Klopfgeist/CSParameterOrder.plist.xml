@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>6 Mode</string>
+		<string>2 Semitone</string>
+		<string>3 Detune</string>
+		<string>4 Tonality</string>
+		<string>5 NoteOff Damp</string>
+		<string>7 Level Min Vel</string>
+		<string>0 Level</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>6 Mode</string>
+		<string>2 Semitone</string>
+		<string>3 Detune</string>
+		<string>4 Tonality</string>
+		<string>5 NoteOff Damp</string>
+		<string>7 Level Min Vel</string>
+		<string>0 Level</string>
+	</array>
+</dict>
+</plist>

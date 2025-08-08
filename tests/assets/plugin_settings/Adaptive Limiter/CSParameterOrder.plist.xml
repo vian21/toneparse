@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Input Scale</string>
+		<string>1 Gain</string>
+		<string>2 Out Ceiling</string>
+		<string>3 Mode</string>
+		<string>4 Lookahead</string>
+		<string>5 Remove DC</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 Input Scale</string>
+		<string>1 Gain</string>
+		<string>2 Out Ceiling</string>
+		<string>4 Lookahead</string>
+		<string>3 Mode</string>
+		<string>5 Remove DC</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 1</string>
+		<string>1 2</string>
+		<string>2 3</string>
+		<string>3 4</string>
+		<string>4 5</string>
+		<string>5 6</string>
+		<string>6 7</string>
+		<string>7 8</string>
+		<string>8 XY Pad 1 X</string>
+		<string>9 XY Pad 1 Y</string>
+		<string>10 XY Pad 2 X</string>
+		<string>11 XY Pad 2 Y</string>
+		<string>12 Attack</string>
+		<string>13 Decay</string>
+		<string>14 Sustain</string>
+		<string>15 Release</string>
+		<string>16 Transform Pad X</string>
+		<string>17 Transform Pad Y</string>
+		<string>9579 PerVol</string>
+		<string>12223 Remix Rate</string>
+		<string>130 Vol A</string>
+		<string>134 Pan A</string>
+		<string>138 Tune Coarse A</string>
+		<string>142 Tune Fine A</string>
+		<string>146 Position A</string>
+		<string>150 Speed A</string>
+		<string>3464 Wait A</string>
+		<string>154 FX Send A</string>
+		<string>158 Additive Volume A</string>
+		<string>170 Additive Num Partials A</string>
+		<string>166 Additive Pitch Var A</string>
+		<string>162 Additive Symmetry A</string>
+		<string>190 Spectral Volume A</string>
+		<string>202 Spectral Low Cut A</string>
+		<string>198 Spectral High Cut A</string>
+		<string>3290 Pitch Amount A</string>
+		<string>3294 Pitch Speed A</string>
+		<string>3360 Formant Ana Shift A</string>
+		<string>3388 Formant Ana KTrack A</string>
+		<string>3364 Formant Ana Size A</string>
+		<string>3392 Formant Ana Centre A</string>
+		<string>3368 Formant Ana Smooth A</string>
+		<string>3372 Formant Synth Shift A</string>
+		<string>3376 Formant Synth Size A</string>
+		<string>3380 Formant Synth Centre A</string>
+		<string>3384 Formant Synth Select A</string>
+		<string>206 Granular Volume A</string>
+		<string>210 Granular Size A</string>
+		<string>214 Granular Density A</string>
+		<string>218 Granular RandTime A</string>
+		<string>222 Granular RandPan A</string>
+		<string>3282 Granular Num Taps A</string>
+		<string>3356 Granular Tap Spacing A</string>
+		<string>3286 Granular Stereo Offset A</string>
+		<string>3352 Sampler Vol A</string>
+		<string>3250 VA Volume A</string>
+		<string>3254 VA Symmetry A</string>
+		<string>3258 VA Phase A</string>
+		<string>3460 VA Sync A</string>
+		<string>3266 VA Num Osc A</string>
+		<string>3262 VA Detune A</string>
+		<string>3270 Noise Volume A</string>
+		<string>3468 Noise Tune A</string>
+		<string>3278 Noise HiPass A</string>
+		<string>3274 Noise LoPass A</string>
+		<string>226 Filt 1 Cutoff</string>
+		<string>230 Filt 1 Res</string>
+		<string>3400 Filt 1 Drive</string>
+		<string>234 Filt 2 Cutoff</string>
+		<string>238 Filt 2 Res</string>
+		<string>3404 Filt 2 Drive</string>
+		<string>242 Filt 3 Cutoff</string>
+		<string>246 Filt 3 Res</string>
+		<string>3408 Filt 3 Drive</string>
+		<string>131 Vol B</string>
+		<string>135 Pan B</string>
+		<string>139 Tune Coarse B</string>
+		<string>143 Tune Fine B</string>
+		<string>147 Position B</string>
+		<string>151 Speed B</string>
+		<string>3465 Wait B</string>
+		<string>155 FX Send B</string>
+		<string>159 Additive Volume B</string>
+		<string>171 Additive Num Partials B</string>
+		<string>167 Additive Pitch Var B</string>
+		<string>163 Additive Symmetry B</string>
+		<string>191 Spectral Volume B</string>
+		<string>203 Spectral Low Cut B</string>
+		<string>199 Spectral High Cut B</string>
+		<string>3291 Pitch Amount B</string>
+		<string>3295 Pitch Speed B</string>
+		<string>3361 Formant Ana Shift B</string>
+		<string>3389 Formant Ana KTrack B</string>
+		<string>3365 Formant Ana Size B</string>
+		<string>3393 Formant Ana Centre B</string>
+		<string>3369 Formant Ana Smooth B</string>
+		<string>3373 Formant Synth Shift B</string>
+		<string>3377 Formant Synth Size B</string>
+		<string>3381 Formant Synth Center B</string>
+		<string>3385 Formant Synth Select B</string>
+		<string>207 Granular Volume B</string>
+		<string>211 Granular Size B</string>
+		<string>215 Granular Density B</string>
+		<string>219 Granular RandTime B</string>
+		<string>223 Granular RandPan B</string>
+		<string>3283 Granular Num Taps B</string>
+		<string>3357 Granular Tap Spacing B</string>
+		<string>3287 Granular Stereo Offset B</string>
+		<string>3353 Sampler Vol B</string>
+		<string>3251 VA Volume B</string>
+		<string>3255 VA Symmetry B</string>
+		<string>3259 VA Phase B</string>
+		<string>3461 VA Sync B</string>
+		<string>3267 VA Num Osc B</string>
+		<string>3263 VA Detune B</string>
+		<string>3271 Noise Volume B</string>
+		<string>3469 Noise Tune B</string>
+		<string>3279 Noise HiPass B</string>
+		<string>3275 Noise LoPass B</string>
+		<string>227 Filt 1 Cutoff</string>
+		<string>231 Filt 1 Res</string>
+		<string>3401 Filt 1 Drive</string>
+		<string>235 Filt 2 Cutoff</string>
+		<string>239 Filt 2 Res</string>
+		<string>3405 Filt 2 Drive</string>
+		<string>243 Filt 3 Cutoff</string>
+		<string>247 Filt 3 Res</string>
+		<string>3409 Filt 3 Drive</string>
+		<string>132 Vol C</string>
+		<string>136 Pan C</string>
+		<string>140 Tune Coarse C</string>
+		<string>144 Tune Fine C</string>
+		<string>148 Position C</string>
+		<string>152 Speed C</string>
+		<string>3466 Wait C</string>
+		<string>156 FX Send C</string>
+		<string>160 Additive Volume C</string>
+		<string>172 Additive Num Partials C</string>
+		<string>168 Additive Pitch Var C</string>
+		<string>164 Additive Symmetry C</string>
+		<string>192 Spectral Volume C</string>
+		<string>204 Spectral Low Cut C</string>
+		<string>200 Spectral High Cut C</string>
+		<string>3292 Pitch Amount C</string>
+		<string>3296 Pitch Speed C</string>
+		<string>3362 Formant Ana Shift C</string>
+		<string>3390 Formant Ana KTrack C</string>
+		<string>3366 Formant Ana Size C</string>
+		<string>3394 Formant Ana Centre C</string>
+		<string>3370 Formant Ana Smooth C</string>
+		<string>3374 Formant Synth Shift C</string>
+		<string>3378 Formant Synth Size C</string>
+		<string>3382 Formant Synth Center C</string>
+		<string>3386 Formant Synth Select C</string>
+		<string>208 Granular Volume C</string>
+		<string>212 Granular Size C</string>
+		<string>216 Granular Density C</string>
+		<string>220 Granular RandTime C</string>
+		<string>224 Granular RandPan C</string>
+		<string>3284 Granular Num Taps C</string>
+		<string>3358 Granular Tap Spacing C</string>
+		<string>3288 Granular Stereo Offset C</string>
+		<string>3354 Sampler Vol C</string>
+		<string>3252 VA Volume C</string>
+		<string>3256 VA Symmetry C</string>
+		<string>3260 VA Phase C</string>
+		<string>3462 VA Sync C</string>
+		<string>3268 VA Num Osc C</string>
+		<string>3264 VA Detune C</string>
+		<string>3272 Noise Volume C</string>
+		<string>3470 Noise Tune C</string>
+		<string>3280 Noise HiPass C</string>
+		<string>3276 Noise LoPass C</string>
+		<string>228 Filt 1 Cutoff</string>
+		<string>232 Filt 1 Res</string>
+		<string>3402 Filt 1 Drive</string>
+		<string>236 Filt 2 Cutoff</string>
+		<string>240 Filt 2 Res</string>
+		<string>3406 Filt 2 Drive</string>
+		<string>244 Filt 3 Cutoff</string>
+		<string>248 Filt 3 Res</string>
+		<string>3410 Filt 3 Drive</string>
+		<string>133 Vol D</string>
+		<string>137 Pan D</string>
+		<string>141 Tune Coarse D</string>
+		<string>145 Tune Fine D</string>
+		<string>149 Position D</string>
+		<string>153 Speed D</string>
+		<string>3467 Wait D</string>
+		<string>157 FX Send D</string>
+		<string>161 Additive Volume D</string>
+		<string>173 Additive Num Partials D</string>
+		<string>169 Additive Pitch Var D</string>
+		<string>165 Additive Symmetry D</string>
+		<string>193 Spectral Volume D</string>
+		<string>205 Spectral Low Cut D</string>
+		<string>201 Spectral High Cut D</string>
+		<string>3293 Pitch Amount D</string>
+		<string>3297 Pitch Speed D</string>
+		<string>3363 Formant Ana Shift D</string>
+		<string>3391 Formant Ana KTrack D</string>
+		<string>3367 Formant Ana Size D</string>
+		<string>3395 Formant Ana Centre D</string>
+		<string>3371 Formant Ana Smooth D</string>
+		<string>3375 Formant Synth Shift D</string>
+		<string>3379 Formant Synth Size D</string>
+		<string>3383 Formant Synth Center D</string>
+		<string>3387 Formant Synth Select D</string>
+		<string>209 Granular Volume D</string>
+		<string>213 Granular Size D</string>
+		<string>217 Granular Density D</string>
+		<string>221 Granular RandTime D</string>
+		<string>225 Granular RandPan D</string>
+		<string>3285 Granular Num Taps D</string>
+		<string>3359 Granular Tap Spacing D</string>
+		<string>3289 Granular Stereo Offset D</string>
+		<string>3355 Sampler Vol D</string>
+		<string>3253 VA Volume D</string>
+		<string>3257 VA Symmetry D</string>
+		<string>3261 VA Phase D</string>
+		<string>3463 VA Sync D</string>
+		<string>3269 VA Num Osc D</string>
+		<string>3265 VA Detune D</string>
+		<string>3273 Noise Volume D</string>
+		<string>3471 Noise Tune D</string>
+		<string>3281 Noise HiPass D</string>
+		<string>3277 Noise LoPass D</string>
+		<string>229 Filt 1 Cutoff</string>
+		<string>233 Filt 1 Res</string>
+		<string>3403 Filt 1 Drive</string>
+		<string>237 Filt 2 Cutoff</string>
+		<string>241 Filt 2 Res</string>
+		<string>3407 Filt 2 Drive</string>
+		<string>245 Filt 3 Cutoff</string>
+		<string>249 Filt 3 Res</string>
+		<string>3411 Filt 3 Drive</string>
+		<string>250 Morph All X</string>
+		<string>251 Morph All Y</string>
+		<string>254 Morph Additive X</string>
+		<string>255 Morph Additive Y</string>
+		<string>256 Morph Spectral X</string>
+		<string>257 Morph Spectral Y</string>
+		<string>3298 Morph Pitch X</string>
+		<string>3299 Morph Pitch Y</string>
+		<string>260 Morph Formant X</string>
+		<string>261 Morph Formant Y</string>
+		<string>252 Morph Envelope X</string>
+		<string>253 Morph Envelope Y</string>
+		<string>262 Filter 1 Cutoff</string>
+		<string>263 Filter 1 Res</string>
+		<string>264 Filter 1 Drive</string>
+		<string>265 Filter 1 FX-Mix</string>
+		<string>270 Filter Ser/Par Mix</string>
+		<string>266 Filter 2 Cutoff</string>
+		<string>267 Filter 2 Res</string>
+		<string>268 Filter 2 Drive</string>
+		<string>269 Filter 2 FX-Mix</string>
+		<string>276 Output Vol</string>
+		<string>271 Master Vol</string>
+		<string>272 Master Pan</string>
+		<string>273 Master Tune Coarse</string>
+		<string>274 Master Tune Fine</string>
+		<string>275 Master Glide</string>
+		<string>433 LFO 1 Delay</string>
+		<string>449 LFO 1 Attack</string>
+		<string>465 LFO 1 Phase</string>
+		<string>417 LFO 1 Rate</string>
+		<string>434 LFO 2 Delay</string>
+		<string>450 LFO 2 Attack</string>
+		<string>466 LFO 2 Phase</string>
+		<string>418 LFO 2 Rate</string>
+		<string>435 LFO 3 Delay</string>
+		<string>451 LFO 3 Attack</string>
+		<string>467 LFO 3 Phase</string>
+		<string>419 LFO 3 Rate</string>
+		<string>436 LFO 4 Delay</string>
+		<string>452 LFO 4 Attack</string>
+		<string>468 LFO 4 Phase</string>
+		<string>420 LFO 4 Rate</string>
+		<string>437 LFO 5 Delay</string>
+		<string>453 LFO 5 Attack</string>
+		<string>469 LFO 5 Phase</string>
+		<string>421 LFO 5 Rate</string>
+		<string>438 LFO 6 Delay</string>
+		<string>454 LFO 6 Attack</string>
+		<string>470 LFO 6 Phase</string>
+		<string>422 LFO 6 Rate</string>
+		<string>439 LFO 7 Delay</string>
+		<string>455 LFO 7 Attack</string>
+		<string>471 LFO 7 Phase</string>
+		<string>423 LFO 7 Rate</string>
+		<string>440 LFO 8 Delay</string>
+		<string>456 LFO 8 Attack</string>
+		<string>472 LFO 8 Phase</string>
+		<string>424 LFO 8 Rate</string>
+		<string>441 LFO 9 Delay</string>
+		<string>457 LFO 9 Attack</string>
+		<string>473 LFO 9 Phase</string>
+		<string>425 LFO 9 Rate</string>
+		<string>442 LFO 10 Delay</string>
+		<string>458 LFO 10 Attack</string>
+		<string>474 LFO 10 Phase</string>
+		<string>426 LFO 10 Rate</string>
+		<string>443 LFO 11 Delay</string>
+		<string>459 LFO 11 Attack</string>
+		<string>475 LFO 11 Phase</string>
+		<string>427 LFO 11 Rate</string>
+		<string>444 LFO 12 Delay</string>
+		<string>460 LFO 12 Attack</string>
+		<string>476 LFO 12 Phase</string>
+		<string>428 LFO 12 Rate</string>
+		<string>445 LFO 13 Delay</string>
+		<string>461 LFO 13 Attack</string>
+		<string>477 LFO 13 Phase</string>
+		<string>429 LFO 13 Rate</string>
+		<string>446 LFO 14 Delay</string>
+		<string>462 LFO 14 Attack</string>
+		<string>478 LFO 14 Phase</string>
+		<string>430 LFO 14 Rate</string>
+		<string>447 LFO 15 Delay</string>
+		<string>463 LFO 15 Attack</string>
+		<string>479 LFO 15 Phase</string>
+		<string>431 LFO 15 Rate</string>
+		<string>448 LFO 16 Delay</string>
+		<string>464 LFO 16 Attack</string>
+		<string>480 LFO 16 Phase</string>
+		<string>432 LFO 16 Rate</string>
+		<string>481 AHDSR 1 Attack</string>
+		<string>497 AHDSR 1 Hold</string>
+		<string>513 AHDSR 1 Decay</string>
+		<string>529 AHDSR 1 Sustain</string>
+		<string>545 AHDSR 1 Release</string>
+		<string>482 AHDSR 2 Attack</string>
+		<string>498 AHDSR 2 Hold</string>
+		<string>514 AHDSR 2 Decay</string>
+		<string>530 AHDSR 2 Sustain</string>
+		<string>546 AHDSR 2 Release</string>
+		<string>483 AHDSR 3 Attack</string>
+		<string>499 AHDSR 3 Hold</string>
+		<string>515 AHDSR 3 Decay</string>
+		<string>531 AHDSR 3 Sustain</string>
+		<string>547 AHDSR 3 Release</string>
+		<string>484 AHDSR 4 Attack</string>
+		<string>500 AHDSR 4 Hold</string>
+		<string>516 AHDSR 4 Decay</string>
+		<string>532 AHDSR 4 Sustain</string>
+		<string>548 AHDSR 4 Release</string>
+		<string>485 AHDSR 5 Attack</string>
+		<string>501 AHDSR 5 Hold</string>
+		<string>517 AHDSR 5 Decay</string>
+		<string>533 AHDSR 5 Sustain</string>
+		<string>549 AHDSR 5 Release</string>
+		<string>486 AHDSR 6 Attack</string>
+		<string>502 AHDSR 6 Hold</string>
+		<string>518 AHDSR 6 Decay</string>
+		<string>534 AHDSR 6 Sustain</string>
+		<string>550 AHDSR 6 Release</string>
+		<string>487 AHDSR 7 Attack</string>
+		<string>503 AHDSR 7 Hold</string>
+		<string>519 AHDSR 7 Decay</string>
+		<string>535 AHDSR 7 Sustain</string>
+		<string>551 AHDSR 7 Release</string>
+		<string>488 AHDSR 8 Attack</string>
+		<string>504 AHDSR 8 Hold</string>
+		<string>520 AHDSR 8 Decay</string>
+		<string>536 AHDSR 8 Sustain</string>
+		<string>552 AHDSR 8 Release</string>
+		<string>489 AHDSR 9 Attack</string>
+		<string>505 AHDSR 9 Hold</string>
+		<string>521 AHDSR 9 Decay</string>
+		<string>537 AHDSR 9 Sustain</string>
+		<string>553 AHDSR 9 Release</string>
+		<string>490 AHDSR 10 Attack</string>
+		<string>506 AHDSR 10 Hold</string>
+		<string>522 AHDSR 10 Decay</string>
+		<string>538 AHDSR 10 Sustain</string>
+		<string>554 AHDSR 10 Release</string>
+		<string>491 AHDSR 11 Attack</string>
+		<string>507 AHDSR 11 Hold</string>
+		<string>523 AHDSR 11 Decay</string>
+		<string>539 AHDSR 11 Sustain</string>
+		<string>555 AHDSR 11 Release</string>
+		<string>492 AHDSR 12 Attack</string>
+		<string>508 AHDSR 12 Hold</string>
+		<string>524 AHDSR 12 Decay</string>
+		<string>540 AHDSR 12 Sustain</string>
+		<string>556 AHDSR 12 Release</string>
+		<string>493 AHDSR 13 Attack</string>
+		<string>509 AHDSR 13 Hold</string>
+		<string>525 AHDSR 13 Decay</string>
+		<string>541 AHDSR 13 Sustain</string>
+		<string>557 AHDSR 13 Release</string>
+		<string>494 AHDSR 14 Attack</string>
+		<string>510 AHDSR 14 Hold</string>
+		<string>526 AHDSR 14 Decay</string>
+		<string>542 AHDSR 14 Sustain</string>
+		<string>558 AHDSR 14 Release</string>
+		<string>495 AHDSR 15 Attack</string>
+		<string>511 AHDSR 15 Hold</string>
+		<string>527 AHDSR 15 Decay</string>
+		<string>543 AHDSR 15 Sustain</string>
+		<string>559 AHDSR 15 Release</string>
+		<string>496 AHDSR 16 Attack</string>
+		<string>512 AHDSR 16 Hold</string>
+		<string>528 AHDSR 16 Decay</string>
+		<string>544 AHDSR 16 Sustain</string>
+		<string>560 AHDSR 16 Release</string>
+		<string>561 Sequencer 1 Swing</string>
+		<string>577 Sequencer 1 Attack</string>
+		<string>593 Sequencer 1 Hold</string>
+		<string>609 Sequencer 1 Release</string>
+		<string>562 Sequencer 2 Swing</string>
+		<string>578 Sequencer 2 Attack</string>
+		<string>594 Sequencer 2 Hold</string>
+		<string>610 Sequencer 2 Release</string>
+		<string>563 Sequencer 3 Swing</string>
+		<string>579 Sequencer 3 Attack</string>
+		<string>595 Sequencer 3 Hold</string>
+		<string>611 Sequencer 3 Release</string>
+		<string>564 Sequencer 4 Swing</string>
+		<string>580 Sequencer 4 Attack</string>
+		<string>596 Sequencer 4 Hold</string>
+		<string>612 Sequencer 4 Release</string>
+		<string>565 Sequencer 5 Swing</string>
+		<string>581 Sequencer 5 Attack</string>
+		<string>597 Sequencer 5 Hold</string>
+		<string>613 Sequencer 5 Release</string>
+		<string>566 Sequencer 6 Swing</string>
+		<string>582 Sequencer 6 Attack</string>
+		<string>598 Sequencer 6 Hold</string>
+		<string>614 Sequencer 6 Release</string>
+		<string>567 Sequencer 7 Swing</string>
+		<string>583 Sequencer 7 Attack</string>
+		<string>599 Sequencer 7 Hold</string>
+		<string>615 Sequencer 7 Release</string>
+		<string>568 Sequencer 8 Swing</string>
+		<string>584 Sequencer 8 Attack</string>
+		<string>600 Sequencer 8 Hold</string>
+		<string>616 Sequencer 8 Release</string>
+		<string>569 Sequencer 9 Swing</string>
+		<string>585 Sequencer 9 Attack</string>
+		<string>601 Sequencer 9 Hold</string>
+		<string>617 Sequencer 9 Release</string>
+		<string>570 Sequencer 10 Swing</string>
+		<string>586 Sequencer 10 Attack</string>
+		<string>602 Sequencer 10 Hold</string>
+		<string>618 Sequencer 10 Release</string>
+		<string>571 Sequencer 11 Swing</string>
+		<string>587 Sequencer 11 Attack</string>
+		<string>603 Sequencer 11 Hold</string>
+		<string>619 Sequencer 11 Release</string>
+		<string>572 Sequencer 12 Swing</string>
+		<string>588 Sequencer 12 Attack</string>
+		<string>604 Sequencer 12 Hold</string>
+		<string>620 Sequencer 12 Release</string>
+		<string>573 Sequencer 13 Swing</string>
+		<string>589 Sequencer 13 Attack</string>
+		<string>605 Sequencer 13 Hold</string>
+		<string>621 Sequencer 13 Release</string>
+		<string>574 Sequencer 14 Swing</string>
+		<string>590 Sequencer 14 Attack</string>
+		<string>606 Sequencer 14 Hold</string>
+		<string>622 Sequencer 14 Release</string>
+		<string>575 Sequencer 15 Swing</string>
+		<string>591 Sequencer 15 Attack</string>
+		<string>607 Sequencer 15 Hold</string>
+		<string>623 Sequencer 15 Release</string>
+		<string>576 Sequencer 16 Swing</string>
+		<string>592 Sequencer 16 Attack</string>
+		<string>608 Sequencer 16 Hold</string>
+		<string>624 Sequencer 16 Release</string>
+		<string>3488 EnvFollow 1 Attack</string>
+		<string>3504 EnvFollow 1 Release</string>
+		<string>3472 EnvFollow 1 Gain</string>
+		<string>3489 EnvFollow 2 Attack</string>
+		<string>3505 EnvFollow 2 Release</string>
+		<string>3473 EnvFollow 2 Gain</string>
+		<string>3490 EnvFollow 3 Attack</string>
+		<string>3506 EnvFollow 3 Release</string>
+		<string>3474 EnvFollow 3 Gain</string>
+		<string>3491 EnvFollow 4 Attack</string>
+		<string>3507 EnvFollow 4 Release</string>
+		<string>3475 EnvFollow 4 Gain</string>
+		<string>3492 EnvFollow 5 Attack</string>
+		<string>3508 EnvFollow 5 Release</string>
+		<string>3476 EnvFollow 5 Gain</string>
+		<string>3493 EnvFollow 6 Attack</string>
+		<string>3509 EnvFollow 6 Release</string>
+		<string>3477 EnvFollow 6 Gain</string>
+		<string>3494 EnvFollow 7 Attack</string>
+		<string>3510 EnvFollow 7 Release</string>
+		<string>3478 EnvFollow 7 Gain</string>
+		<string>3495 EnvFollow 8 Attack</string>
+		<string>3511 EnvFollow 8 Release</string>
+		<string>3479 EnvFollow 8 Gain</string>
+		<string>3496 EnvFollow 9 Attack</string>
+		<string>3512 EnvFollow 9 Release</string>
+		<string>3480 EnvFollow 9 Gain</string>
+		<string>3497 EnvFollow 10 Attack</string>
+		<string>3513 EnvFollow 10 Release</string>
+		<string>3481 EnvFollow 10 Gain</string>
+		<string>3498 EnvFollow 11 Attack</string>
+		<string>3514 EnvFollow 11 Release</string>
+		<string>3482 EnvFollow 11 Gain</string>
+		<string>3499 EnvFollow 12 Attack</string>
+		<string>3515 EnvFollow 12 Release</string>
+		<string>3483 EnvFollow 12 Gain</string>
+		<string>3500 EnvFollow 13 Attack</string>
+		<string>3516 EnvFollow 13 Release</string>
+		<string>3484 EnvFollow 13 Gain</string>
+		<string>3501 EnvFollow 14 Attack</string>
+		<string>3517 EnvFollow 14 Release</string>
+		<string>3485 EnvFollow 14 Gain</string>
+		<string>3502 EnvFollow 15 Attack</string>
+		<string>3518 EnvFollow 15 Release</string>
+		<string>3486 EnvFollow 15 Gain</string>
+		<string>3503 EnvFollow 16 Attack</string>
+		<string>3519 EnvFollow 16 Release</string>
+		<string>3487 EnvFollow 16 Gain</string>
+		<string>650 Arp Mode All</string>
+		<string>630 Arp Rate All</string>
+		<string>645 Arp Octave All</string>
+		<string>640 Arp Length All</string>
+		<string>625 Arp Pattern All</string>
+		<string>635 Arp Swing All</string>
+		<string>655 Arp Note Vel All</string>
+		<string>660 Arp Split All</string>
+		<string>665 Arp Latch All</string>
+		<string>651 Arp Mode A</string>
+		<string>631 Arp Rate A</string>
+		<string>646 Arp Octave A</string>
+		<string>641 Arp Length A</string>
+		<string>626 Arp Pattern A</string>
+		<string>636 Arp Swing A</string>
+		<string>656 Arp Note Vel A</string>
+		<string>661 Arp Split A</string>
+		<string>666 Arp Latch A</string>
+		<string>652 Arp Mode B</string>
+		<string>632 Arp Rate B</string>
+		<string>647 Arp Octave B</string>
+		<string>642 Arp Length B</string>
+		<string>627 Arp Pattern B</string>
+		<string>637 Arp Swing B</string>
+		<string>657 Arp Note Vel B</string>
+		<string>662 Arp Split B</string>
+		<string>667 Arp Latch B</string>
+		<string>653 Arp Mode C</string>
+		<string>633 Arp Rate C</string>
+		<string>648 Arp Octave C</string>
+		<string>643 Arp Length C</string>
+		<string>628 Arp Pattern C</string>
+		<string>638 Arp Swing C</string>
+		<string>658 Arp Note Vel C</string>
+		<string>663 Arp Split C</string>
+		<string>668 Arp Latch C</string>
+		<string>654 Arp Mode D</string>
+		<string>634 Arp Rate D</string>
+		<string>649 Arp Octave D</string>
+		<string>644 Arp Length D</string>
+		<string>629 Arp Pattern D</string>
+		<string>639 Arp Swing D</string>
+		<string>659 Arp Note Vel D</string>
+		<string>664 Arp Split D</string>
+		<string>669 Arp Latch D</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+</dict>
+</plist>

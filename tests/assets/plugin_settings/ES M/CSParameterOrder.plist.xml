@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Octave</string>
+		<string>2 Mix</string>
+		<string>3 Cutoff</string>
+		<string>4 Resonance</string>
+		<string>6 Filter Intensity</string>
+		<string>5 Filter Decay</string>
+		<string>8 Volume Decay</string>
+		<string>11 Volume</string>
+		<string>0 Glide</string>
+		<string>14 Tune</string>
+		<string>7 Filter Velo</string>
+		<string>9 Volume Velo</string>
+		<string>10 Overdrive</string>
+		<string>-1</string>
+		<string>12 Pos. Bender Range</string>
+		<string>13 Neg. Bender Range</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>3 Cutoff</string>
+		<string>4 Resonance</string>
+		<string>6 Filter Intensity</string>
+		<string>2 Mix</string>
+		<string>5 Filter Decay</string>
+		<string>7 Filter Velo</string>
+		<string>8 Volume Decay</string>
+		<string>10 Overdrive</string>
+		<string>9 Volume Velo</string>
+		<string>1 Octave</string>
+		<string>0 Glide</string>
+		<string>14 Tune</string>
+	</array>
+</dict>
+</plist>

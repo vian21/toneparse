@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<real>1</real>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Sync</string>
+		<string>2 Time</string>
+		<string>3 Feedback</string>
+		<string>4 Mix</string>
+		<string>5 Hi Cut</string>
+		<string>6 Lo Cut</string>
+		<string>7 Dirt</string>
+		<string>8 Flutter</string>
+		<string>9 Mode</string>
+	</array>
+</dict>
+</plist>

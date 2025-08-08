@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>2 Frequency</string>
+		<string>9 Level</string>
+		<string>0 Waveform</string>
+		<string>3 Sweep On/Off</string>
+		<string>7 Sweep Trigger</string>
+		<string>8 Sweep Repeat</string>
+		<string>4 Sweep Time</string>
+		<string>10 Sweep Mode</string>
+		<string>5 Sweep Start Freq</string>
+		<string>6 Sweep End Freq</string>
+		<string>1 AntiAlias</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>2 Frequency</string>
+		<string>9 Level</string>
+		<string>0 Waveform</string>
+		<string>3 Sweep On/Off</string>
+		<string>7 Sweep Trigger</string>
+		<string>8 Sweep Repeat</string>
+		<string>4 Sweep Time</string>
+		<string>10 Sweep Mode</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<real>1</real>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Cutoff</string>
+		<string>2 Sensitivity</string>
+		<string>3 BP/LP</string>
+		<string>4 Up/Down</string>
+		<string>5 Hi/Lo</string>
+	</array>
+</dict>
+</plist>

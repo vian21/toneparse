@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Single/Multi</string>
+		<string>1 Range Low</string>
+		<string>2 Range High</string>
+		<string>3 Trigger Key</string>
+		<string>4 Learn</string>
+		<string>5 Clear</string>
+		<string>6 Clear All</string>
+		<string>8 Transpose</string>
+		<string>7 Learn Remote</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>1 Range Low</string>
+		<string>2 Range High</string>
+		<string>3 Trigger Key</string>
+		<string>8 Transpose</string>
+		<string>0 Single/Multi</string>
+		<string>4 Learn</string>
+		<string>5 Clear</string>
+		<string>6 Clear All</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

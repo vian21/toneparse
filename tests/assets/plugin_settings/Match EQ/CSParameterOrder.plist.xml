@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>16 Template Learn</string>
+		<string>17 Current Material Learn</string>
+		<string>5 Match</string>
+		<string>10 View</string>
+		<string>6 Apply Amount</string>
+		<string>7 Channel Link</string>
+		<string>8 Smoothing</string>
+		<string>4 Phase</string>
+		<string>0 Analyzer</string>
+		<string>1 Analyzer Position</string>
+		<string>2 View Channels</string>
+		<string>3 Analyzer Top</string>
+		<string>9 Use Modify</string>
+		<string>11 Fade Extremes</string>
+		<string>12 Fade Extremes LF</string>
+		<string>13 Fade Extremes HF</string>
+		<string>18 Select Channel</string>
+		<string>30 Template Context Menu</string>
+		<string>31 Current Material Context Menu</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>6 Apply Amount</string>
+		<string>8 Smoothing</string>
+		<string>7 Channel Link</string>
+		<string>16 Template Learn</string>
+		<string>17 Current Material Learn</string>
+		<string>5 Match</string>
+		<string>10 View</string>
+		<string>11 Fade Extremes</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

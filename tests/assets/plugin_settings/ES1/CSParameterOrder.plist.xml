@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>18 Octave</string>
+		<string>16 Waveform</string>
+		<string>17 Sub Osc Wave</string>
+		<string>2 Osc Mix</string>
+		<string>10 Cutoff</string>
+		<string>7 Resonance</string>
+		<string>15 ADSR via Vel full</string>
+		<string>14 ADSR via Vel 0</string>
+		<string>3 Drive</string>
+		<string>20 Key Follow</string>
+		<string>19 Filter Mode</string>
+		<string>21 VCA Mode</string>
+		<string>23 VCA Int. Full</string>
+		<string>22 VCA Int. 0</string>
+		<string>1 Glide</string>
+		<string>26 LFO Wave</string>
+		<string>34 LFO Rate</string>
+		<string>28 LFO Int. Full</string>
+		<string>27 LFO Int. 0</string>
+		<string>25 LFO Destination</string>
+		<string>24 Mod Env. Destination</string>
+		<string>6 Mod Env. Full</string>
+		<string>5 Mod Env. 0</string>
+		<string>4 Mod Env. Form</string>
+		<string>9 Env. Attack</string>
+		<string>11 Env. Decay</string>
+		<string>12 Env. Sustain</string>
+		<string>8 Env. Release</string>
+		<string>0 Tune</string>
+		<string>29 Analog</string>
+		<string>33 Chorus</string>
+		<string>31 Out Level</string>
+		<string>32 Voices</string>
+		<string>30 Bender Range</string>
+		<string>35 Neg. Bender Range</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>10 Cutoff</string>
+		<string>7 Resonance</string>
+		<string>9 Env. Attack</string>
+		<string>11 Env. Decay</string>
+		<string>2 Osc Mix</string>
+		<string>3 Drive</string>
+		<string>26 LFO Wave</string>
+		<array>
+			<string>27 LFO Int. 0</string>
+			<string>28 LFO Int. Full</string>
+		</array>
+	</array>
+</dict>
+</plist>

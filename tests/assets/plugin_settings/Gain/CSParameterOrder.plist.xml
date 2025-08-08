@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>4 Gain</string>
+		<string>2 Balance</string>
+		<string>5 Phase Left</string>
+		<string>6 Phase Right</string>
+		<string>7 Swap L/R</string>
+		<string>8 Make Mono</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>4 Gain</string>
+		<string>2 Balance</string>
+		<string>5 Phase Left</string>
+		<string>6 Phase Right</string>
+		<string>7 Swap L/R</string>
+		<string>8 Make Mono</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>4 Gain</string>
+	</array>
+</dict>
+</plist>

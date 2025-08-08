@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<real>1</real>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 0.1 kHz</string>
+		<string>2 0.2 kHz</string>
+		<string>3 0.4 kHz</string>
+		<string>4 0.8 kHz</string>
+		<string>5 1.6 kHz</string>
+		<string>6 3.2 kHz</string>
+		<string>7 6.4 kHz</string>
+		<string>8 Level</string>
+	</array>
+</dict>
+</plist>

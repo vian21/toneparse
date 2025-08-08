@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>9 Circuit Type</string>
+		<string>0 Compressor Threshold</string>
+		<string>1 Ratio</string>
+		<string>2 Attack</string>
+		<string>3 Release</string>
+		<string>13 Auto Release</string>
+		<string>4 Gain</string>
+		<string>7 Auto Gain</string>
+		<string>5 Knee</string>
+		<string>6 Peak/RMS</string>
+		<string>12 Limiter</string>
+		<string>11 Limiter Threshold</string>
+		<string>8 Output Distortion</string>
+		<string>24 Mix</string>
+		<string>10 Side Chain Detection</string>
+		<string>15 Activity</string>
+		<string>16 Mode</string>
+		<string>17 Frequency</string>
+		<string>18 Q</string>
+		<string>19 Gain</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 !Compressor Threshold$Threshold</string>
+		<string>1 Ratio</string>
+		<string>2 Attack</string>
+		<string>3 Release</string>
+		<string>9 Circuit Type</string>
+		<string>5 Knee</string>
+		<string>4 Gain</string>
+		<string>24 Mix</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>0 Compressor Threshold</string>
+		<string>1 Ratio</string>
+		<string>2 Attack</string>
+		<string>4 Gain</string>
+	</array>
+</dict>
+</plist>

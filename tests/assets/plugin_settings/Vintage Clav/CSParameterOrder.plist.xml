@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>10 Model</string>
+		<string>38 Brilliant</string>
+		<string>39 Treble</string>
+		<string>40 Medium</string>
+		<string>41 Soft</string>
+		<string>29 Pickup AB</string>
+		<string>30 Pickup CD</string>
+		<string>9 Level</string>
+		<string>31 Pickup Stereo</string>
+		<string>32 Key Stereo</string>
+		<string>14 Brilliance</string>
+		<string>22 String Decay</string>
+		<string>7 Damper</string>
+		<string>57 Distortion</string>
+		<string>50 Dist Gain</string>
+		<string>51 Dist Tone</string>
+		<string>56 Wah</string>
+		<string>61 Wah Mode</string>
+		<string>45 Wah Range</string>
+		<string>48 Wah Env Depth</string>
+		<string>58 Compression</string>
+		<string>49 Comp Ratio</string>
+		<string>43 FX Order</string>
+		<string>55 Fx Bypass</string>
+		<string>59 ModFx</string>
+		<string>52 ModFx Mode</string>
+		<string>53 ModFx Intensity</string>
+		<string>54 ModFx Rate</string>
+		<string>60 ModFx Sync</string>
+		<string>1 Voices</string>
+		<string>2 Tune</string>
+		<string>3 Warmth</string>
+		<string>4 Bender Range</string>
+		<string>5 Stretch Tune</string>
+		<string>6 Pressure-&gt;Fre</string>
+		<string>11 Velo Curve</string>
+		<string>13 Shape</string>
+		<string>15 RelClick</string>
+		<string>16 RelClick Vel</string>
+		<string>17 RelClick VelMode</string>
+		<string>18 RelClick Rnd</string>
+		<string>20 String TensionMod</string>
+		<string>21 String Damping</string>
+		<string>23 String Stiffness</string>
+		<string>24 String Inharmonicity</string>
+		<string>25 String Release</string>
+		<string>26 String PitchFall</string>
+		<string>28 Pickup Mode</string>
+		<string>33 Pickup L Pos Low</string>
+		<string>34 Pickup L Pos High</string>
+		<string>35 Pickup U Pos Low</string>
+		<string>36 Pickup U Pos High</string>
+		<string>46 Wah Ctrl Num</string>
+		<string>47 Wah Pedal Pos</string>
+		<string>8 Damper Ctrl Num</string>
+		<string>63 MIDI Mono Mode</string>
+		<string>64 Mono Mode Pitch Range</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>14 Brilliance</string>
+		<string>22 String Decay</string>
+		<string>32 Key Stereo</string>
+		<string>31 Pickup Stereo</string>
+		<array>
+			<string>33 Pickup L Pos Low</string>
+			<string>34 Pickup L Pos High</string>
+		</array>
+		<array>
+			<string>35 Pickup U Pos Low</string>
+			<string>36 Pickup U Pos High</string>
+		</array>
+		<string>50 Dist Gain</string>
+		<string>51 Dist Tone</string>
+		<string>10 Model</string>
+		<string>3 Warmth</string>
+		<string>38 Brilliant</string>
+		<string>39 Treble</string>
+		<string>40 Medium</string>
+		<string>41 Soft</string>
+		<string>30 Pickup CD</string>
+		<string>29 Pickup AB</string>
+		<string>9 Level</string>
+		<string>1 Voices</string>
+		<string>2 Tune</string>
+		<string>4 Bender Range</string>
+		<string>5 Stretch Tune</string>
+		<string>6 Pressure-&gt;Fre</string>
+		<string>7 Damper</string>
+		<string>8 Damper Ctrl Num</string>
+		<string>11 Velo Curve</string>
+		<string>13 Shape</string>
+		<string>15 RelClick</string>
+		<string>16 RelClick Vel</string>
+		<string>17 RelClick VelMode</string>
+		<string>18 RelClick Rnd</string>
+		<string>20 String TensionMod</string>
+		<string>21 String Damping</string>
+		<string>23 String Stiffness</string>
+		<string>24 String Inharmonicity</string>
+		<string>25 String Release</string>
+		<string>26 String PitchFall</string>
+		<string>28 Pickup Mode</string>
+		<string>43 FX Order</string>
+		<string>44 Wah Mode</string>
+		<string>45 Wah Range</string>
+		<string>46 Wah Ctrl Num</string>
+		<string>47 Wah Pedal Pos</string>
+		<string>48 Wah Env Depth</string>
+		<string>49 Comp Ratio</string>
+		<string>52 ModFx Mode</string>
+		<string>53 ModFx Intensity</string>
+		<string>54 ModFx Rate</string>
+		<string>55 Fx Bypass</string>
+	</array>
+</dict>
+</plist>

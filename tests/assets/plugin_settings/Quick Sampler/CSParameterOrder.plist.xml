@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>12 Coarse Tune</string>
+		<string>13 Fine Tune</string>
+		<string>14 Glide Time</string>
+		<string>20 Filter</string>
+		<string>34 Filter Type</string>
+		<string>25 Filter Cutoff</string>
+		<string>26 Filter Resonance</string>
+		<string>27 Filter Drive</string>
+		<string>3 Amp Volume</string>
+		<string>171 Amp Pan</string>
+		<string>1025 LFO 1 Waveform</string>
+		<string>38 LFO 1 Rate</string>
+		<string>86 LFO 1 Target Depth</string>
+		<string>87 LFO 1 Target Via Depth</string>
+		<string>1026 LFO 2 Waveform</string>
+		<string>41 LFO 2 Rate</string>
+		<string>104 LFO 2 Target Depth</string>
+		<string>105 LFO 2 Target Via Depth</string>
+		<string>193 Pitch Envelope Attack</string>
+		<string>196 Pitch Envelope Hold</string>
+		<string>197 Pitch Envelope Decay</string>
+		<string>199 Pitch Envelope Sustain</string>
+		<string>200 Pitch Envelope Release</string>
+		<string>202 Pitch Envelope Velocity</string>
+		<string>77 Pitch Envelope Depth</string>
+		<string>42 Filter Envelope Attack</string>
+		<string>185 Filter Envelope Hold</string>
+		<string>44 Filter Envelope Decay</string>
+		<string>45 Filter Envelope Sustain</string>
+		<string>46 Filter Envelope Release</string>
+		<string>188 Filter Envelope Velocity</string>
+		<string>68 Filter Envelope Depth</string>
+		<string>49 Amp Envelope Attack</string>
+		<string>176 Amp Envelope Hold</string>
+		<string>51 Amp Envelope Decay</string>
+		<string>52 Amp Envelope Sustain</string>
+		<string>53 Amp Envelope Release</string>
+		<string>179 Amp Envelope Velocity</string>
+		<string>37 LFO 1 Fade</string>
+		<string>236 LFO 1 Phase</string>
+		<string>1021 LFO 1 Target</string>
+		<string>1023 LFO 1 Via Source</string>
+		<string>240 LFO 2 Fade</string>
+		<string>244 LFO 2 Phase</string>
+		<string>1022 LFO 2 Target</string>
+		<string>1024 LFO 2 Via Source</string>
+		<string>366 Flex</string>
+		<string>368 Flex Follow Tempo</string>
+		<string>369 Flex Speed</string>
+		<string>357 Sample S/E Quantize</string>
+		<string>358 Loop S/E Quantize</string>
+		<string>359 Loop Position Quantize</string>
+		<string>1031 Mod Matrix Slot 1 Source</string>
+		<string>1027 Mod Matrix Slot 1 Target</string>
+		<string>122 Mod Matrix Slot 1 Depth</string>
+		<string>1032 Mod Matrix Slot 2 Source</string>
+		<string>1028 Mod Matrix Slot 2 Target</string>
+		<string>131 Mod Matrix Slot 2 Depth</string>
+		<string>1033 Mod Matrix Slot 3 Source</string>
+		<string>1029 Mod Matrix Slot 3 Target</string>
+		<string>140 Mod Matrix Slot 3 Depth</string>
+		<string>1034 Mod Matrix Slot 4 Source</string>
+		<string>1030 Mod Matrix Slot 4 Target</string>
+		<string>149 Mod Matrix Slot 4 Depth</string>
+		<string>378 MIDI Mono Mode</string>
+		<string>379 Mono Mode Pitch Range</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>12 Coarse Tune</string>
+		<string>13 Fine Tune</string>
+		<string>14 Glide Time</string>
+		<string>77 Pitch Envelope Depth</string>
+		<string>3 Amp Volume</string>
+		<string>171 Amp Pan</string>
+		<string>27 Filter Drive</string>
+		<string>68 Filter Envelope Depth</string>
+		<string>25 Filter Cutoff</string>
+		<string>26 Filter Resonance</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+</dict>
+</plist>

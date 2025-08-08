@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>19 Layer 1</string>
+		<string>20 Layer 2</string>
+		<string>21 Layer Blend</string>
+		<string>22 Transpose Layer 1</string>
+		<string>23 Transpose Layer 2</string>
+		<string>24 Tape speed</string>
+		<string>25 Tone</string>
+		<string>26 Volume</string>
+		<string>27 Attack</string>
+		<string>28 Release</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>21 Layer Blend$Blend</string>
+		<string>19 Layer 1$Sound 1</string>
+		<string>20 Layer 2$Sound 2</string>
+		<string>22 Transpose Layer 1$Transpose 1</string>
+		<string>23 Transpose Layer 2$Transpose 2</string>
+		<string>27 Attack</string>
+		<string>24 Tape speed</string>
+		<string>28 Release</string>
+		<string>25 Tone</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+</dict>
+</plist>

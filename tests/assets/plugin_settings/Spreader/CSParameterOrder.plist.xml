@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 LFO Intensity</string>
+		<string>1 LFO Speed</string>
+		<string>2 Channel Delay</string>
+		<string>3 Mix</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 LFO Intensity</string>
+		<string>1 LFO Speed</string>
+		<string>2 Channel Delay</string>
+		<string>3 Mix</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>0 LFO Intensity</string>
+	</array>
+</dict>
+</plist>

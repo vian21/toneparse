@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>11 Left Note</string>
+		<string>12 Groove Left</string>
+		<string>4 Left Feedback</string>
+		<string>0 Left Mix</string>
+		<string>13 Right Note</string>
+		<string>14 Groove Right</string>
+		<string>5 Right Feedback</string>
+		<string>1 Right Mix</string>
+		<string>2 Left Delay</string>
+		<string>3 Right Delay</string>
+		<string>6 Crossfeed L-&gt;R</string>
+		<string>7 Crossfeed R-&gt;L</string>
+		<string>8 High Cut</string>
+		<string>9 Low Cut</string>
+		<string>10 Beat Sync</string>
+		<string>15 Left Input</string>
+		<string>16 Right Input</string>
+		<string>17 Phase Left FB</string>
+		<string>18 Phase Right FB</string>
+		<string>19 Phase L-&gt;R FB</string>
+		<string>20 Phase R-&gt;L FB</string>
+		<string>21 tempo freeze</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>11 !Left Note</string>
+		<string>13 !Right Note</string>
+		<array>
+			<string>4 Left Feedback$Feedback</string>
+			<string>5 Right Feedback</string>
+		</array>
+		<array>
+			<string>0 Left Mix$Mix</string>
+			<string>1 Right Mix</string>
+		</array>
+		<string>12 Groove Left</string>
+		<string>14 Groove Right</string>
+		<string>6 Crossfeed L-&gt;R</string>
+		<string>7 Crossfeed R-&gt;L</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>11 Left Note</string>
+		<string>12 Groove Left</string>
+		<string>4 Left Feedback</string>
+		<string>0 Left Mix</string>
+		<string>13 Right Note</string>
+		<string>14 Groove Right</string>
+		<string>5 Right Feedback</string>
+		<string>1 Right Mix</string>
+		<string>8 High Cut</string>
+		<string>9 Low Cut</string>
+	</array>
+</dict>
+</plist>

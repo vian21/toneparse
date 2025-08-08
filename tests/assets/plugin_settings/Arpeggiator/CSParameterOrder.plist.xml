@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Play/Stop</string>
+		<string>4 Rate</string>
+		<string>2 Latch</string>
+		<string>3 Latch Mode</string>
+		<string>6 Note Order</string>
+		<string>7 Note Order Variation</string>
+		<string>9 Octave Range</string>
+		<string>10 Octaving Mode</string>
+		<string>8 Lock As Played Order</string>
+		<string>15 Note Length</string>
+		<string>16 Note Length Random</string>
+		<string>18 Swing</string>
+		<string>20 Velocity Range</string>
+		<string>21 Velocity Alteration</string>
+		<string>22 (De-)Crescendo</string>
+		<string>23 Velocity Random</string>
+		<string>19 Velocity Base</string>
+		<string>14 Cycle Length</string>
+		<string>31 Delete Last</string>
+		<string>32 Clear</string>
+		<string>5 Input Snap</string>
+		<string>1 Silent Capture</string>
+		<string>11 Grid Control</string>
+		<string>12 Grid Capture</string>
+		<string>13 Active Grid Length</string>
+		<string>25 Note</string>
+		<string>27 Scale Type</string>
+		<string>28 Add Tie</string>
+		<string>29 Add Rest</string>
+		<string>30 Add Chord Step</string>
+		<string>37 Keyboard Split</string>
+		<string>38 Arpeggio Range Start</string>
+		<string>39 Arpeggio Range End</string>
+		<string>40 Remote Range Start</string>
+		<string>41 Remote Range End</string>
+		<string>44 MIDI Controller A</string>
+		<string>45 Controller A Destination</string>
+		<string>48 MIDI Controller B</string>
+		<string>49 Controller B Destination</string>
+		<string>52 MIDI Controller C</string>
+		<string>53 Controller C Destination</string>
+		<string>56 MIDI Controller D</string>
+		<string>57 Controller D Destination</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>4 Rate</string>
+		<string>6 Note Order</string>
+		<string>9 Octave Range</string>
+		<string>15 Note Length</string>
+		<string>7 Note Order Variation</string>
+		<string>18 Swing</string>
+		<string>20 Velocity Range</string>
+		<string>14 Cycle Length</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

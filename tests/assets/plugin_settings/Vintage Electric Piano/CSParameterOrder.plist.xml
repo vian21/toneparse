@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Model</string>
+		<string>35 Bass Boost</string>
+		<string>23 Volume</string>
+		<string>33 Tremolo</string>
+		<string>18 Tremolo Rate</string>
+		<string>37 Tremolo Sync</string>
+		<string>19 Tremolo Depth</string>
+		<string>20 Tremolo Stereo</string>
+		<string>32 Phaser</string>
+		<string>15 Phaser Rate</string>
+		<string>36 Phaser Sync</string>
+		<string>16 Phaser Color</string>
+		<string>17 Phaser Stereo</string>
+		<string>34 Chorus</string>
+		<string>26 Chorus Rate</string>
+		<string>21 Chorus Int</string>
+		<string>31 Drive</string>
+		<string>38 Drive Mode</string>
+		<string>13 Drive Gain</string>
+		<string>14 Drive Tone</string>
+		<string>30 EQ</string>
+		<string>11 Treble</string>
+		<string>12 Bass</string>
+		<string>8 Voices</string>
+		<string>7 Stereo</string>
+		<string>1 Decay</string>
+		<string>2 Release</string>
+		<string>3 Bell Volume</string>
+		<string>4 Damper Volume</string>
+		<string>9 Tune</string>
+		<string>24 Bend Range Down</string>
+		<string>25 Bend Range Up</string>
+		<string>10 Warmth</string>
+		<string>5 Lower stretch</string>
+		<string>6 Upper stretch</string>
+		<string>27 Delay PP</string>
+		<string>28 Delay FF</string>
+		<string>29 Midi Mode</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>3 Bell Volume</string>
+		<string>11 Treble</string>
+		<string>13 Drive Gain$Drive</string>
+		<string>12 Bass</string>
+		<string>1 Decay</string>
+		<string>2 Release</string>
+		<string>7 Stereo</string>
+		<string>0 Model</string>
+	</array>
+</dict>
+</plist>

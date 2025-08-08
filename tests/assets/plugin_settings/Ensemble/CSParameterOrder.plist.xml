@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>4 Intensity LFO 1</string>
+		<string>3 Rate LFO 1</string>
+		<string>6 Intensity LFO 2</string>
+		<string>5 Rate LFO 2</string>
+		<string>8 Random Intensity</string>
+		<string>7 Random Rate</string>
+		<string>1 Effect Volume</string>
+		<string>0 Mix</string>
+		<string>2 Voices</string>
+		<string>9 Phase</string>
+		<string>10 Spread</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>4 Intensity LFO 1</string>
+		<string>6 Intensity LFO 2</string>
+		<string>8 Random Intensity</string>
+		<string>0 Mix</string>
+		<string>3 Rate LFO 1</string>
+		<string>5 Rate LFO 2</string>
+		<string>7 Random Rate</string>
+		<string>2 Voices</string>
+		<string>9 Phase</string>
+		<string>10 Spread</string>
+		<string>1 Effect Volume</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>4 Intensity LFO 1</string>
+		<string>6 Intensity LFO 2</string>
+		<string>8 Random Intensity</string>
+	</array>
+</dict>
+</plist>

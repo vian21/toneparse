@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>3 Lower Intensity</string>
+		<string>4 Upper Intensity</string>
+		<string>0 Lower Frequency</string>
+		<string>1 Upper Frequency</string>
+		<string>2 Order</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>3 Lower Intensity</string>
+		<string>4 Upper Intensity</string>
+		<string>0 Lower Frequency</string>
+		<string>1 Upper Frequency</string>
+		<string>2 Order</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>3 Lower Intensity</string>
+		<string>4 Upper Intensity</string>
+		<string>2 Order</string>
+	</array>
+</dict>
+</plist>

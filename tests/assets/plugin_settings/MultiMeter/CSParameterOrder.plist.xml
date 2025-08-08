@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Display Select</string>
+		<string>1 Analyzer Input Mode</string>
+		<string>2 Analyzer Bar Mode</string>
+		<string>3 Analyzer Top</string>
+		<string>4 Analyzer Range</string>
+		<string>6 Gonio Decay</string>
+		<string>7 Gonio AutoGain</string>
+		<string>8 Peak Hold</string>
+		<string>9 Peak Hold Time</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 Display Select</string>
+		<string>1 Analyzer Input Mode</string>
+		<string>2 Analyzer Bar Mode</string>
+		<string>3 Analyzer Top</string>
+		<string>4 Analyzer Range</string>
+		<string>6 Gonio Decay</string>
+		<string>7 Gonio AutoGain</string>
+		<string>8 Peak Hold</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

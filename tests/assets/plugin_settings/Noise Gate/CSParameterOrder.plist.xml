@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>13 Mode</string>
+		<string>0 Threshold</string>
+		<string>2 Reduction</string>
+		<string>1 Hysteresis</string>
+		<string>3 Attack</string>
+		<string>4 Hold</string>
+		<string>5 Release</string>
+		<string>8 Lookahead</string>
+		<string>12 Key Filter On</string>
+		<string>11 Key Filter Mode</string>
+		<string>7 Key LowCut</string>
+		<string>6 Key HighCut</string>
+		<string>9 Key Filter Monitor</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>0 Threshold</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 !Threshold</string>
+		<string>2 !Reduction</string>
+		<string>3 Attack</string>
+		<string>4 Hold</string>
+		<string>5 Release</string>
+		<string>1 Hysteresis</string>
+		<string>8 Lookahead</string>
+		<string>7 Key LowCut</string>
+		<string>6 Key HighCut</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

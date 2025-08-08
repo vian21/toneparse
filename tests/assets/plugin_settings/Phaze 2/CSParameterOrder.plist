@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<real>1</real>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Sync</string>
+		<string>2 Phaser 1 Rate</string>
+		<string>3 Phaser 1 Order</string>
+		<string>4 Phaser 1 Feedback</string>
+		<string>5 Phaser 1 Sweep Floor</string>
+		<string>6 Phaser 1 Sweep Ceiling</string>
+		<string>7 Phaser 1 Tone</string>
+		<string>8 Phaser 2 Rate</string>
+		<string>9 Phaser 2 Order</string>
+		<string>10 Phaser 2 Feedback</string>
+		<string>11 Phaser 2 Sweep Floor</string>
+		<string>12 Phaser 2 Sweep Ceiling</string>
+		<string>13 Phaser 2 Tone</string>
+		<string>14 Output Mix</string>
+	</array>
+</dict>
+</plist>

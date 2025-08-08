@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>2 Pedal Position</string>
+		<string>6 AutoWah Depth</string>
+		<string>11 Fuzz Gain</string>
+		<string>12 Fuzz Tone</string>
+		<string>14 Wah Mode</string>
+		<string>15 Wah</string>
+		<string>17 Fuzz</string>
+	</array>
+</dict>
+</plist>

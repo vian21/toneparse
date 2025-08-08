@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Triangle</string>
+		<string>2 Sawtooth</string>
+		<string>3 Rectangle</string>
+		<string>4 -1 Octave</string>
+		<string>5 -2 Octaves</string>
+		<string>6 Noise</string>
+		<string>7 Cutoff</string>
+		<string>8 Resonance</string>
+		<string>14 Attack</string>
+		<string>15 Decay</string>
+		<string>16 Sustain</string>
+		<string>17 Release</string>
+		<string>13 VCA Mode</string>
+		<string>9 Keytrack</string>
+		<string>11 Velo Filter</string>
+		<string>10 ADSR Int</string>
+		<string>0 Octave</string>
+		<string>25 Tune</string>
+		<string>22 Vibrato/Wah</string>
+		<string>21 LFO Speed</string>
+		<string>19 Chorus</string>
+		<string>18 Overdrive</string>
+		<string>12 Velo Volume</string>
+		<string>20 Volume</string>
+		<string>23 Pos. Bender Range</string>
+		<string>24 Neg. Bender Range</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>7 Cutoff</string>
+		<string>8 Resonance</string>
+		<string>14 Attack</string>
+		<string>15 Decay</string>
+		<string>1 Triangle</string>
+		<string>2 Sawtooth</string>
+		<string>3 Rectangle</string>
+		<string>4 -1 Octave</string>
+		<string>5 -2 Octaves</string>
+		<string>6 Noise</string>
+		<string>16 Sustain</string>
+		<string>17 Release</string>
+		<string>13 VCA Mode</string>
+		<string>9 Keytrack</string>
+		<string>11 Velo Filter</string>
+		<string>10 ADSR Int</string>
+		<string>0 Octave</string>
+		<string>25 Tune</string>
+		<string>22 Vibrato/Wah</string>
+		<string>21 LFO Speed</string>
+		<string>19 Chorus</string>
+		<string>18 Overdrive</string>
+		<string>12 Velo Volume</string>
+		<string>20 Volume</string>
+		<string>23 Pos. Bender Range</string>
+		<string>24 Neg. Bender Range</string>
+	</array>
+</dict>
+</plist>

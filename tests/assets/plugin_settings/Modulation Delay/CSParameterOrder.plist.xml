@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>6 Feedback</string>
+		<string>1 Flanger/Chorus</string>
+		<string>2 Mod. Intensity</string>
+		<string>3 Rate LFO 1 L</string>
+		<string>14 Rate LFO 1 R</string>
+		<string>4 Rate LFO 2 L</string>
+		<string>15 Rate LFO 2 R</string>
+		<string>0 Output Mix</string>
+		<string>5 LFO Mix</string>
+		<string>7 Volume Modulation</string>
+		<string>8 De-Warble</string>
+		<string>9 ConstantMod</string>
+		<string>10 LFO Phase</string>
+		<string>11 All Pass</string>
+		<string>12 All Pass Left</string>
+		<string>13 All Pass Right</string>
+		<string>16 Stereo</string>
+		<string>19 Use new ModDelay</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>1 Flanger/Chorus</string>
+		<string>6 Feedback</string>
+		<string>2 Mod. Intensity</string>
+		<string>3 Rate LFO 1 L$LFO 1 Rate</string>
+		<string>14 Rate LFO 1 R</string>
+		<string>4 Rate LFO 2 L</string>
+		<string>15 Rate LFO 2 R</string>
+		<string>0 Output Mix</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>1 Flanger/Chorus</string>
+		<string>5 LFO Mix</string>
+		<string>2 Mod. Intensity</string>
+		<string>6 Feedback</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<real>1</real>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>36 Bypass All</string>
+		<string>16 Root Note</string>
+		<string>17 Scale/Chord Type</string>
+		<string>30 Response</string>
+		<string>37 Tolerance</string>
+		<string>60 Neural Pitch Detection</string>
+		<string>56 Pitch Range</string>
+		<string>57 Show Pitch</string>
+		<string>4 Use C</string>
+		<string>5 Use C#</string>
+		<string>6 Use D</string>
+		<string>7 Use D#</string>
+		<string>8 Use E</string>
+		<string>9 Use F</string>
+		<string>10 Use F#</string>
+		<string>11 Use G</string>
+		<string>12 Use G#</string>
+		<string>13 Use A</string>
+		<string>14 Use A#</string>
+		<string>15 Use B</string>
+		<string>44 Bypass C</string>
+		<string>45 Bypass C#</string>
+		<string>46 Bypass D</string>
+		<string>47 Bypass D#</string>
+		<string>48 Bypass E</string>
+		<string>49 Bypass F</string>
+		<string>50 Bypass F#</string>
+		<string>51 Bypass G</string>
+		<string>52 Bypass G#</string>
+		<string>53 Bypass A</string>
+		<string>54 Bypass A#</string>
+		<string>55 Bypass B</string>
+		<string>3 Reference</string>
+		<string>43 Global Tuning</string>
+		<string>26 Detune</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>56 Pitch Range</string>
+		<string>30 Response</string>
+		<string>16 Root Note</string>
+		<string>17 Scale/Chord Type</string>
+		<string>30 Response</string>
+		<string>26 Detune</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

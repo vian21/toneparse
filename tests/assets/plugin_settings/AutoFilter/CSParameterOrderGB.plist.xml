@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>2 Cutoff</string>
+		<string>3 Resonance</string>
+		<string>12 Intensity</string>
+		<string>10 Waveform</string>
+		<string>25 Rate</string>
+	</array>
+</dict>
+</plist>

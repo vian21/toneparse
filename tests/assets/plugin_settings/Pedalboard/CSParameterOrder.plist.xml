@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>51 Macro A Value</string>
+		<string>53 Macro B Value</string>
+		<string>55 Macro C Value</string>
+		<string>57 Macro D Value</string>
+		<string>59 Macro E Value</string>
+		<string>61 Macro F Value</string>
+		<string>63 Macro G Value</string>
+		<string>65 Macro H Value</string>
+		<string>50 Macro A Target</string>
+		<string>52 Macro B Target</string>
+		<string>54 Macro C Target</string>
+		<string>56 Macro D Target</string>
+		<string>58 Macro E Target</string>
+		<string>60 Macro F Target</string>
+		<string>62 Macro G Target</string>
+		<string>64 Macro H Target</string>
+		<string>200 Slot 1 Stompbox Type</string>
+		<string>201 Slot 2 Stompbox Type</string>
+		<string>202 Slot 3 Stompbox Type</string>
+		<string>203 Slot 4 Stompbox Type</string>
+		<string>204 Slot 5 Stompbox Type</string>
+		<string>205 Slot 6 Stompbox Type</string>
+		<string>206 Slot 7 Stompbox Type</string>
+		<string>207 Slot 8 Stompbox Type</string>
+		<string>208 Slot 9 Stompbox Type</string>
+		<string>209 Slot 10 Stompbox Type</string>
+		<string>210 Slot 11 Stompbox Type</string>
+		<string>211 Slot 12 Stompbox Type</string>
+		<string>212 Slot 13 Stompbox Type</string>
+		<string>213 Slot 14 Stompbox Type</string>
+		<string>2001 Stompbox A Type</string>
+		<string>2101 Stompbox B Type</string>
+		<string>2201 Stompbox C Type</string>
+		<string>2301 Stompbox D Type</string>
+		<string>2401 Stompbox E Type</string>
+		<string>2501 Stompbox F Type</string>
+		<string>2601 Stompbox G Type</string>
+		<string>2701 Stompbox H Type</string>
+		<string>2801 Stompbox I Type</string>
+		<string>2901 Stompbox J Type</string>
+		<string>3001 Stompbox K Type</string>
+		<string>3101 Stompbox L Type</string>
+		<string>3201 Stompbox M Type</string>
+		<string>3301 Stompbox N Type</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>200 Slot 1 Stompbox Type</string>
+		<string>201 Slot 2 Stompbox Type</string>
+		<string>202 Slot 3 Stompbox Type</string>
+		<string>203 Slot 4 Stompbox Type</string>
+		<string>204 Slot 5 Stompbox Type</string>
+		<string>205 Slot 6 Stompbox Type</string>
+		<string>206 Slot 7 Stompbox Type</string>
+		<string>207 Slot 8 Stompbox Type</string>
+		<string>208 Slot 9 Stompbox Type</string>
+		<string>209 Slot 10 Stompbox Type</string>
+		<string>210 Slot 11 Stompbox Type</string>
+		<string>211 Slot 12 Stompbox Type</string>
+		<string>212 Slot 13 Stompbox Type</string>
+		<string>213 Slot 14 Stompbox Type</string>
+		<string>2001 Stompbox A Type</string>
+		<string>2101 Stompbox B Type</string>
+		<string>2201 Stompbox C Type</string>
+		<string>2301 Stompbox D Type</string>
+		<string>2401 Stompbox E Type</string>
+		<string>2501 Stompbox F Type</string>
+		<string>2601 Stompbox G Type</string>
+		<string>2701 Stompbox H Type</string>
+		<string>2801 Stompbox I Type</string>
+		<string>2901 Stompbox J Type</string>
+		<string>3001 Stompbox K Type</string>
+		<string>3101 Stompbox L Type</string>
+		<string>3201 Stompbox M Type</string>
+		<string>3301 Stompbox N Type</string>
+	</array>
+</dict>
+</plist>

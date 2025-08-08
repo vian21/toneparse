@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>10 Amp</string>
+		<string>1 Gain</string>
+		<string>2 Bass</string>
+		<string>3 Mids</string>
+		<string>4 Treble</string>
+		<string>5 Presence</string>
+		<string>6 Master</string>
+		<string>12 Speaker</string>
+		<string>7 Output Gain</string>
+		<string>9 Model</string>
+		<string>11 EQ Model</string>
+		<string>13 Microphone type</string>
+		<string>14 Microphone pos X</string>
+		<string>16 Microphone pos Z</string>
+		<string>23 FX Enable</string>
+		<string>24 FX Mode</string>
+		<string>25 FX Depth</string>
+		<string>26 FX Sync Mode</string>
+		<string>27 FX Speed</string>
+		<string>30 Reverb Enable</string>
+		<string>31 Reverb Mode</string>
+		<string>32 Reverb Level</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>1 Gain</string>
+		<string>2 Bass</string>
+		<string>3 Mids</string>
+		<string>4 Treble</string>
+		<string>5 Presence</string>
+		<string>6 Master</string>
+		<string>7 Output Gain</string>
+		<string>30 Reverb Enable</string>
+		<string>32 Reverb Level</string>
+		<string>23 FX Enable</string>
+		<string>25 FX Depth</string>
+		<string>27 FX Speed</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

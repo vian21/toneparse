@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Dry Signal Delay</string>
+		<string>2 Predelay</string>
+		<string>3 Attack</string>
+		<string>4 Decay</string>
+		<string>5 Sustain</string>
+		<string>6 Hold</string>
+		<string>7 Release</string>
+		<string>0 Mix</string>
+		<string>8 Density</string>
+		<string>12 Spread</string>
+		<string>11 High Cut</string>
+		<string>9 Crossover</string>
+		<string>10 Low Freq Level</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>3 Attack</string>
+		<string>4 Decay</string>
+		<string>5 Sustain</string>
+		<string>6 Hold</string>
+		<string>7 Release</string>
+		<string>0 Mix</string>
+		<string>8 Density</string>
+		<string>1 Dry Signal Delay</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>3 Attack</string>
+		<string>5 Sustain</string>
+		<string>6 Hold</string>
+		<string>8 Density</string>
+		<string>0 Mix</string>
+	</array>
+</dict>
+</plist>

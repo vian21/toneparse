@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<real>1</real>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Drive</string>
+		<string>2 Low</string>
+		<string>3 Mid Freq</string>
+		<string>4 Mid Gain</string>
+		<string>5 High</string>
+		<string>6 Tone</string>
+		<string>7 Bias</string>
+		<string>8 Squash</string>
+		<string>9 Fat</string>
+		<string>10 Output</string>
+	</array>
+</dict>
+</plist>

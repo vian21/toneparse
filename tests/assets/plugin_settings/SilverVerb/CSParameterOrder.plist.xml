@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Pre Delay</string>
+		<string>3 Room Size</string>
+		<string>2 Reflectivity</string>
+		<string>6 Density/Time</string>
+		<string>8 Modulation Int</string>
+		<string>5 Low Cut</string>
+		<string>4 High Cut</string>
+		<string>0 Mix</string>
+		<string>7 Modulation Rate</string>
+		<string>9 Modulation Phase</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>3 Room Size</string>
+		<string>2 Reflectivity</string>
+		<string>6 Density/Time</string>
+		<string>0 Mix</string>
+		<string>1 Pre Delay</string>
+		<string>8 Modulation Int</string>
+		<string>5 Low Cut</string>
+		<string>4 High Cut</string>
+		<string>7 Modulation Rate</string>
+		<string>9 Modulation Phase</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>3 Room Size</string>
+		<string>6 Density/Time</string>
+		<string>0 Mix</string>
+	</array>
+</dict>
+</plist>

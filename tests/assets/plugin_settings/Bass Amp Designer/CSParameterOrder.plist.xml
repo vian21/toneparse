@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>11 EQ</string>
+		<string>12 Bass</string>
+		<string>14 Mids</string>
+		<string>16 Treble</string>
+		<string>24 Comp</string>
+		<string>25 Comp Amount</string>
+		<string>26 Attack</string>
+		<string>27 Makeup Gain</string>
+		<string>7 Input</string>
+		<string>8 Bright</string>
+		<string>10 Gain</string>
+		<string>13 Low Switch</string>
+		<string>15 Mid Range</string>
+		<string>17 High Switch</string>
+		<string>20 Master</string>
+		<string>63 Mix</string>
+		<string>1 DI Gain</string>
+		<string>2 DI HF Cut</string>
+		<string>3 DI Tone On/Off</string>
+		<string>4 DI Tone</string>
+		<string>29 Graph/Par EQ</string>
+		<string>46 Model</string>
+		<string>47 Amp</string>
+		<string>48 Speaker</string>
+		<string>49 Microphone type</string>
+		<string>50 Microphone pos X</string>
+		<string>52 Microphone pos Z</string>
+		<string>64 Output Gain</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>10 Gain</string>
+		<string>12 Bass</string>
+		<string>14 Mids</string>
+		<string>16 Treble</string>
+		<string>25 Comp Amount</string>
+		<string>27 Makeup Gain</string>
+		<string>63 Mix</string>
+		<string>1 DI Gain</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoFilter</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>2 Cutoff</string>
+			<string>3 Resonance</string>
+			<string>12 Intensity</string>
+			<string>10 Waveform</string>
+			<string>25 Rate</string>
+		</array>
+	</dict>
+	<key>Amp Designer</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Main Knobs</string>
+			<string>1 Gain</string>
+			<string>2 Bass</string>
+			<string>3 Mids</string>
+			<string>4 Treble</string>
+			<string>5 Presence</string>
+			<string>6 Master</string>
+			<string>7 Output Level</string>
+			<string>8 Model Selectors</string>
+			<string>9 Model</string>
+			<string>10 Amp</string>
+			<string>11 EQ Model</string>
+			<string>12 Speaker</string>
+			<string>13 Microphone Type</string>
+			<string>14 Mic Position X</string>
+			<string>16 Mic Position Z</string>
+			<string>22 Effects</string>
+			<string>23 FX Enable</string>
+			<string>24 FX Type</string>
+			<string>25 FX Depth</string>
+			<string>26 FX Sync Mode</string>
+			<string>27 FX Speed</string>
+			<string>30 Reverb Enable</string>
+			<string>31 Reverb Type</string>
+			<string>32 Reverb Level</string>
+		</array>
+	</dict>
+	<key>Bass Amp Designer</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 DI</string>
+			<string>1 DI Gain</string>
+			<string>2 DI HF Cut</string>
+			<string>3 DI Tone On/Off</string>
+			<string>4 DI Tone</string>
+			<string>5 Amp Input</string>
+			<string>7 Channel</string>
+			<string>8 Bright</string>
+			<string>9 Main Knobs</string>
+			<string>10 Gain</string>
+			<string>11 EQ</string>
+			<string>12 Bass</string>
+			<string>13 Low</string>
+			<string>14 Mids</string>
+			<string>15 Mid Range</string>
+			<string>16 Treble</string>
+			<string>17 High</string>
+			<string>20 Master</string>
+			<string>23 Compressor</string>
+			<string>24 Comp</string>
+			<string>25 Comp Amount</string>
+			<string>26 Comp Attack</string>
+			<string>27 Comp Gain</string>
+			<string>28 Graph/Par EQ</string>
+			<string>29 Graph/Par EQ</string>
+			<string>30 Graph/Par EQ Position</string>
+			<string>31 Graph/Par EQ Type</string>
+			<string>32 40 Hz</string>
+			<string>33 100 Hz</string>
+			<string>34 250 Hz</string>
+			<string>35 625 Hz</string>
+			<string>36 1560 Hz</string>
+			<string>37 3900 Hz</string>
+			<string>38 6600 Hz</string>
+			<string>39 LMF Gain</string>
+			<string>40 LMF Freq</string>
+			<string>41 LMF Q</string>
+			<string>42 HMF Gain</string>
+			<string>43 HMF Freq</string>
+			<string>44 HMF Q</string>
+			<string>45 Model selectors</string>
+			<string>46 Model</string>
+			<string>47 Amp</string>
+			<string>48 Speaker</string>
+			<string>49 Microphone Type</string>
+			<string>50 Microphone Pos X</string>
+			<string>52 Microphone Pos Z</string>
+			<string>58 Gain Reduction</string>
+			<string>62 Output</string>
+			<string>63 Amp/DI Mix</string>
+			<string>64 Output Gain</string>
+		</array>
+	</dict>
+	<key>Bitcrusher</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>3 Resolution</string>
+			<string>4 Downsampling</string>
+		</array>
+	</dict>
+	<key>Chorus</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Mix</string>
+			<string>1 Intensity</string>
+			<string>2 Rate</string>
+		</array>
+	</dict>
+	<key>Clip Distortion</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Clip Drive</string>
+			<string>1 Clip Tone</string>
+			<string>3 Mix</string>
+		</array>
+	</dict>
+	<key>Compressor</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Compressor Threshold</string>
+			<string>1 Ratio</string>
+			<string>2 Attack</string>
+			<string>4 Gain</string>
+		</array>
+	</dict>
+	<key>DeEsser</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>2 Suppression Frequency</string>
+			<string>0 Supression</string>
+		</array>
+	</dict>
+	<key>Delay Designer</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>8 Dry</string>
+			<string>9 Wet</string>
+			<string>5 Feedback Enable</string>
+			<string>7 Feedback Amount</string>
+		</array>
+	</dict>
+	<key>Direction Mixer</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>1 Direction</string>
+			<string>2 Spread</string>
+		</array>
+	</dict>
+	<key>Distortion</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Drive</string>
+			<string>1 Tone</string>
+			<string>2 Output</string>
+		</array>
+	</dict>
+	<key>Distortion II</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Pre Gain</string>
+			<string>1 Drive</string>
+			<string>2 Tone</string>
+			<string>3 Dist Type</string>
+			<string>4 Distortion Output Level</string>
+			<string>5 Mix</string>
+		</array>
+	</dict>
+	<key>Filterbank</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>26 Formant Shift</string>
+			<string>27 Resonance</string>
+			<string>24 Low Frequency</string>
+			<string>25 High Frequency</string>
+			<string>60 Output Level</string>
+		</array>
+	</dict>
+	<key>Echo</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>16 Time</string>
+			<string>17 Repeat</string>
+			<string>18 Color</string>
+			<string>19 Dry</string>
+			<string>20 Wet</string>
+		</array>
+	</dict>
+	<key>EnVerb</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>3 Attack</string>
+			<string>5 Sustain</string>
+			<string>6 Hold</string>
+			<string>8 Density</string>
+			<string>13 Dry</string>
+			<string>14 Wet</string>
+		</array>
+	</dict>
+	<key>Ensemble</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>4 Intensity LFO 1</string>
+			<string>6 Intensity LFO 2</string>
+			<string>8 Random Intensity</string>
+		</array>
+	</dict>
+	<key>Enveloper</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Attack Time</string>
+			<string>1 Attack Gain</string>
+			<string>2 Release Time</string>
+			<string>3 Release Gain</string>
+			<string>4 Threshold</string>
+		</array>
+	</dict>
+	<key>Exciter</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Frequency</string>
+			<string>2 Harmonics</string>
+		</array>
+	</dict>
+	<key>Flanger</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Mix</string>
+			<string>1 Intensity</string>
+			<string>2 Rate</string>
+			<string>3 Feedback</string>
+		</array>
+	</dict>
+	<key>Fuzz-Wah</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>2 Pedal Position</string>
+			<string>6 AutoWah Depth</string>
+			<string>11 Fuzz Gain</string>
+			<string>12 Fuzz Tone</string>
+			<string>14 Wah Mode</string>
+			<string>15 Wah</string>
+			<string>17 Fuzz</string>
+		</array>
+	</dict>
+	<key>Gain</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>4 Gain</string>
+		</array>
+	</dict>
+	<key>Limiter</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Gain</string>
+			<string>4 Output Level</string>
+		</array>
+	</dict>
+	<key>Microphaser</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 LFO Rate</string>
+			<string>3 Feedback</string>
+			<string>15 Intensity</string>
+		</array>
+	</dict>
+	<key>Modulation Delay</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>1 Flanger/Chorus</string>
+			<string>5 LFO Mix</string>
+			<string>2 Mod. Intensity</string>
+			<string>6 Feedback</string>
+		</array>
+	</dict>
+	<key>Multipressor</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>46 Master Gain</string>
+		</array>
+	</dict>
+	<key>Noise Gate</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Threshold</string>
+		</array>
+	</dict>
+	<key>Overdrive</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Drive</string>
+			<string>1 Tone</string>
+			<string>2 Output</string>
+		</array>
+	</dict>
+	<key>Phase Distortion</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>1 Intensity</string>
+			<string>0 Mix</string>
+		</array>
+	</dict>
+	<key>Phaser</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>3 Feedback</string>
+			<string>5 Sweep Ceiling</string>
+			<string>4 Sweep Floor</string>
+			<string>6 Stages</string>
+			<string>0 Rate LFO 1</string>
+			<string>1 Rate LFO 2</string>
+			<string>2 LFO Mix</string>
+		</array>
+	</dict>
+	<key>Pitch Shifter</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>3 Type</string>
+			<string>1 Semitones</string>
+			<string>0 Mix</string>
+		</array>
+	</dict>
+	<key>PlatinumVerb</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>1 Predelay</string>
+			<string>8 Reverb Time</string>
+			<string>12 High Cut</string>
+			<string>7 Spread</string>
+			<string>18 Dry</string>
+			<string>19 Wet</string>
+		</array>
+	</dict>
+	<key>Ringshifter</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>1 Frequency</string>
+			<string>11 Dry/Wet</string>
+			<string>8 Feedback</string>
+			<string>26 Delay Amount</string>
+			<string>28 Delay Time</string>
+		</array>
+	</dict>
+	<key>Rotor Cabinet</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Rotor Speed</string>
+		</array>
+	</dict>
+	<key>Sample Delay</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Left Delay</string>
+			<string>1 Right Delay</string>
+			<string>2 Link Left &amp; Right</string>
+		</array>
+	</dict>
+	<key>Scanner Vibrato</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Type</string>
+			<string>1 Depth</string>
+		</array>
+	</dict>
+	<key>SilverVerb</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>3 Room Size</string>
+			<string>6 Density/Time</string>
+			<string>10 Dry</string>
+			<string>11 Wet</string>
+		</array>
+	</dict>
+	<key>Single Band EQ</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 EQ Mode</string>
+			<string>1 Frequency</string>
+			<string>2 Slope</string>
+			<string>3 Gain</string>
+			<string>4 Q-Factor</string>
+			<string>5 Q-Factor</string>
+		</array>
+	</dict>
+	<key>Space Designer</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>3 Length</string>
+			<string>0 Dry Output</string>
+			<string>1 Reverb Output</string>
+		</array>
+	</dict>
+	<key>Spectral Gate</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>5 Center Frequency</string>
+			<string>6 Bandwidth</string>
+			<string>11 Gain</string>
+		</array>
+	</dict>
+	<key>Speech Enhancer</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Denoise</string>
+			<string>9 Enhance Mode</string>
+		</array>
+	</dict>
+	<key>Spreader</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 LFO Intensity</string>
+		</array>
+	</dict>
+	<key>Stereo Delay</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>11 Left Note</string>
+			<string>12 Deviation Left</string>
+			<string>4 Left Feedback</string>
+			<string>0 Left Mix</string>
+			<string>13 Right Note</string>
+			<string>14 Deviation Right</string>
+			<string>5 Right Feedback</string>
+			<string>1 Right Mix</string>
+			<string>22 High Cut Left</string>
+			<string>23 Low Cut Left</string>
+			<string>24 High Cut Right</string>
+			<string>25 Low Cut Right</string>
+		</array>
+	</dict>
+	<key>Stereo Spread</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>3 Lower Intensity</string>
+			<string>4 Upper Intensity</string>
+			<string>2 Order</string>
+		</array>
+	</dict>
+	<key>SubBass</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>8 Wet</string>
+			<string>0 Dry</string>
+		</array>
+	</dict>
+	<key>Tape Delay</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>7 Note</string>
+			<string>8 Deviation</string>
+			<string>3 Feedback</string>
+			<string>12 LFO Rate</string>
+			<string>13 LFO Depth</string>
+			<string>5 Low Cut</string>
+			<string>4 High Cut</string>
+			<string>19 Dry</string>
+			<string>20 Wet</string>
+		</array>
+	</dict>
+	<key>Tremolo</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Depth</string>
+			<string>1 Rate</string>
+			<string>4 Stereophase</string>
+		</array>
+	</dict>
+	<key>Vocal Transformer</key>
+	<dict>
+		<key>GBControlsViewParameterOrder</key>
+		<array>
+			<string>0 Pitch</string>
+			<string>1 Formant</string>
+		</array>
+	</dict>
+</dict>
+</plist>

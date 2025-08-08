@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>19 Instrument</string>
+		<string>20 Last Played Articulation</string>
+		<string>21 Monophonic</string>
+		<string>24 Vibrato Controller</string>
+		<string>27 Dynamics via CC</string>
+		<string>28 Dynamic Controller</string>
+		<string>29 Dynamic Controller Mode</string>
+		<string>30 Humanize</string>
+		<string>31 Env. Attack</string>
+		<string>32 Env. Release</string>
+		<string>33 Cutoff</string>
+		<string>34 Resonance</string>
+		<string>35 Volume</string>
+		<string>36 Legato Transitions</string>
+		<string>42 Split Mode</string>
+		<string>43 Split Key</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>19 Instrument</string>
+		<string>35 Volume</string>
+		<string>33 Cutoff</string>
+		<string>31 Env. Attack$Attack</string>
+		<string>32 Env. Release$Release</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+</dict>
+</plist>

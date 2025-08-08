@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Drive</string>
+		<string>1 Clip Level</string>
+		<string>2 Clip Mode</string>
+		<string>3 Resolution</string>
+		<string>4 Downsampling</string>
+		<string>5 Mix</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>3 !Resolution</string>
+		<string>4 Downsampling</string>
+		<string>0 Drive</string>
+		<string>5 Mix</string>
+		<string>1 Clip Level</string>
+		<string>2 Clip Mode</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>3 Resolution</string>
+		<string>4 Downsampling</string>
+	</array>
+</dict>
+</plist>

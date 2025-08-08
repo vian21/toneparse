@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>20 Instrument</string>
+		<string>21 Playing Style</string>
+		<string>22 Playing Style</string>
+		<string>24 Last Played</string>
+		<string>27 Last Played</string>
+		<string>34 Mute</string>
+		<string>35 Definition</string>
+		<string>119 Volume</string>
+		<string>120 Neck Volume</string>
+		<string>121 Bridge Volume</string>
+		<string>122 Tone</string>
+		<string>123 Neck Tone</string>
+		<string>124 Bridge Tone</string>
+		<string>129 Rhythm</string>
+		<string>125 Bass</string>
+		<string>126 Treble</string>
+		<string>127 Treble</string>
+		<string>128 Bass</string>
+		<string>130 Pickup</string>
+		<string>169 Main Volume</string>
+		<string>219 Portamento</string>
+		<string>221 Tempo Sync</string>
+		<string>223 String Noise</string>
+		<string>224 Hum &amp; Hiss</string>
+		<string>225 Release Noise</string>
+		<string>226 Pitchbend Range Up</string>
+		<string>227 Pitchbend Range Down</string>
+		<string>228 Voice Mode</string>
+		<string>229 Open Strings</string>
+		<string>230 Mute Controller</string>
+		<string>421 Growl</string>
+		<string>422 Growl Attack</string>
+		<string>423 Noises</string>
+		<string>424 Rattles</string>
+		<string>425 Releases</string>
+		<string>426 Handling</string>
+	</array>
+</dict>
+</plist>

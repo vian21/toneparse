@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>3 Feedback</string>
+		<string>5 Sweep Ceiling</string>
+		<string>4 Sweep Floor</string>
+		<string>6 Order</string>
+		<string>10 Env Follow</string>
+		<string>0 Rate LFO 1</string>
+		<string>1 Rate LFO 2</string>
+		<string>9 Output Mix</string>
+		<string>2 LFO Mix</string>
+		<string>7 LFO Env Follow</string>
+		<string>8 Phase</string>
+		<string>11 Warmth</string>
+		<string>12 FB Filter</string>
+		<string>14 HP Cutoff</string>
+		<string>13 LP Cutoff</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 Rate LFO 1</string>
+		<string>1 Rate LFO 2</string>
+		<string>3 Feedback</string>
+		<string>9 Output Mix</string>
+		<string>4 Sweep Floor</string>
+		<string>5 Sweep Ceiling</string>
+		<string>6 Order</string>
+		<string>10 Env Follow</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>3 Feedback</string>
+		<string>5 Sweep Ceiling</string>
+		<string>4 Sweep Floor</string>
+		<string>6 Stages</string>
+		<string>0 Rate LFO 1</string>
+		<string>1 Rate LFO 2</string>
+		<string>2 LFO Mix</string>
+	</array>
+</dict>
+</plist>

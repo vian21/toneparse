@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Threshold</string>
+		<string>5 Centerfrequency</string>
+		<string>6 Bandwidth</string>
+		<string>2 Sub Energy</string>
+		<string>9 Low Level</string>
+		<string>3 Super Energy</string>
+		<string>10 High Level</string>
+		<string>11 Gain</string>
+		<string>4 Speed</string>
+		<string>7 CF-Modulation</string>
+		<string>8 BW-Modulation</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 Threshold</string>
+		<string>5 Centerfrequency</string>
+		<string>6 Bandwidth</string>
+		<string>2 Sub Energy</string>
+		<string>9 Low Level</string>
+		<string>3 Super Energy</string>
+		<string>10 High Level</string>
+		<string>11 Gain</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>5 Center Frequency</string>
+		<string>6 Bandwidth</string>
+		<string>11 Gain</string>
+	</array>
+</dict>
+</plist>

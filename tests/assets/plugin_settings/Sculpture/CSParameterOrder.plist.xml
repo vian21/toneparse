@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>37 String Stiffness</string>
+		<string>38 String InnerLoss</string>
+		<string>39 String MediaLoss</string>
+		<string>35 String Resolution</string>
+		<string>393 EQ On/Off</string>
+		<string>394 EQ Model</string>
+		<string>395 EQ Low / F.Int</string>
+		<string>8 Level</string>
+		<string>1 Voices</string>
+		<string>2 KYBD Mode</string>
+		<string>3 Glide Time</string>
+		<string>4 Tune</string>
+		<string>5 Warmth</string>
+		<string>6 Bender Range Up</string>
+		<string>7 Bender Range Down</string>
+		<string>8 Level</string>
+		<string>9 Limiter Mode</string>
+		<string>10 Transpose</string>
+		<string>15 Vibrato Ctrl</string>
+		<string>16 Ctrl A Assign</string>
+		<string>17 Ctrl B Assign</string>
+		<string>18 EnvCtrl 1 Assign</string>
+		<string>19 EnvCtrl 2 Assign</string>
+		<string>20 MorphX Assign</string>
+		<string>21 MorphY Assign</string>
+		<string>25 Ctrl Assign handling</string>
+		<string>27 Vibrato Waveform</string>
+		<string>28 Vibrato Rate</string>
+		<string>29 Vibrato Min Depth</string>
+		<string>30 Vibrato Max Depth</string>
+		<string>31 Vibrato Phase Vari</string>
+		<string>32 Vibrato Sync Mode</string>
+		<string>33 Vibrato Curve</string>
+		<string>35 String Resolution</string>
+		<string>36 String TensMod</string>
+		<string>37 String Stiffness</string>
+		<string>38 String InnerLoss</string>
+		<string>39 String MediaLoss</string>
+		<string>43 String InnerLoss Release</string>
+		<string>44 String MediaLoss Release</string>
+		<string>46 String Resolution Low</string>
+		<string>47 String Resolution High</string>
+		<string>48 String TensMod Low</string>
+		<string>49 String TensMod High</string>
+		<string>50 String Stiffness Low</string>
+		<string>51 String Stiffness High</string>
+		<string>52 String InnerLoss Low</string>
+		<string>53 String InnerLoss High</string>
+		<string>54 String MediaLoss Low</string>
+		<string>55 String MediaLoss High</string>
+		<string>57 Object1 On/Off</string>
+		<string>58 Object1 Type</string>
+		<string>59 Object1 Gate Mode</string>
+		<string>60 Object1 Position</string>
+		<string>61 Object1 Strength</string>
+		<string>62 Object1 Timbre</string>
+		<string>63 Object1 Variation</string>
+		<string>65 Object1 VeloSens</string>
+		<string>69 Object2 On/Off</string>
+		<string>70 Object2 Type</string>
+		<string>71 Object2 Gate Mode</string>
+		<string>72 Object2 Position</string>
+		<string>73 Object2 Strength</string>
+		<string>74 Object2 Timbre</string>
+		<string>75 Object2 Variation</string>
+		<string>77 Object2 VeloSens</string>
+		<string>81 Object3 On/Off</string>
+		<string>82 Object3 Type</string>
+		<string>83 Object3 Gate Mode</string>
+		<string>84 Object3 Position</string>
+		<string>85 Object3 Strength</string>
+		<string>86 Object3 Timbre</string>
+		<string>87 Object3 Variation</string>
+		<string>92 PickupA Position</string>
+		<string>93 PickupB Position</string>
+		<string>94 PickupB Phase</string>
+		<string>95 Pickup Stereo</string>
+		<string>96 Key Stereo</string>
+		<string>100 WaveShape On/Off</string>
+		<string>101 WaveShape Type</string>
+		<string>102 WaveShape InScale</string>
+		<string>103 WaveShape Variation</string>
+		<string>106 Filter On/Off</string>
+		<string>107 Filter Type</string>
+		<string>108 Filter Cutoff</string>
+		<string>109 Filter Resonance</string>
+		<string>110 Filter KeyTrack</string>
+		<string>111 Filter VeloSens</string>
+		<string>115 AmplEnv Attack Soft</string>
+		<string>116 AmplEnv Attack Hard</string>
+		<string>117 AmplEnv Decay</string>
+		<string>118 AmplEnv Sustain</string>
+		<string>119 AmplEnv Release</string>
+		<string>123 Velo Target 1 Enable</string>
+		<string>124 Velo Target 1</string>
+		<string>125 Velo Amount 1</string>
+		<string>126 Velo Curve1</string>
+		<string>127 Velo Target 2 Enable</string>
+		<string>128 Velo Target 2</string>
+		<string>129 Velo Amount 2</string>
+		<string>130 Velo Curve2</string>
+		<string>132 LFO1 Waveform</string>
+		<string>133 LFO1 Rate</string>
+		<string>134 LFO1 Rate Mod Src</string>
+		<string>135 LFO1 Rate Mod Amount</string>
+		<string>136 LFO1 Phase Vari</string>
+		<string>137 LFO1 EG</string>
+		<string>138 LFO1 Curve</string>
+		<string>139 LFO1 Sync Mode</string>
+		<string>140 LFO1 Target 1 Enable</string>
+		<string>141 LFO1 Target 1</string>
+		<string>142 LFO1 Via 1</string>
+		<string>143 LFO1 Amount 1</string>
+		<string>144 LFO1 Via Amount 1</string>
+		<string>145 LFO1 Target 2 Enable</string>
+		<string>146 LFO1 Target 2</string>
+		<string>147 LFO1 Via 2</string>
+		<string>148 LFO1 Amount 2</string>
+		<string>149 LFO1 Via Amount 2</string>
+		<string>150 LFO2 Waveform</string>
+		<string>151 LFO2 Rate</string>
+		<string>152 LFO2 Rate Mod Src</string>
+		<string>153 LFO2 Rate Mod Amount</string>
+		<string>154 LFO2 Phase Vari</string>
+		<string>155 LFO2 EG</string>
+		<string>156 LFO2 Curve</string>
+		<string>157 LFO2 Sync Mode</string>
+		<string>158 LFO2 Target 1 Enable</string>
+		<string>159 LFO2 Target 1</string>
+		<string>160 LFO2 Via 1</string>
+		<string>161 LFO2 Amount 1</string>
+		<string>162 LFO2 Via Amount 1</string>
+		<string>163 LFO2 Target 2 Enable</string>
+		<string>164 LFO2 Target 2</string>
+		<string>165 LFO2 Via 2</string>
+		<string>166 LFO2 Amount 2</string>
+		<string>167 LFO2 Via Amount 2</string>
+		<string>174 Jitter 1 Bandwidth</string>
+		<string>181 Jitter 1 Target 1 Enable</string>
+		<string>182 Jitter 1 Target 1</string>
+		<string>184 Jitter1 Amount 1</string>
+		<string>186 Jitter 1 Target 2 Enable</string>
+		<string>187 Jitter 1 Target 2</string>
+		<string>189 Jitter1 Amount 2</string>
+		<string>192 Jitter 2 Bandwidth</string>
+		<string>199 Jitter 2 Target 1 Enable</string>
+		<string>200 Jitter 2 Target 1</string>
+		<string>202 Jitter2 Amount 1</string>
+		<string>204 Jitter 2 Target 2 Enable</string>
+		<string>205 Jitter 2 Target 2</string>
+		<string>207 Jitter2 Amount 2</string>
+		<string>209 NoteOnRnd 1 Target Enable</string>
+		<string>210 NoteOnRnd 1 Target</string>
+		<string>211 NoteOnRnd 1 Amount</string>
+		<string>212 NoteOnRnd 2 Target Enable</string>
+		<string>213 NoteOnRnd 2 Target</string>
+		<string>214 NoteOnRnd 2 Amount</string>
+		<string>220 Env1 Run Mode</string>
+		<string>221 Env1 Target 1 Enable</string>
+		<string>222 Env1 Target 1</string>
+		<string>223 Env1 Via 1</string>
+		<string>224 Env1 Amount 1</string>
+		<string>225 Env1 Via Amount 1</string>
+		<string>226 Env1 Target 2 Enable</string>
+		<string>227 Env1 Target 2</string>
+		<string>228 Env1 Via 2</string>
+		<string>229 Env1 Amount 2</string>
+		<string>230 Env1 Via Amount 2</string>
+		<string>231 Env1 Record Enable</string>
+		<string>233 Env1 Record Trigger</string>
+		<string>235 Env1 Time Mode</string>
+		<string>236 Env1 Data Mode</string>
+		<string>237 Env1 Point 0 (Start)</string>
+		<string>238 Env1 Point 1 (Attack)</string>
+		<string>239 Env1 Point 2 (Loop)</string>
+		<string>240 Env1 Point 3 (Sus)</string>
+		<string>241 Env1 Point 4 (End)</string>
+		<string>242 Env1 Level 0</string>
+		<string>243 Env1 Time 1</string>
+		<string>244 Env1 Curve 1</string>
+		<string>245 Env1 Vari 1</string>
+		<string>246 Env1 Level 1</string>
+		<string>247 Env1 Time 2</string>
+		<string>248 Env1 Curve 2</string>
+		<string>249 Env1 Vari 2</string>
+		<string>250 Env1 Level 2</string>
+		<string>251 Env1 Time 3</string>
+		<string>252 Env1 Curve 3</string>
+		<string>253 Env1 Vari 3</string>
+		<string>254 Env1 Level 3</string>
+		<string>255 Env1 Time 4</string>
+		<string>256 Env1 Curve 4</string>
+		<string>257 Env1 Vari 4</string>
+		<string>258 Env1 Level 4</string>
+		<string>259 Env1 Sustain Mode</string>
+		<string>260 Env1 Sustain Point</string>
+		<string>261 Env1 Vari Mod Src</string>
+		<string>262 Env1 Vari Mod Amount</string>
+		<string>263 Env1 Loop Point</string>
+		<string>264 Env1 TimeScale</string>
+		<string>267 Env1 Attack VeloSens</string>
+		<string>270 Env2 Run Mode</string>
+		<string>271 Env2 Target 1 Enable</string>
+		<string>272 Env2 Target 1</string>
+		<string>273 Env2 Via 1</string>
+		<string>274 Env2 Amount 1</string>
+		<string>275 Env2 Via Amount 1</string>
+		<string>276 Env2 Target 2 Enable</string>
+		<string>277 Env2 Target 2</string>
+		<string>278 Env2 Via 2</string>
+		<string>279 Env2 Amount 2</string>
+		<string>280 Env2 Via Amount 2</string>
+		<string>281 Env2 Record Enable</string>
+		<string>283 Env2 Record Trigger</string>
+		<string>285 Env2 Time Mode</string>
+		<string>286 Env2 Data Mode</string>
+		<string>287 Env2 Point 0 (Start)</string>
+		<string>288 Env2 Point 1 (Attack)</string>
+		<string>289 Env2 Point 2 (Loop)</string>
+		<string>290 Env2 Point 3 (Sus)</string>
+		<string>291 Env2 Point 4 (End)</string>
+		<string>292 Env2 Level 0</string>
+		<string>293 Env2 Time 1</string>
+		<string>294 Env2 Curve 1</string>
+		<string>295 Env2 Vari 1</string>
+		<string>296 Env2 Level 1</string>
+		<string>297 Env2 Time 2</string>
+		<string>298 Env2 Curve 2</string>
+		<string>299 Env2 Vari 2</string>
+		<string>300 Env2 Level 2</string>
+		<string>301 Env2 Time 3</string>
+		<string>302 Env2 Curve 3</string>
+		<string>303 Env2 Vari 3</string>
+		<string>304 Env2 Level 3</string>
+		<string>305 Env2 Time 4</string>
+		<string>306 Env2 Curve 4</string>
+		<string>307 Env2 Vari 4</string>
+		<string>308 Env2 Level 4</string>
+		<string>309 Env2 Sustain Mode</string>
+		<string>310 Env2 Sustain Point</string>
+		<string>311 Env2 Vari Mod Src</string>
+		<string>312 Env2 Vari Mod Amount</string>
+		<string>313 Env2 Loop Point</string>
+		<string>314 Env2 TimeScale</string>
+		<string>317 Env2 Attack VeloSens</string>
+		<string>320 Select Morph Scene</string>
+		<string>321 Auto Select</string>
+		<string>322 MorphX</string>
+		<string>323 MorphY</string>
+		<string>324 Point Copy/Paste</string>
+		<string>325 Random Group</string>
+		<string>326 Random Point</string>
+		<string>327 Random Intensity</string>
+		<string>328 Random Trigger</string>
+		<string>334 MorphEnv Run Mode</string>
+		<string>335 MorphEnv Seletced Point</string>
+		<string>336 Morph Record Enable</string>
+		<string>337 Morph Record Trigger</string>
+		<string>339 MorphEnv Time Mode</string>
+		<string>351 MorphEnv LevelX 0</string>
+		<string>352 MorphEnv LevelY 0</string>
+		<string>353 MorphEnv Time 1</string>
+		<string>354 MorphEnv LevelX 1</string>
+		<string>355 MorphEnv LevelY 1</string>
+		<string>356 MorphEnv Time 2</string>
+		<string>357 MorphEnv LevelX 2</string>
+		<string>358 MorphEnv LevelY 2</string>
+		<string>359 MorphEnv Time 3</string>
+		<string>360 MorphEnv LevelX 3</string>
+		<string>361 MorphEnv LevelY 3</string>
+		<string>362 MorphEnv Time 4</string>
+		<string>363 MorphEnv LevelX 4</string>
+		<string>364 MorphEnv LevelY 4</string>
+		<string>365 MorphEnv Time 5</string>
+		<string>366 MorphEnv LevelX 5</string>
+		<string>367 MorphEnv LevelY 5</string>
+		<string>368 MorphEnv Time 6</string>
+		<string>369 MorphEnv LevelX 6</string>
+		<string>370 MorphEnv LevelY 6</string>
+		<string>371 MorphEnv Time 7</string>
+		<string>372 MorphEnv LevelX 7</string>
+		<string>373 MorphEnv LevelY 7</string>
+		<string>374 MorphEnv Time 8</string>
+		<string>375 MorphEnv LevelX 8</string>
+		<string>376 MorphEnv LevelY 8</string>
+		<string>377 MorphEnv Sustain Mode</string>
+		<string>378 MorphEnv Sustain Point</string>
+		<string>379 MorphEnv Loop Point</string>
+		<string>380 MorphEnv Depth</string>
+		<string>381 MorphEnv Depth Mod Src</string>
+		<string>382 MorphEnv Depth Mod Amount</string>
+		<string>383 MorphEnv Time Scan</string>
+		<string>384 MorphEnv TimeScale</string>
+		<string>387 MorphEnv Trans Shape</string>
+		<string>393 EQ On/Off</string>
+		<string>394 EQ Model</string>
+		<string>395 EQ Low / F.Int</string>
+		<string>396 EQ Mid / F.Shift</string>
+		<string>397 EQ High / F.Stretch</string>
+		<string>398 EQ Mid Freq / Finestructure</string>
+		<string>401 Delay On/Off</string>
+		<string>402 Delay Wet Level</string>
+		<string>403 Delay Time Mode</string>
+		<string>404 Delay Base Time</string>
+		<string>405 Delay Input Balance</string>
+		<string>406 Delay LR Spread</string>
+		<string>407 Delay LR Groove</string>
+		<string>408 Delay Feedback</string>
+		<string>409 Delay CrossFeed</string>
+		<string>410 Delay Hf Damp</string>
+		<string>411 Delay Lf Damp</string>
+		<string>412 Delay Output Width</string>
+		<string>415 CtrlA Target 1 Enable</string>
+		<string>416 CtrlA Target 1</string>
+		<string>417 CtrlA Amount 1</string>
+		<string>418 CtrlA Mode 1</string>
+		<string>419 CtrlA Target 2 Enable</string>
+		<string>420 CtrlA Target 2</string>
+		<string>421 CtrlA Amount 2</string>
+		<string>422 CtrlA Mode2</string>
+		<string>423 CtrlB Target 1 Enable</string>
+		<string>424 CtrlB Target 1</string>
+		<string>425 CtrlB Amount 1</string>
+		<string>426 CtrlB Mode 1</string>
+		<string>427 CtrlB Target 2 Enable</string>
+		<string>428 CtrlB Target 2</string>
+		<string>429 CtrlB Amount 2</string>
+		<string>430 CtrlB Mode2</string>
+		<string>598 MorphControl Pad</string>
+		<string>599 MorphControl Env</string>
+		<string>600 MorphControl Pad Mode</string>
+		<string>601 Env1 Ctrl</string>
+		<string>602 Env1 Env</string>
+		<string>603 Env2 Ctrl</string>
+		<string>604 Env2 Env</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>444 MorphPnt 0 String InnerLoss$Material</string>
+		<string>443 MorphPnt 0 String Stiffness$Stiffness</string>
+		<string>445 MorphPnt 0 MediaLoss$Media Loss</string>
+		<string>35 String Resolution$Resolution</string>
+		<string>446 MorphPnt 0 String TensMod$Tension Mod</string>
+		<string>58 Object1 Type$Object 1</string>
+		<string>70 Object2 Type$Object 2</string>
+		<string>82 Object3 Type$Object 3</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Semitones</string>
+		<string>2 Cents</string>
+		<string>3 Timing Precision</string>
+		<string>4 Timing</string>
+		<string>5 Delay</string>
+		<string>6 Crossfade</string>
+		<string>7 Stereo Link</string>
+		<string>0 Mix</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>1 Semitones</string>
+		<string>2 Cents</string>
+		<string>4 Timing</string>
+		<string>0 Mix</string>
+		<string>3 Timing Precision</string>
+		<string>5 Delay</string>
+		<string>6 Crossfade</string>
+		<string>BYPASS$BYPASS</string>
+		<string>7 Stereo Link</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>3 Type</string>
+		<string>1 Semitones</string>
+		<string>0 Mix</string>
+	</array>
+</dict>
+</plist>

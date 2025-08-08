@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>105 Volume</string>
+		<string>9 Drawbars</string>
+		<string>131 Percussion Level</string>
+		<string>50 Percussion Time</string>
+		<string>94 Click</string>
+		<string>66 Distortion</string>
+		<string>75 Rotary Speaker</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>9 Drawbars</string>
+		<string>131 Percussion Level</string>
+		<string>50 Percussion Time</string>
+		<string>94 Click</string>
+		<string>66 Distortion</string>
+		<string>75 Rotary Speaker</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>3 Ratio Low</string>
+		<string>6 Center Low</string>
+		<string>7 Bandwidth Low</string>
+		<string>2 Ratio High</string>
+		<string>4 Center High</string>
+		<string>5 Bandwidth High</string>
+		<string>1 Freq. Mix</string>
+		<string>8 Wet</string>
+		<string>0 Dry</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>3 Ratio Low</string>
+		<string>6 Center Low</string>
+		<string>2 Ratio High</string>
+		<string>4 Center High</string>
+		<string>7 Bandwidth Low</string>
+		<string>5 Bandwidth High</string>
+		<string>8 Wet</string>
+		<string>0 Dry</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>8 Wet</string>
+		<string>0 Dry</string>
+	</array>
+</dict>
+</plist>

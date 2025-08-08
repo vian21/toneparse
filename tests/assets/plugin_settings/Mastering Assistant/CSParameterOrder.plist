@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>10 Character</string>
+		<string>29 Loudness</string>
+		<string>27 Excite</string>
+		<string>25 Width</string>
+		<string>26 Auto EQ</string>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+		<string>14 Custom EQ</string>
+		<string>16 Low Freq</string>
+		<string>17 Low Gain</string>
+		<string>18 Mid Freq</string>
+		<string>19 Mid Gain</string>
+		<string>20 High Freq</string>
+		<string>21 High Gain</string>
+		<string>0</string>
+		<string>103 Start/Pause</string>
+		<string>104 Reset</string>
+		<string>4 Bypass</string>
+		<string>1 ReAnalyze</string>
+		<string>5 Loudness Compensation</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>2 Cutoff</string>
+		<string>3 Resonance</string>
+		<string>20 ADSR-&gt;Cutoff Modulation</string>
+		<string>12 LFO-&gt;Cutoff Modulation</string>
+		<string>0 Input Distortion</string>
+		<string>1 Output Distortion</string>
+		<string>27 Dry Signal</string>
+		<string>22 Main Out</string>
+		<string>4 Fatness</string>
+		<string>5 Filter Mode</string>
+		<string>6 LFO Rate Coarse</string>
+		<string>7 LFO Rate Fine</string>
+		<string>8 Rate Modulation</string>
+		<string>9 Stereophase</string>
+		<string>10 Waveform</string>
+		<string>11 Pulsewidth</string>
+		<string>13 Retrigger</string>
+		<string>14 LFO Delay (Legacy)</string>
+		<string>15 Threshold</string>
+		<string>16 Attack</string>
+		<string>17 Decay</string>
+		<string>18 Sustain</string>
+		<string>19 Release</string>
+		<string>21 Env-&gt;ADSR Modulation</string>
+		<string>23 Region Gate</string>
+		<string>24 Beat Sync.</string>
+		<string>25 Rate</string>
+		<string>26 Sync Phase</string>
+		<string>29 LFO Decay/Delay</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>2 Cutoff</string>
+		<string>3 Resonance</string>
+		<string>20 ADSR-&gt;Cutoff Modulation</string>
+		<string>12 LFO-&gt;Cutoff Modulation</string>
+		<string>4 Fatness</string>
+		<string>25 Rate</string>
+		<string>16 Attack</string>
+		<string>17 Decay</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>2 Cutoff</string>
+		<string>3 Resonance</string>
+		<string>12 Intensity</string>
+		<string>10 Waveform</string>
+		<string>25 Rate</string>
+	</array>
+</dict>
+</plist>

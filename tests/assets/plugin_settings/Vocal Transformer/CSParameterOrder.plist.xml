@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>0 Pitch</string>
+		<string>9 Fine Pitch</string>
+		<string>6 Glide</string>
+		<string>3 Robotize</string>
+		<string>4 PitchBase</string>
+		<string>5 PitchTracking</string>
+		<string>1 Formant</string>
+		<string>2 Mix</string>
+		<string>7 Grain Size</string>
+		<string>8 Formants</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>0 Pitch</string>
+		<string>1 Formant</string>
+		<string>6 Glide</string>
+		<string>2 Mix</string>
+		<string>9 Fine Pitch</string>
+		<string>3 Robotize</string>
+		<string>4 PitchBase</string>
+		<string>5 PitchTracking</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>0 Pitch</string>
+		<string>1 Formant</string>
+	</array>
+</dict>
+</plist>

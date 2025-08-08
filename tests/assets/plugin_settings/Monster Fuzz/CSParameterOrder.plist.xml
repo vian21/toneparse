@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<real>1</real>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>1 Roar</string>
+		<string>2 Growl</string>
+		<string>3 Tone</string>
+		<string>4 Texture</string>
+		<string>5 Grain</string>
+		<string>6 Level</string>
+	</array>
+</dict>
+</plist>

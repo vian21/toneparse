@@ -107,12 +107,11 @@ function log_md_logic_pro(preset: LogicProPreset) {
         const divider = "-".repeat(tableWidth + 4)
         console.log(divider)
 
-        console.log(
-            createCenteredCell(
-                `${audio_unit.name})`,
-                tableWidth
-            )
-        )
+        const title =
+            audio_unit.name && audio_unit.name.trim().length > 0
+                ? audio_unit.name
+                : "Unknown Unit"
+        console.log(createCenteredCell(title, tableWidth))
         console.log(divider)
 
         const entries = Object.entries(audio_unit.parameters)

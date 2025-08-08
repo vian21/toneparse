@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>2 Low Cut Slope</string>
+		<string>6 Low Shelf Gain</string>
+		<string>10 Peak 1 Gain</string>
+		<string>14 Peak 2 Gain</string>
+		<string>18 Peak 3 Gain</string>
+		<string>22 Peak 4 Gain</string>
+		<string>26 High Shelf Gain</string>
+		<string>30 High Cut Slope</string>
+		<string>1 Low Cut Frequency</string>
+		<string>5 Low Shelf Frequency</string>
+		<string>9 Peak 1 Frequency</string>
+		<string>13 Peak 2 Frequency</string>
+		<string>17 Peak 3 Frequency</string>
+		<string>21 Peak 4 Frequency</string>
+		<string>25 High Shelf Frequency</string>
+		<string>29 High Cut Frequency</string>
+		<string>3 Low Cut Q-Factor</string>
+		<string>7 Low Shelf Q-Factor</string>
+		<string>11 Peak 1 Q-Factor</string>
+		<string>15 Peak 2 Q-Factor</string>
+		<string>19 Peak 3 Q-Factor</string>
+		<string>23 Peak 4 Q-Factor</string>
+		<string>27 High Shelf Q-Factor</string>
+		<string>31 High Cut Q-Factor</string>
+		<string>0 Low Cut On/Off</string>
+		<string>4 Low Shelf On/Off</string>
+		<string>8 Peak 1 On/Off</string>
+		<string>12 Peak 2 On/Off</string>
+		<string>16 Peak 3 On/Off</string>
+		<string>20 Peak 4 On/Off</string>
+		<string>24 High Shelf On/Off</string>
+		<string>28 High Cut On/Off</string>
+		<string>33 Analyzer On/Off</string>
+		<string>39 Analyzer Mode</string>
+		<string>40 Analyzer Decay</string>
+		<string>38 Analyzer Position</string>
+		<string>34 Analyzer Resolution</string>
+		<string>35 Analyzer Top</string>
+		<string>36 dB Warp</string>
+		<string>41 Gain-Q coupling</string>
+		<string>42 Gain-Q Couple Strength</string>
+		<string>32 Master  Gain</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>14 Peak 2 Gain</string>
+		<string>13 Peak 2 Frequency</string>
+		<string>18 Peak 3 Gain</string>
+		<string>17 Peak 3 Frequency</string>
+		<string>6 Low Shelf Gain</string>
+		<string>5 Low Shelf Frequency</string>
+		<string>26 High Shelf Gain</string>
+		<string>25 High Shelf Frequency</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

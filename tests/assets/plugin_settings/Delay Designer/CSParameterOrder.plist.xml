@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>8 Dry</string>
+		<string>9 Wet</string>
+		<string>5 Feedback Enable</string>
+		<string>7 Feedback Amount</string>
+		<string>6 Feedback Tap</string>
+		<string>2 Sync To Tempo</string>
+		<string>3 Grid</string>
+		<string>4 Swing</string>
+		<string>0 Tap Record</string>
+		<string>1 Last Tap</string>
+		<string>22 Tap By Time</string>
+		<string>21 Tap By Name</string>
+		<string>675 Tap Time</string>
+		<string>677 Tap Level</string>
+		<string>678 Tap Mute</string>
+		<string>679 Pan Amount</string>
+		<string>680 Pan Stereo Spread</string>
+		<string>686 Pan Flip Left/Right</string>
+		<string>690 Filter Enable</string>
+		<string>688 Filter HighPass Freq</string>
+		<string>689 Filter LowPass Freq</string>
+		<string>691 Filter Resonance</string>
+		<string>692 Filter Slope</string>
+		<string>693 Pitch Transpose</string>
+		<string>694 Pitch Enable</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>8 Dry</string>
+		<string>9 Wet</string>
+		<string>5 Feedback Enable</string>
+		<string>7 Feedback Amount</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>675 Tap Time</string>
+		<string>7 Feedback Amount</string>
+		<string>8 Dry</string>
+		<string>9 Wet</string>
+		<string>16 Tap By Time</string>
+		<string>677 Tap Level</string>
+		<string>6 Feedback Tap</string>
+		<string>693 Pitch Transpose</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+</dict>
+</plist>

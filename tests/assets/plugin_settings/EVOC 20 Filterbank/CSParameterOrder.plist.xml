@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>26 Formant Shift</string>
+		<string>27 Resonance</string>
+		<string>24 Low Frequency</string>
+		<string>25 High Frequency</string>
+		<string>20 BoostA</string>
+		<string>52 BoostB</string>
+		<string>53 Level A&lt;&gt;B</string>
+		<string>60 Output Level</string>
+		<string>31 LFO -&gt; Formant</string>
+		<string>29 LFO1 Rate</string>
+		<string>30 LFO Waveform</string>
+		<string>58 LFO Waveform</string>
+		<string>57 LFO2 Rate</string>
+		<string>59 LFO -&gt; Xfade</string>
+		<string>23 Stereo Mode</string>
+		<string>22 Stereo</string>
+		<string>55 LowBand Mode</string>
+		<string>56 HiBand Mode</string>
+		<string>28 Slope</string>
+		<string>54 Distortion</string>
+		<string>21 Bands</string>
+		<string>0 Level  1 A</string>
+		<string>1 Level  2 A</string>
+		<string>2 Level  3 A</string>
+		<string>3 Level  4 A</string>
+		<string>4 Level  5 A</string>
+		<string>5 Level  6 A</string>
+		<string>6 Level  7 A</string>
+		<string>7 Level  8 A</string>
+		<string>8 Level  9 A</string>
+		<string>9 Level 10 A</string>
+		<string>10 Level 11 A</string>
+		<string>11 Level 12 A</string>
+		<string>12 Level 13 A</string>
+		<string>13 Level 14 A</string>
+		<string>14 Level 15 A</string>
+		<string>15 Level 16 A</string>
+		<string>16 Level 17 A</string>
+		<string>17 Level 18 A</string>
+		<string>18 Level 19 A</string>
+		<string>19 Level 20 A</string>
+		<string>32 Level  1 B</string>
+		<string>33 Level  2 B</string>
+		<string>34 Level  3 B</string>
+		<string>35 Level  4 B</string>
+		<string>36 Level  5 B</string>
+		<string>37 Level  6 B</string>
+		<string>38 Level  7 B</string>
+		<string>39 Level  8 B</string>
+		<string>40 Level  9 B</string>
+		<string>41 Level 10 B</string>
+		<string>42 Level 11 B</string>
+		<string>43 Level 12 B</string>
+		<string>44 Level 13 B</string>
+		<string>45 Level 14 B</string>
+		<string>46 Level 15 B</string>
+		<string>47 Level 16 B</string>
+		<string>48 Level 17 B</string>
+		<string>49 Level 18 B</string>
+		<string>50 Level 19 B</string>
+		<string>51 Level 20 B</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>26 Formant Shift</string>
+		<string>27 Resonance</string>
+		<string>24 Low Frequency</string>
+		<string>25 High Frequency</string>
+		<string>20 BoostA</string>
+		<string>52 BoostB</string>
+		<string>53 Level A&lt;&gt;B</string>
+		<string>60 Output Level</string>
+		<string>31 LFO -&gt; Formant</string>
+		<string>29 LFO1 Rate</string>
+		<string>BYPASS$BYPASS</string>
+	</array>
+	<key>GBControlsViewParameterOrder</key>
+	<array>
+		<string>26 Formant Shift</string>
+		<string>27 Resonance</string>
+		<string>24 Low Frequency</string>
+		<string>25 High Frequency</string>
+		<string>60 Output Level</string>
+	</array>
+</dict>
+</plist>

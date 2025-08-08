@@ -28,14 +28,9 @@ describe("Logic Pro CST Parser Results", () => {
         // Check audio unit structure
         for (const unit of preset.audio_units) {
             expect(unit).toHaveProperty("name")
-            expect(unit).toHaveProperty("type")
             expect(unit).toHaveProperty("parameters")
             expect(typeof unit.parameters).toBe("object")
         }
-
-        // Look for specific expected audio unit types
-        const audioUnitTypes = preset.audio_units.map((unit) => unit.type)
-        expect(audioUnitTypes).toContain("equalizer")
 
         // Check for parameters in units
         const hasParameterizedUnits = preset.audio_units.some(

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>9 High Pass On</string>
+		<string>5 Low Cut</string>
+		<string>8 Low Frequency On</string>
+		<string>3 Low Gain</string>
+		<string>4 Low Freq</string>
+		<string>7 Mid Frequency On</string>
+		<string>1 Mid Gain</string>
+		<string>2 Mid Freq</string>
+		<string>6 High Frequency On</string>
+		<string>0 High Gain</string>
+		<string>13 EQ</string>
+		<string>12 Drive</string>
+		<string>11 Output Mode</string>
+		<string>10 Phase</string>
+		<string>14 Volume</string>
+	</array>
+	<key>Version</key>
+	<real>1</real>
+</dict>
+</plist>

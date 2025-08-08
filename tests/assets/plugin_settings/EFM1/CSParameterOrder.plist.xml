@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>18 Modulator Harmonic</string>
+		<string>19 Modulator Fine</string>
+		<string>20 Modulator Wave</string>
+		<string>12 Carrier FM Intensity</string>
+		<string>34 Mod Env FM Amount</string>
+		<string>15 Carrier Fixed Freq</string>
+		<string>11 Carrier Fine</string>
+		<string>10 Carrier Harmonic</string>
+		<string>29 Mod Env Attack</string>
+		<string>31 Mod Env Decay</string>
+		<string>32 Mod Env Sustain</string>
+		<string>33 Mod Env Release</string>
+		<string>40 Volume Env Attack</string>
+		<string>42 Volume Env Decay</string>
+		<string>43 Volume Env Sustain</string>
+		<string>44 Volume Env Release</string>
+		<string>48 LFO Rate</string>
+		<string>53 LFO Amount</string>
+		<string>35 Mod Env Modulator Pitch Amount</string>
+		<string>2 Unison</string>
+		<string>24 Sub Osc Level</string>
+		<string>13 Carrier Stereo Detune</string>
+		<string>6 Velocity Sensivity</string>
+		<string>5 Main Level</string>
+		<string>58 Randomize Trigger</string>
+		<string>57 Randomize Intensity</string>
+		<string>3 Transpose</string>
+		<string>4 Tune</string>
+		<string>1 Voices</string>
+		<string>8 Glide</string>
+		<string>63 Ctrl FM Amount</string>
+		<string>65 Ctrl Vibrato Amount</string>
+		<string>62 Ctrl FM</string>
+		<string>64 Ctrl Vibrato</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>18 Modulator Harmonic</string>
+		<string>20 Modulator Wave</string>
+		<string>12 Carrier FM Intensity</string>
+		<string>10 Carrier Harmonic</string>
+		<string>34 Mod Env FM Amount</string>
+		<string>29 Mod Env Attack</string>
+		<string>31 Mod Env Decay</string>
+		<string>32 Mod Env Sustain</string>
+		<string>33 Mod Env Release</string>
+		<string>48 LFO Rate</string>
+		<string>53 LFO Amount</string>
+		<string>40 Volume Env Attack</string>
+		<string>42 Volume Env Decay</string>
+		<string>43 Volume Env Sustain</string>
+		<string>44 Volume Env Release</string>
+		<string>35 Mod Env Modulator Pitch Amount</string>
+		<string>5 Main Level</string>
+	</array>
+</dict>
+</plist>

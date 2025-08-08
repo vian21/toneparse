@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>5 Formant Shift</string>
+		<string>11 Resonance</string>
+		<string>3 Low Frequency</string>
+		<string>4 High Frequency</string>
+		<string>23 FM intensity</string>
+		<string>22 Osc. Ratio</string>
+		<string>15 Attack</string>
+		<string>16 Release</string>
+		<string>0 Analysis In</string>
+		<string>1 Synthesis In</string>
+		<string>2 Bands</string>
+		<string>6 LFO Rate</string>
+		<string>7 LFO Waveform</string>
+		<string>8 LFO -&gt; Formant</string>
+		<string>9 TO Vibrato</string>
+		<string>10 Formant Stretch</string>
+		<string>12 LowBand Mode</string>
+		<string>13 HiBand Mode</string>
+		<string>14 Freeze</string>
+		<string>17 Stereo</string>
+		<string>18 U/V Source</string>
+		<string>19 U/V Sensivity</string>
+		<string>20 U/V Level</string>
+		<string>21 Osc. Pitch</string>
+		<string>24 Max. Frequency</string>
+		<string>25 Glide</string>
+		<string>26 Qtz. Strength</string>
+		<string>27 Quantize C</string>
+		<string>28 Quantize Cis</string>
+		<string>29 Quantize D</string>
+		<string>30 Quantize Dis</string>
+		<string>31 Quantize E</string>
+		<string>32 Quantize F</string>
+		<string>33 Quantize Fis</string>
+		<string>34 Quantize G</string>
+		<string>35 Quantize Gis</string>
+		<string>36 Quantize A</string>
+		<string>37 Quantize Ais</string>
+		<string>38 Quantize B</string>
+		<string>39 Root Note</string>
+		<string>40 Scale/Chord Type</string>
+		<string>41 Tune</string>
+		<string>42 Out</string>
+		<string>43 Output Level</string>
+		<string>44 Stereo Mode</string>
+		<string>45 Track Mode</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>5 Formant Shift</string>
+		<string>11 Resonance</string>
+		<string>3 Low Frequency</string>
+		<string>4 High Frequency</string>
+		<string>23 FM intensity</string>
+		<string>22 Osc. Ratio</string>
+		<string>15 Attack</string>
+		<string>16 Release</string>
+		<string>0 Analysis In</string>
+		<string>1 Synthesis In</string>
+		<string>2 Bands</string>
+		<string>6 LFO Rate</string>
+		<string>7 LFO Waveform</string>
+		<string>8 LFO -&gt; Formant</string>
+		<string>9 TO Vibrato</string>
+		<string>10 Formant Stretch</string>
+		<string>12 LowBand Mode</string>
+		<string>13 HiBand Mode</string>
+		<string>14 Freeze</string>
+		<string>17 Stereo</string>
+		<string>18 U/V Source</string>
+		<string>19 U/V Sensivity</string>
+		<string>20 U/V Level</string>
+		<string>21 Osc. Pitch</string>
+		<string>24 Max. Frequency</string>
+		<string>25 Glide</string>
+		<string>26 Qtz. Strength</string>
+		<string>27 Quantize C</string>
+		<string>28 Quantize Cis</string>
+		<string>29 Quantize D</string>
+		<string>30 Quantize Dis</string>
+		<string>31 Quantize E</string>
+		<string>32 Quantize F</string>
+		<string>33 Quantize Fis</string>
+		<string>34 Quantize G</string>
+		<string>35 Quantize Gis</string>
+		<string>36 Quantize A</string>
+		<string>37 Quantize Ais</string>
+		<string>38 Quantize B</string>
+		<string>39 Root Note</string>
+		<string>40 Scale/Chord Type</string>
+		<string>41 Tune</string>
+		<string>42 Out</string>
+		<string>43 Output Level</string>
+		<string>44 Stereo Mode</string>
+		<string>45 Track Mode</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ControlSurfaceParameterOrder</key>
+	<array>
+		<string>11 1 UM 16'</string>
+		<string>12 2 UM 5⅓'</string>
+		<string>13 3 UM 8'</string>
+		<string>14 4 UM 4'</string>
+		<string>15 5 UM 2⅔'</string>
+		<string>16 6 UM 2'</string>
+		<string>18 8 UM 1⅓'</string>
+		<string>19 9 UM 1'</string>
+		<string>21 1 LM 16'</string>
+		<string>22 2 LM 5⅓'</string>
+		<string>23 3 LM 8'</string>
+		<string>24 4 LM 4'</string>
+		<string>25 5 LM 2⅔'</string>
+		<string>26 6 LM 2'</string>
+		<string>28 8 LM 1⅓'</string>
+		<string>29 9 LM 1'</string>
+		<string>31 1 Pedal 16'</string>
+		<string>32 2 Pedal 8'</string>
+		<string>75 Rotor Speed</string>
+		<string>35 Vibrato Upper</string>
+		<string>36 Vibrato Lower</string>
+		<string>37 Vibrato</string>
+		<string>154 Distortion</string>
+		<string>66 Dist Drive</string>
+		<string>67 Dist Tone</string>
+		<string>65 Dist Type</string>
+		<string>39 Vibrato Rate</string>
+		<string>38 Chorus Int</string>
+		<string>46 Percussion</string>
+		<string>149 Perc Volume</string>
+		<string>146 Perc Decay</string>
+		<string>49 Perc. Harmonic</string>
+		<string>17 7 UM 1⅗'</string>
+		<string>27 7 LM 1⅗'</string>
+		<string>1 UM Cancel</string>
+		<string>2 UM Preset</string>
+		<string>3 LM Cancel</string>
+		<string>4 Note</string>
+		<string>5 Morph Range</string>
+		<string>6 Morph #CC</string>
+		<string>7 Morph Mode</string>
+		<string>8 Save Morph To</string>
+		<string>9 Morph</string>
+		<string>33 Bass Filter</string>
+		<string>41 UM Sustain</string>
+		<string>42 LM Sustain</string>
+		<string>43 Pedal Sustain</string>
+		<string>44 Sustain Mode</string>
+		<string>47 Percussion Mode</string>
+		<string>48 UpperLevel</string>
+		<string>50 Perc Time</string>
+		<string>51 Perc Volume</string>
+		<string>52 Perc Velocity</string>
+		<string>54 EQ Low</string>
+		<string>55 EQ Mid</string>
+		<string>56 EQ High</string>
+		<string>57 EQ Level</string>
+		<string>59 Wah Mode</string>
+		<string>60 Wah Range</string>
+		<string>61 Bite</string>
+		<string>62 Wah #CC</string>
+		<string>63 Wah Pedal Angle</string>
+		<string>69 FX Chain</string>
+		<string>70 Effect Bypass</string>
+		<string>71 Reverb</string>
+		<string>72 Reverb Mode</string>
+		<string>74 Cabinet</string>
+		<string>76 SpeedControl</string>
+		<string>77 Rotor Fast Rate</string>
+		<string>78 Acc/Dec Scale</string>
+		<string>79 Horn Deflector</string>
+		<string>80 Mic Distance</string>
+		<string>81 Mic Angle</string>
+		<string>82 Motor Control</string>
+		<string>84 Drawbar Leak</string>
+		<string>85 Leakage</string>
+		<string>86 Crosstalk</string>
+		<string>87 Tonal Balance</string>
+		<string>88 Filter Age</string>
+		<string>89 Upper stretch</string>
+		<string>90 Lower stretch</string>
+		<string>91 Warmth</string>
+		<string>92 Shape</string>
+		<string>93 RandomFM</string>
+		<string>94 Click On</string>
+		<string>95 Click Off</string>
+		<string>96 Click Min</string>
+		<string>97 Click Max</string>
+		<string>98 Click Color</string>
+		<string>99 Pedal Click</string>
+		<string>101 Basic/Upper Midi Ch</string>
+		<string>102 Tune</string>
+		<string>103 max. Wheels</string>
+		<string>104 Expression</string>
+		<string>105 Volume</string>
+		<string>106 Lower Volume</string>
+		<string>107 Pedal Volume</string>
+		<string>108 Pitchbend Up</string>
+		<string>109 Pitchbend Down</string>
+		<string>110 Ultra Bass</string>
+		<string>111 MIDI Mode</string>
+		<string>118 Keyboard Mode</string>
+		<string>119 Set Ped/LM Split</string>
+		<string>120 Set LM/UM Split</string>
+		<string>121 Split Point Pd/LM</string>
+		<string>122 Split Point LM/UM</string>
+		<string>123 Transpose UM</string>
+		<string>124 Transpose LM</string>
+		<string>125 Transpose Pedal</string>
+		<string>126 MIDI to Presetkeys</string>
+		<string>128 Rotor Cabinet</string>
+		<string>129 Dry Level</string>
+		<string>130 Brake</string>
+		<string>132 Horn Brake Pos</string>
+		<string>133 Drum Brake Pos</string>
+		<string>134 Reverb</string>
+		<string>135 Velo to Click</string>
+		<string>136 Bass</string>
+		<string>137 Drawbar affects</string>
+		<string>138 Percussion Polyphonic</string>
+		<string>140 Mic Position</string>
+		<string>141 Horn Mic</string>
+		<string>142 Horn Stereo Width</string>
+		<string>143 Drum Mic</string>
+		<string>144 Drum Stereo Width</string>
+		<string>145 Balance</string>
+		<string>147 Perc Fast</string>
+		<string>148 Perc Slow</string>
+		<string>150 Perc Soft</string>
+		<string>151 Perc Normal</string>
+		<string>152 Master FX</string>
+		<string>153 Equalizer</string>
+		<string>155 Reverb</string>
+		<string>156 Wah Wah</string>
+		<string>157 Lower Midi Ch</string>
+		<string>158 Pedal Midi Ch</string>
+	</array>
+	<key>SmartControlsParameterOrder</key>
+	<array>
+		<string>66 Dist Drive$Distortion</string>
+		<string>75 Rotor Speed</string>
+		<string>37 Vibrato</string>
+		<string>39 Vibrato Rate</string>
+		<string>9 Morph</string>
+		<string>71 Reverb</string>
+		<string>74 Cabinet</string>
+		<string>80 Mic Distance</string>
+		<string>11 1 UM 16'</string>
+		<string>12 2 UM 5⅓'</string>
+		<string>13 3 UM 8'</string>
+		<string>14 4 UM 4'</string>
+		<string>15 5 UM 2⅔'</string>
+		<string>16 6 UM 2'</string>
+		<string>18 8 UM 1⅓'</string>
+		<string>19 9 UM 1'</string>
+		<string>21 1 LM 16'</string>
+		<string>22 2 LM 5⅓'</string>
+		<string>23 3 LM 8'</string>
+		<string>24 4 LM 4'</string>
+		<string>25 5 LM 2⅔'</string>
+		<string>26 6 LM 2'</string>
+		<string>28 8 LM 1⅓'</string>
+		<string>29 9 LM 1'</string>
+		<string>31 1 Pedal 16'</string>
+		<string>32 2 Pedal 8'</string>
+		<string>35 Vibrato Upper$Chorus</string>
+		<string>36 Vibrato Lower</string>
+		<string>154 Distortion</string>
+		<string>67 Dist Tone</string>
+		<string>65 Dist Type</string>
+		<string>38 Chorus Int</string>
+		<string>46 Percussion</string>
+		<string>149 Perc Volume</string>
+		<string>146 Perc Decay</string>
+		<string>49 Perc. Harmonic</string>
+		<string>17 7 UM 1⅗'</string>
+		<string>27 7 LM 1⅗'</string>
+		<string>1 UM Cancel</string>
+		<string>2 UM Preset</string>
+		<string>3 LM Cancel</string>
+		<string>4 Note</string>
+		<string>5 Morph Range</string>
+		<string>6 Morph #CC</string>
+		<string>7 Morph Mode</string>
+		<string>8 Save Morph To</string>
+		<string>33 Bass Filter</string>
+		<string>41 UM Sustain</string>
+		<string>42 LM Sustain</string>
+		<string>43 Pedal Sustain</string>
+		<string>44 Sustain Mode</string>
+		<string>47 Percussion Mode</string>
+		<string>48 UpperLevel</string>
+		<string>50 Perc Time</string>
+		<string>51 Perc Volume</string>
+		<string>52 Perc Velocity</string>
+		<string>54 EQ Low</string>
+		<string>55 EQ Mid</string>
+		<string>56 EQ High</string>
+		<string>57 EQ Level</string>
+		<string>59 Wah Mode</string>
+		<string>60 Wah Range</string>
+		<string>61 Bite</string>
+		<string>62 Wah #CC</string>
+		<string>63 Wah Pedal Angle</string>
+		<string>69 FX Chain</string>
+		<string>70 Effect Bypass</string>
+		<string>72 Reverb Mode</string>
+		<string>76 SpeedControl</string>
+		<string>77 Rotor Fast Rate</string>
+		<string>78 Acc/Dec Scale</string>
+		<string>79 Horn Deflector</string>
+		<string>81 Mic Angle</string>
+		<string>82 Motor Control</string>
+		<string>84 Drawbar Leak</string>
+		<string>85 Leakage</string>
+		<string>86 Crosstalk</string>
+		<string>87 Tonal Balance</string>
+		<string>88 Filter Age</string>
+		<string>89 Upper stretch</string>
+		<string>90 Lower stretch</string>
+		<string>91 Warmth</string>
+		<string>92 Shape</string>
+		<string>93 RandomFM</string>
+		<string>94 Click On$Click</string>
+		<string>95 Click Off</string>
+		<string>96 Click Min</string>
+		<string>97 Click Max</string>
+		<string>98 Click Color</string>
+		<string>99 Pedal Click</string>
+		<string>101 Basic/Upper Midi Ch</string>
+		<string>102 Tune</string>
+		<string>103 max. Wheels</string>
+		<string>104 Expression</string>
+		<string>105 Volume</string>
+		<string>106 Lower Volume</string>
+		<string>107 Pedal Volume</string>
+		<string>108 Pitchbend Up</string>
+		<string>109 Pitchbend Down</string>
+		<string>110 Ultra Bass</string>
+		<string>111 MIDI Mode</string>
+		<string>118 Keyboard Mode</string>
+		<string>119 Set Ped/LM Split</string>
+		<string>120 Set LM/UM Split</string>
+		<string>121 Split Point Pd/LM</string>
+		<string>122 Split Point LM/UM</string>
+		<string>123 Transpose UM</string>
+		<string>124 Transpose LM</string>
+		<string>125 Transpose Pedal</string>
+		<string>126 MIDI to Presetkeys</string>
+		<string>128 Rotor Cabinet</string>
+		<string>129 Dry Level</string>
+		<string>130 Brake</string>
+		<string>132 Horn Brake Pos</string>
+		<string>133 Drum Brake Pos</string>
+		<string>134 Reverb</string>
+		<string>135 Velo to Click</string>
+		<string>136 Bass</string>
+		<string>137 Drawbar affects</string>
+		<string>138 Percussion Polyphonic</string>
+		<string>140 Mic Position</string>
+		<string>141 Horn Mic</string>
+		<string>142 Horn Stereo Width</string>
+		<string>143 Drum Mic</string>
+		<string>144 Drum Stereo Width</string>
+		<string>145 Balance</string>
+		<string>147 Perc Fast</string>
+		<string>148 Perc Slow</string>
+		<string>150 Perc Soft</string>
+		<string>151 Perc Normal</string>
+		<string>152 Master FX</string>
+		<string>153 Equalizer</string>
+		<string>155 Reverb</string>
+		<string>156 Wah Wah</string>
+		<string>157 Lower Midi Ch</string>
+		<string>158 Pedal Midi Ch</string>
+	</array>
+</dict>
+</plist>

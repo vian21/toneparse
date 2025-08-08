@@ -11,22 +11,6 @@ interface NeuralDSPModule {
     settings: Record<string, string | null>
 }
 
-interface Amp {
-    name: string
-    settings: {
-        name: string
-        value: number
-    }
-}
-
-interface Pedal {
-    name: string
-    settings: {
-        name: string
-        value: number
-    }
-}
-
 interface LogicProPreset extends Preset {
     audio_units: LogicProAudioUnit[]
     channel_name: string
@@ -34,7 +18,5 @@ interface LogicProPreset extends Preset {
 
 interface LogicProAudioUnit {
     name: string
-    type: string
     parameters: Record<string, number | string>
-    metadata?: Record<string, any>
 }

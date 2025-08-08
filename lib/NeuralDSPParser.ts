@@ -1,13 +1,6 @@
 import { BaseParser } from "./BaseParser"
-import ASCII from "./ascii"
 
 export class NeuralDSPParser extends BaseParser {
-    private pointer: number
-    constructor(buffer: Buffer) {
-        super(buffer)
-        this.pointer = 0 // Initialize pointer to point at start of every string
-    }
-
     parse() {
         const preset: NeuralDSPPreset = { name: "", modules: [] }
 
@@ -26,10 +19,11 @@ export class NeuralDSPParser extends BaseParser {
 
             // Handle legacy formats
             // Legacy formats have only one module with all settings and presets
-            if (key.includes("PARAM") && module.name == "") {
+            if (key.includes("PARAM")) {
                 module.name = "LEGACY FORMAT: Settings"
                 // delegate remaining parsing work to legacy parser and break
                 module.settings = this.parse_legacy_format()
+
                 preset.modules.push(module)
                 break
             }
@@ -59,37 +53,22 @@ export class NeuralDSPParser extends BaseParser {
                 }
 
                 module = {
-                    name: value.toString(),
+                    name: value.toString(), // subModels name
                     settings: {},
                 }
                 continue
             }
 
-            module.settings[key] = value.toString()
+            module.settings[key] = value.toString() // normal key-value
         }
 
         return preset
     }
 
-    private read_until_print_char() {
-        while (
-            this.offset < this.buffer.length &&
-            this.buffer[this.offset]! < ASCII.PRINTABLE_CHAR_START
-        ) {
-            this.offset++
-        }
-
-        this.pointer = this.offset
-    }
-
-    private read_string() {
-        this.read_until(ASCII.NUL)
-        return this.buffer.subarray(this.pointer, this.offset).toString()
-    }
-
     private read_list_elements() {
         const END_MARKER = 0x000101
         let elements = []
+
         while (
             this.offset < this.buffer.length - 3 &&
             this.buffer.readUIntBE(this.offset + 1, 3) != END_MARKER
@@ -132,18 +111,20 @@ export class NeuralDSPParser extends BaseParser {
             this.read_until_print_char()
 
             key = this.read_string()
+
+            // id $key value $value
             if (key == "id") {
                 this.read_until_print_char()
-                tmp = this.read_string()
+                tmp = this.read_string() // store $key in tmp so we can reuse key variable to read "value" marker
                 continue
             }
 
             if (key == "value") {
                 value = this.read_legacy_value()
-
                 continue
             }
 
+            // Commit previously read PARAM $key-$value
             if (key == "PARAM") {
                 settings[tmp] = value
                 tmp = ""
@@ -185,7 +166,8 @@ export class NeuralDSPParser extends BaseParser {
 
         this.skip_nbytes(4, true) // padding
         const value = this.buffer.readDoubleLE(this.offset).toString()
-        this.skip_nbytes(8, true) // Value size
+        this.skip_nbytes(8, true) // sizeof(value)
+
         return value
     }
 }

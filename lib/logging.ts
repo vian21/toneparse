@@ -109,7 +109,7 @@ function log_md_logic_pro(preset: LogicProPreset) {
 
         console.log(
             createCenteredCell(
-                `${audio_unit.name} (${audio_unit.type})`,
+                `${audio_unit.name})`,
                 tableWidth
             )
         )

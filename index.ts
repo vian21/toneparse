@@ -74,7 +74,7 @@ function main() {
 
     const preset = parse_file(process.argv[2])
 
-    log_preset(preset, format)
+    // log_preset(preset, format)
 }
 
 main()

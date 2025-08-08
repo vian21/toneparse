@@ -44,7 +44,8 @@ plistutil -i data.plist -f xml -o decoded_data.plist.xml
     - Strings are null-terminated
     - some strings are inverted(keys)
     - `OCuA` -> AuCO`. File always start with this and has it at the end with some number 4.5
-    - ` Audio 1` always at offset 0x60?
+    - Data chuncks start wity UCua
+    - ` Audio 1` always at offset 0x61
 
 ### References
 

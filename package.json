@@ -9,10 +9,8 @@
     },
     "private": true,
     "scripts": {
-        "dev": "bun run --watch index.ts 'tests/assets/Arena Ready.patch'"
-    },
-    "type": "module",
-    "dependencies": {
-        "bplist-universal": "^1.1.0"
+        "dev": "bun run --watch index.ts 'tests/assets/Arena Ready.patch'",
+        "lint": "prettier -w .",
+        "build": "tsc -p tsconfig.build.json"
     }
 }

@@ -1,6 +1,7 @@
 import fs from "fs"
 import path from "path"
 import { test, expect, describe } from "bun:test"
+
 import { LogicProCSTParser } from "../lib/LogicProCSTParser"
 
 const assetsDir = path.join(import.meta.dir, "assets")

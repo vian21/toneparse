@@ -1,7 +1,8 @@
-import { BaseParser } from "./BaseParser"
-import parseBuffer from "bplist-universal"
 import * as fs from "fs"
 import * as path from "path"
+
+import { BaseParser } from "./BaseParser"
+import parseBuffer from "./bplistParser"
 
 interface CSTChunk {
     start: number
@@ -99,6 +100,10 @@ export class LogicProCSTParser extends BaseParser {
                     throw new Error("Couldn't parse plugin settings: " + e)
                 }
             }
+        } else {
+            throw new Error(
+                `Plugin Settings dir required for Logic Pro CST parameter name discovery: ${baseDir}`
+            )
         }
 
         this.PARAM_NAME_MAP = map

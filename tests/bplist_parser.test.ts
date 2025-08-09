@@ -1,7 +1,8 @@
 import fs from "fs"
 import path from "path"
 import { test, expect } from "bun:test"
-import parseBuffer from "bplist-universal"
+
+import parseBuffer from "../lib/bplistParser"
 
 const assetsDir = path.join(import.meta.dir, "assets")
 

@@ -1,11 +1,12 @@
 import fs from "fs"
 import path from "path"
 import { test, expect } from "bun:test"
+
 import { NeuralDSPParser } from "../lib/NeuralDSPParser"
 
 /*
  * This tests that each file can be parsed
- * Success: the parser halts gracefully
+ * Success: the parser returns and finishes gracefully
  * Error: the parser enters an infinite loop
  *
  */

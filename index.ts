@@ -1,9 +1,9 @@
-import fs from "fs"
-import path from "path"
+import * as fs from "fs"
+import * as path from "path"
 import { NeuralDSPParser } from "./lib/NeuralDSPParser"
 import { LogicProCSTParser } from "./lib/LogicProCSTParser"
 import { log_preset, LoggingFormat } from "./lib/logging"
-import parseBuffer from "bplist-universal"
+import parseBuffer from "./lib/bplistParser"
 
 function show_help(): never {
     console.log(

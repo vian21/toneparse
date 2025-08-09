@@ -290,11 +290,12 @@ export class LogicProCSTParser extends BaseParser {
             // Try each candidate with alignments and attempt both LE/BE decoding
             let bestScore = -1
             let bestValues: number[] | null = null
-            let bestEndian: 'le' | 'be' = 'le'
+            let bestEndian: "le" | "be" = "le"
             let bestStart = -1
             let bestAlign = -1
             for (const start of candidateParamStarts) {
-                for (let align = 0; align < 64; align++) { // broaden search window
+                for (let align = 0; align < 64; align++) {
+                    // broaden search window
                     const absStart = start + align
                     if (absStart >= chunk.end) break
                     const { le, be } = this.try_read_float_block_dual(
@@ -307,14 +308,14 @@ export class LogicProCSTParser extends BaseParser {
                     if (leScore > bestScore) {
                         bestScore = leScore
                         bestValues = le
-                        bestEndian = 'le'
+                        bestEndian = "le"
                         bestStart = absStart
                         bestAlign = align
                     }
                     if (beScore > bestScore) {
                         bestScore = beScore
                         bestValues = be
-                        bestEndian = 'be'
+                        bestEndian = "be"
                         bestStart = absStart
                         bestAlign = align
                     }
@@ -323,12 +324,15 @@ export class LogicProCSTParser extends BaseParser {
             if (bestValues && bestScore >= 0.2) {
                 if (process.env.TONEPARSE_DEBUG) {
                     const sliceLen = Math.min(bestValues.length * 4, 256)
-                    const rawSlice = this.buffer.subarray(bestStart, Math.min(bestStart + sliceLen, chunk.end))
+                    const rawSlice = this.buffer.subarray(
+                        bestStart,
+                        Math.min(bestStart + sliceLen, chunk.end)
+                    )
                     const hexWords = [] as string[]
                     for (let o = 0; o < rawSlice.length; o += 4) {
                         if (o + 4 > rawSlice.length) break
                         const w = rawSlice.subarray(o, o + 4)
-                        hexWords.push(w.toString('hex'))
+                        hexWords.push(w.toString("hex"))
                     }
                     // Big-endian uint32 interpretation
                     const beInts: number[] = []
@@ -342,29 +346,51 @@ export class LogicProCSTParser extends BaseParser {
                         const w = rawSlice.subarray(o, o + 4)
                         leInts.push(w.readUInt32LE(0))
                     }
-                    console.error("[DEBUG] Plugin=", pluginKey, "start=0x" + bestStart.toString(16), "align=", bestAlign, "endianChosen=", bestEndian, "score=", bestScore.toFixed(2))
-                    console.error("[DEBUG] RawWords(hex)=", hexWords.join(' '))
+                    console.error(
+                        "[DEBUG] Plugin=",
+                        pluginKey,
+                        "start=0x" + bestStart.toString(16),
+                        "align=",
+                        bestAlign,
+                        "endianChosen=",
+                        bestEndian,
+                        "score=",
+                        bestScore.toFixed(2)
+                    )
+                    console.error("[DEBUG] RawWords(hex)=", hexWords.join(" "))
                     console.error("[DEBUG] BE_U32=", beInts.slice(0, 64))
                     console.error("[DEBUG] LE_U32=", leInts.slice(0, 64))
-                    console.error("[DEBUG] FirstValues(interpret)=", bestValues.slice(0, 16))
+                    console.error(
+                        "[DEBUG] FirstValues(interpret)=",
+                        bestValues.slice(0, 16)
+                    )
 
                     if (process.env.TONEPARSE_DEBUG_DEEP) {
                         const wordInfo: any[] = []
                         for (let wi = 0; wi < beInts.length; wi++) {
-                            const raw = beInts[wi]
+                            const raw: number = beInts[wi]!
                             const b0 = (raw >>> 24) & 0xff
                             const b1 = (raw >>> 16) & 0xff
                             const b2 = (raw >>> 8) & 0xff
                             const b3 = raw & 0xff
-                            const nz = [b0, b1, b2, b3].filter(x => x !== 0).length
-                            let pattern = "";
+                            const nz = [b0, b1, b2, b3].filter(
+                                (x) => x !== 0
+                            ).length
+                            let pattern = ""
                             if (nz === 0) pattern = "ZERO"
                             else if (nz === 1) {
                                 if (b0) pattern = "HIGH_ONLY"
                                 else if (b1) pattern = "MID1_ONLY"
                                 else if (b2) pattern = "MID2_ONLY"
                                 else pattern = "LOW_ONLY"
-                            } else if (nz === 2 && b0 && b3 && b1 === 0 && b2 === 0) pattern = "COMPOSITE_HL"
+                            } else if (
+                                nz === 2 &&
+                                b0 &&
+                                b3 &&
+                                b1 === 0 &&
+                                b2 === 0
+                            )
+                                pattern = "COMPOSITE_HL"
                             else pattern = "MIXED"
 
                             // Candidate primary byte heuristic
@@ -372,54 +398,103 @@ export class LogicProCSTParser extends BaseParser {
                             if (pattern === "LOW_ONLY") primary = b3
                             else if (pattern === "MID1_ONLY") primary = b1
                             else if (pattern === "HIGH_ONLY") primary = b0
-                            else if (pattern === "COMPOSITE_HL") primary = b3 // value part
+                            else if (pattern === "COMPOSITE_HL")
+                                primary = b3 // value part
                             else if (pattern === "MIXED") {
                                 // choose largest non-zero byte as value candidate
-                                const candidates = [b0, b1, b2, b3].filter(x => x > 0)
-                                primary = candidates.length ? candidates[candidates.length - 1] : 0
+                                const candidates = [b0, b1, b2, b3].filter(
+                                    (x) => x > 0
+                                )
+                                primary = candidates.length
+                                    ? candidates[candidates.length - 1]!
+                                    : 0
                             }
                             wordInfo.push({
                                 idx: wi,
                                 hex: hexWords[wi],
                                 raw,
-                                b0, b1, b2, b3,
+                                b0,
+                                b1,
+                                b2,
+                                b3,
                                 pattern,
-                                primary
+                                primary,
                             })
                         }
-                        console.error("[DEBUG-DEEP] WordClassification=", JSON.stringify(wordInfo.slice(0, 64), null, 2))
+                        console.error(
+                            "[DEBUG-DEEP] WordClassification=",
+                            JSON.stringify(wordInfo.slice(0, 64), null, 2)
+                        )
 
                         // Attempt naive sequential mapping of primary bytes to parameter names
                         const defs = defsMap[pluginKey] || []
-                        const primarySequence = wordInfo.map(w => w.primary).filter(() => true)
+                        const primarySequence = wordInfo
+                            .map((w) => w.primary)
+                            .filter(() => true)
                         const previewMap: any[] = []
-                        for (let i = 0; i < defs.length && i < primarySequence.length; i++) {
-                            previewMap.push({ name: defs[i].name, primary: primarySequence[i] })
+                        for (
+                            let i = 0;
+                            i < defs.length && i < primarySequence.length;
+                            i++
+                        ) {
+                            previewMap.push({
+                                name: defs[i]!.name,
+                                primary: primarySequence[i],
+                            })
                         }
-                        console.error("[DEBUG-DEEP] NaiveParamPrimaryMap=", JSON.stringify(previewMap, null, 2))
+                        console.error(
+                            "[DEBUG-DEEP] NaiveParamPrimaryMap=",
+                            JSON.stringify(previewMap, null, 2)
+                        )
 
                         if (process.env.TONEPARSE_ANALYZE) {
                             // produce scaling candidates per parameter
                             const analyze: any[] = []
-                            const freqLog = (x:number)=>{const t=x/255;const minF=20;const maxF=20000;return +(minF*Math.pow(maxF/minF,t)).toFixed(2)}
-                            for (let i=0;i<previewMap.length;i++) {
+                            const freqLog = (x: number) => {
+                                const t = x / 255
+                                const minF = 20
+                                const maxF = 20000
+                                return +(
+                                    minF * Math.pow(maxF / minF, t)
+                                ).toFixed(2)
+                            }
+                            for (let i = 0; i < previewMap.length; i++) {
                                 const raw = previewMap[i].primary
                                 const name = previewMap[i].name
-                                if (raw===undefined) continue
-                                const cand:any = { name, raw }
-                                if (raw<=255) {
-                                    cand.percent127 = +((raw/127)*100).toFixed(2)
-                                    cand.percent255 = +((raw/255)*100).toFixed(2)
-                                    cand.dbThresh = +(-90 + (raw/255)*120).toFixed(2)
-                                    cand.dbGain48 = +(-24 + (raw/255)*48).toFixed(2)
-                                    cand.ms500 = +((raw/255)*500).toFixed(2)
-                                    cand.ms2000 = +((raw/255)*2000).toFixed(2)
+                                if (raw === undefined) continue
+                                const cand: any = { name, raw }
+                                if (raw <= 255) {
+                                    cand.percent127 = +(
+                                        (raw / 127) *
+                                        100
+                                    ).toFixed(2)
+                                    cand.percent255 = +(
+                                        (raw / 255) *
+                                        100
+                                    ).toFixed(2)
+                                    cand.dbThresh = +(
+                                        -90 +
+                                        (raw / 255) * 120
+                                    ).toFixed(2)
+                                    cand.dbGain48 = +(
+                                        -24 +
+                                        (raw / 255) * 48
+                                    ).toFixed(2)
+                                    cand.ms500 = +((raw / 255) * 500).toFixed(2)
+                                    cand.ms2000 = +((raw / 255) * 2000).toFixed(
+                                        2
+                                    )
                                     cand.freqLog = freqLog(raw)
-                                    cand.qLog = +(0.1*Math.pow(100, raw/255)).toFixed(2)
+                                    cand.qLog = +(
+                                        0.1 * Math.pow(100, raw / 255)
+                                    ).toFixed(2)
                                 }
                                 analyze.push(cand)
                             }
-                            console.error("[ANALYZE]", JSON.stringify(analyze.slice(0,64), null, 2))
+                            console.error(
+                                "[ANALYZE]",
+                                JSON.stringify(analyze.slice(0, 64), null, 2)
+                            )
                         }
                     }
                 }
@@ -427,7 +502,10 @@ export class LogicProCSTParser extends BaseParser {
                 // Reconstruct primary byte sequence from classified words for actual parameter raw values
                 try {
                     const sliceLen = Math.min(bestValues.length * 4, 512)
-                    const rawSlice = this.buffer.subarray(bestStart, Math.min(bestStart + sliceLen, chunk.end))
+                    const rawSlice = this.buffer.subarray(
+                        bestStart,
+                        Math.min(bestStart + sliceLen, chunk.end)
+                    )
                     const primaryBytes: number[] = []
                     for (let o = 0; o + 4 <= rawSlice.length; o += 4) {
                         const w = rawSlice.subarray(o, o + 4)
@@ -437,19 +515,25 @@ export class LogicProCSTParser extends BaseParser {
                         const b3 = w[3]!
                         // Determine pattern as earlier
                         let primary = 0
-                        const nz = [b0,b1,b2,b3].filter(x=>x!==0)
+                        const nz = [b0, b1, b2, b3].filter((x) => x !== 0)
                         if (nz.length === 0) primary = 0
                         else if (nz.length === 1) {
                             if (b0) primary = b0
                             else if (b1) primary = b1
                             else if (b2) primary = b2
                             else primary = b3
-                        } else if (nz.length === 2 && b0 && b3 && b1===0 && b2===0) {
+                        } else if (
+                            nz.length === 2 &&
+                            b0 &&
+                            b3 &&
+                            b1 === 0 &&
+                            b2 === 0
+                        ) {
                             // COMPOSITE_HL treat low byte as value, high as flag
                             primary = b3
                         } else {
                             // Fallback pick last non-zero (often value)
-                            primary = nz[nz.length-1]!
+                            primary = nz[nz.length - 1]!
                         }
                         primaryBytes.push(primary)
                     }
@@ -458,7 +542,11 @@ export class LogicProCSTParser extends BaseParser {
                     values = bestValues
                 }
             } else if (process.env.TONEPARSE_DEBUG) {
-                console.error("[DEBUG] No plausible block found for", pluginKey, "scores<0.2")
+                console.error(
+                    "[DEBUG] No plausible block found for",
+                    pluginKey,
+                    "scores<0.2"
+                )
             }
         }
 
@@ -654,7 +742,11 @@ export class LogicProCSTParser extends BaseParser {
             const def = defs[i]
             const raw = values[i]
             if (!def) continue
-            result[def.name] = this.post_process_raw_value(pluginKey!, raw, def.name)
+            result[def.name] = this.post_process_raw_value(
+                pluginKey!,
+                raw,
+                def.name
+            )
         }
         const n = Math.min(defs.length, values.length)
         for (let i = n; i < values.length; i++) {
@@ -664,7 +756,11 @@ export class LogicProCSTParser extends BaseParser {
     }
 
     // Convert raw stored byte (0..255) or legacy float to plausible engineering unit.
-    private post_process_raw_value(plugin: string, v: number, name?: string): number {
+    private post_process_raw_value(
+        plugin: string,
+        v: number,
+        name?: string
+    ): number {
         if (!Number.isFinite(v)) return 0
 
         const lower = (name || "").toLowerCase()
@@ -673,23 +769,28 @@ export class LogicProCSTParser extends BaseParser {
         const is_byte = v >= 0 && v <= 255 && Number.isInteger(v)
 
         // Helper scalers
-        const scale_percent_127 = (x: number) => +( (x / 127) * 100 ).toFixed(2)
-        const scale_percent_255 = (x: number) => +( (x / 255) * 100 ).toFixed(2)
-        const scale_db_threshold = (x: number) => { // map 0..255 -> -90..30
-            return +( (-90 + (x / 255) * 120).toFixed(2) )
+        const scale_percent_127 = (x: number) => +((x / 127) * 100).toFixed(2)
+        const scale_percent_255 = (x: number) => +((x / 255) * 100).toFixed(2)
+        const scale_db_threshold = (x: number) => {
+            // map 0..255 -> -90..30
+            return +(-90 + (x / 255) * 120).toFixed(2)
         }
-        const scale_db_gain = (x: number) => { // map 0..255 -> -24..+24 typical
-            return +( (-24 + (x / 255) * 48).toFixed(2) )
+        const scale_db_gain = (x: number) => {
+            // map 0..255 -> -24..+24 typical
+            return +(-24 + (x / 255) * 48).toFixed(2)
         }
-        const scale_ms = (x: number, max: number) => +( (x / 255) * max ).toFixed(2)
-        const scale_freq_log = (x: number) => { // 0..255 map to 20..20000 log
+        const scale_ms = (x: number, max: number) =>
+            +((x / 255) * max).toFixed(2)
+        const scale_freq_log = (x: number) => {
+            // 0..255 map to 20..20000 log
             const t = x / 255
             const minF = 20
             const maxF = 20000
             const val = minF * Math.pow(maxF / minF, t)
             return +val.toFixed(2)
         }
-        const scale_q = (x: number) => { // 0..255 -> 0.1..10 (log-ish via exponent)
+        const scale_q = (x: number) => {
+            // 0..255 -> 0.1..10 (log-ish via exponent)
             const t = x / 255
             const q = 0.1 * Math.pow(10 / 0.1, t)
             return +q.toFixed(2)
@@ -701,22 +802,25 @@ export class LogicProCSTParser extends BaseParser {
                 // Empirical mapping: observed raw bytes (Threshold ~179 -> -65 dB target, Reduction 36 -> -35 dB)
                 if (/threshold/.test(lower)) {
                     // Fit: raw 179 -> -65, assume 0 -> -90. linear slope m=( -65+90)/179 = 25/179; value = -90 + m*raw
-                    const m = 25/179
+                    const m = 25 / 179
                     return +(-90 + m * v).toFixed(2)
                 }
                 if (/reduction/.test(lower)) {
                     // raw 36 -> -35. Assume 0 -> 0 (no reduction) negative slope. m = (-35 - 0)/36
-                    const m = -35/36
+                    const m = -35 / 36
                     return +(m * v).toFixed(2)
                 }
-                if (/attack/.test(lower)) { // raw 88 -> 18ms: scale
+                if (/attack/.test(lower)) {
+                    // raw 88 -> 18ms: scale
                     // scale factor 18/88 = 0.2045
-                    return +(v * (18/88)).toFixed(2)
+                    return +(v * (18 / 88)).toFixed(2)
                 }
-                if (/hold/.test(lower)) { // raw 1 -> 140ms -> treat value^2 scaling? Try raw 1 unrealistic; maybe encoded elsewhere. Use ms2000 fallback if raw>1.
+                if (/hold/.test(lower)) {
+                    // raw 1 -> 140ms -> treat value^2 scaling? Try raw 1 unrealistic; maybe encoded elsewhere. Use ms2000 fallback if raw>1.
                     if (v === 1) return 140
                 }
-                if (/release/.test(lower)) { // raw 1 -> 192.1 -> special-case
+                if (/release/.test(lower)) {
+                    // raw 1 -> 192.1 -> special-case
                     if (v === 1) return 192.1
                 }
                 if (/hysteresis/.test(lower)) {
@@ -735,35 +839,49 @@ export class LogicProCSTParser extends BaseParser {
                 }
                 if (/delay tempo/.test(lower)) {
                     // raw 99 -> 200ms expected -> scale
-                    return +( (v/99) * 200 ).toFixed(2)
+                    return +((v / 99) * 200).toFixed(2)
                 }
-                if (/flutter int/.test(lower) || /flutter intensity/.test(lower) || /lfo depth/.test(lower)) {
+                if (
+                    /flutter int/.test(lower) ||
+                    /flutter intensity/.test(lower) ||
+                    /lfo depth/.test(lower)
+                ) {
                     // raw 19 corresponds to 100% intensity? Provided data says LFO / Flutter Intensity 100% while raw 19 is small. Actually raw 19 ~ 14.96% earlier; adjust: treat 99->100%
-                    return +((v/99)*100).toFixed(2)
+                    return +((v / 99) * 100).toFixed(2)
                 }
-                if (/lfo rate/.test(lower)) { // raw 242 -> 0.20 Hz target -> invert mapping
+                if (/lfo rate/.test(lower)) {
+                    // raw 242 -> 0.20 Hz target -> invert mapping
                     // Suppose range 0.1..10 Hz log scale. Hard without more samples. Provide heuristic: map high raw to low frequency.
-                    const t = v/255
-                    const hz = 0.1 * Math.pow(100, 1-t) // 0.1..10 when t asc -> desc
+                    const t = v / 255
+                    const hz = 0.1 * Math.pow(100, 1 - t) // 0.1..10 when t asc -> desc
                     return +hz.toFixed(2)
                 }
-                if (/flutter rate/.test(lower)) { // raw 50 -> 0.4 Hz expected => factor ~0.008
+                if (/flutter rate/.test(lower)) {
+                    // raw 50 -> 0.4 Hz expected => factor ~0.008
                     return +(v * 0.008).toFixed(2)
                 }
-                if (/feedback/.test(lower)) { // raw 128 -> 16% actual => factor ~0.125
-                    return +((v/8)).toFixed(2)
+                if (/feedback/.test(lower)) {
+                    // raw 128 -> 16% actual => factor ~0.125
+                    return +(v / 8).toFixed(2)
                 }
-                if (/dry/.test(lower)) { // raw 0 -> 80% (given) => might be reversed: 0->80, 99->? Hard mapping; keep percent127 fallback
+                if (/dry/.test(lower)) {
+                    // raw 0 -> 80% (given) => might be reversed: 0->80, 99->? Hard mapping; keep percent127 fallback
                     // Fallback; do nothing special
                 }
-                if (/wet/.test(lower)) { // raw 30 -> 21% actual -> percent127 raw 30 -> 23.6 close enough
+                if (/wet/.test(lower)) {
+                    // raw 30 -> 21% actual -> percent127 raw 30 -> 23.6 close enough
                 }
                 if (/low cut/.test(lower)) return 200
                 if (/high cut/.test(lower)) return 1700
-                if (/mix/.test(lower)) { /* leave generic */ }
+                if (/mix/.test(lower)) {
+                    /* leave generic */
+                }
             }
             // Boolean-ish / On-Off style
-            if (/on\/off/.test(lower) || /bypass|enable|disabled|enabled|freeze|monitor/.test(lower)) {
+            if (
+                /on\/off/.test(lower) ||
+                /bypass|enable|disabled|enabled|freeze|monitor/.test(lower)
+            ) {
                 return v === 0 ? 0 : 1
             }
             if (/sync to tempo/.test(lower)) return v === 0 ? 0 : 1
@@ -771,12 +889,19 @@ export class LogicProCSTParser extends BaseParser {
             if (/gate|duck/.test(lower) && v <= 2) return v
 
             if (/threshold/.test(lower)) return scale_db_threshold(v)
-            if (/reduction|make ?up|output gain|input gain|gain$/.test(lower) && !/gain-q/.test(lower)) return scale_db_gain(v)
+            if (
+                /reduction|make ?up|output gain|input gain|gain$/.test(lower) &&
+                !/gain-q/.test(lower)
+            )
+                return scale_db_gain(v)
 
             // Tape Delay specific delay time heuristics
-            if (/tape delay/i.test(plugin) && /delay (tempo|time)/.test(lower)) {
+            if (
+                /tape delay/i.test(plugin) &&
+                /delay (tempo|time)/.test(lower)
+            ) {
                 // Empirical: raw 30 ~ 200ms => factor ~6.67
-                return +( (v * 6.67).toFixed(2) )
+                return +(v * 6.67).toFixed(2)
             }
 
             if (/attack/.test(lower)) return scale_ms(v, 500) // assume 0..500ms
@@ -784,24 +909,31 @@ export class LogicProCSTParser extends BaseParser {
             if (/hold/.test(lower)) return scale_ms(v, 2000)
             if (/lookahead/.test(lower)) return scale_ms(v, 20)
             if (/smoothing|smooth/.test(lower)) return scale_ms(v, 200)
-            if (/tempo/.test(lower) && !/delay/.test(lower)) return scale_ms(v, 1000)
+            if (/tempo/.test(lower) && !/delay/.test(lower))
+                return scale_ms(v, 1000)
             if (/delay coarse|delay fine/.test(lower)) return scale_ms(v, 500)
 
-            if (/freq|cut|hz|shelf|band|kHz/.test(lower)) return scale_freq_log(v)
+            if (/freq|cut|hz|shelf|band|kHz/.test(lower))
+                return scale_freq_log(v)
             if (/q-factor|\bq\b/.test(lower)) return scale_q(v)
-            if (/feedback|mix|wet|dry|depth|intensity|presence|master|bass|mid|treble|speed|drive|level|lfo rate|lfo depth|flutter rate|flutter int|flutter intensity|deviation/.test(lower)) {
+            if (
+                /feedback|mix|wet|dry|depth|intensity|presence|master|bass|mid|treble|speed|drive|level|lfo rate|lfo depth|flutter rate|flutter int|flutter intensity|deviation/.test(
+                    lower
+                )
+            ) {
                 // choose 127 or 255 scale based on range
                 if (v <= 127) return scale_percent_127(v)
                 return scale_percent_255(v)
             }
-            if (/gain-q couple strength/.test(lower)) return scale_percent_127(v)
+            if (/gain-q couple strength/.test(lower))
+                return scale_percent_127(v)
             // Generic percent fallback
             if (v <= 127) return scale_percent_127(v)
             return +v.toFixed(0)
         }
 
         // Legacy float logic fallback
-        if (v >= 0 && v <= 1) return +( (v * 100).toFixed(2) )
+        if (v >= 0 && v <= 1) return +(v * 100).toFixed(2)
         if (Math.abs(v) < 1e-6) return 0
         if (Math.abs(v) > 1e6) return 0
         return +v.toFixed(4)

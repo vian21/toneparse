@@ -19,4 +19,11 @@ interface LogicProPreset extends Preset {
 interface LogicProAudioUnit {
     name: string
     parameters: Record<string, number | string>
+    raw_data?: {
+        bytes: number[]
+        parameter_names: string[]
+        labels?: string[]
+    }
+    is_pedalboard_stompbox?: boolean
+    parent_pedalboard?: string
 }

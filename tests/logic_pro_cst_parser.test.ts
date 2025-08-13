@@ -41,4 +41,71 @@ describe("Logic Pro CST Parser Results", () => {
 
         console.log(`Coverage: ${parser.get_coverage()}%`)
     })
+
+    test("Pedalboard and stompbox sub-units in Echo Stack", () => {
+        const cstFilePath = path.join(
+            assetsDir,
+            "Echo Stack.patch",
+            "#Root.cst"
+        )
+        const buffer = fs.readFileSync(cstFilePath)
+        const parser = new LogicProCSTParser(buffer)
+        const preset = parser.parse()
+
+        // Expect Pedalboard unit present
+        const names = preset.audio_units.map((u) => u.name)
+        const hasPedalboard = names.some((n) => /pedalboard/i.test(n))
+        expect(hasPedalboard).toBe(true)
+
+        // Expect at least two known stompboxes
+        const knownStomps = [
+            "The Vibe",
+            "Blue Echo",
+            "Tube Burner",
+            "Robo Flanger",
+            "Stereo Delay",
+            "Chorus",
+        ]
+        const foundStomps = names.filter((n) => knownStomps.includes(n))
+        expect(foundStomps.length).toBeGreaterThanOrEqual(2)
+
+        // Their parameters should not be empty
+        for (const unit of preset.audio_units) {
+            if (knownStomps.includes(unit.name)) {
+                expect(Object.keys(unit.parameters).length).toBeGreaterThan(0)
+            }
+        }
+    })
+
+    test("Pedalboard and stompbox sub-units in Brit and Clean", () => {
+        const cstFilePath = path.join(
+            assetsDir,
+            "Brit and Clean.patch",
+            "#Root.cst"
+        )
+        const buffer = fs.readFileSync(cstFilePath)
+        const parser = new LogicProCSTParser(buffer)
+        const preset = parser.parse()
+
+        const names = preset.audio_units.map((u) => u.name)
+        const hasPedalboard = names.some((n) => /pedalboard/i.test(n))
+        expect(hasPedalboard).toBe(true)
+
+        const knownStomps = [
+            "The Vibe",
+            "Blue Echo",
+            "Tube Burner",
+            "Robo Flanger",
+            "Stereo Delay",
+            "Chorus",
+        ]
+        const foundStomps = names.filter((n) => knownStomps.includes(n))
+        expect(foundStomps.length).toBeGreaterThanOrEqual(2)
+
+        for (const unit of preset.audio_units) {
+            if (knownStomps.includes(unit.name)) {
+                expect(Object.keys(unit.parameters).length).toBeGreaterThan(0)
+            }
+        }
+    })
 })

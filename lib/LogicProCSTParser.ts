@@ -30,13 +30,7 @@ export class LogicProCSTParser extends BaseParser {
         if (this.PARAM_NAME_MAP && this.KNOWN_PLUGIN_NAMES)
             return this.PARAM_NAME_MAP!
 
-        const baseDir = path.resolve(
-            __dirname,
-            "..",
-            "tests",
-            "assets",
-            "plugin_settings"
-        )
+        const baseDir = path.join(process.cwd(), "assets", "plugin_settings")
 
         const map: Record<string, ParamDef[]> = {}
         const known: string[] = []
@@ -303,7 +297,7 @@ export class LogicProCSTParser extends BaseParser {
                     // broaden search window
                     const absStart = start + align
                     if (absStart >= chunk.end) break
-                    const { le, be } = this.try_read_float_block_dual(
+                    const { le, be } = this.read_float_block_dual(
                         absStart,
                         chunk.end,
                         expectedCount
@@ -640,7 +634,7 @@ export class LogicProCSTParser extends BaseParser {
     }
 
     // Dual-endian read of a parameter block
-    private try_read_float_block_dual(
+    private read_float_block_dual(
         start: number,
         end_offset: number,
         expectedCount: number

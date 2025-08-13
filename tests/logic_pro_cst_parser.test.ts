@@ -4,7 +4,7 @@ import { test, expect, describe } from "bun:test"
 
 import { LogicProCSTParser } from "../lib/LogicProCSTParser"
 
-const assetsDir = path.join(import.meta.dir, "assets")
+const assetsDir = path.join(process.cwd(), "assets")
 
 describe("Logic Pro CST Parser Results", () => {
     test("Parser validation with Arena Ready preset", () => {

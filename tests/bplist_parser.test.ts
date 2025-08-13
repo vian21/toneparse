@@ -4,7 +4,7 @@ import { test, expect } from "bun:test"
 
 import parseBuffer from "../lib/bplistParser"
 
-const assetsDir = path.join(import.meta.dir, "assets")
+const assetsDir = path.join(process.cwd(), "assets")
 
 test("Parsing and correctness", () => {
     const arenaReadyBinaryPath = path.join(

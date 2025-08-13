@@ -10,7 +10,7 @@ import { NeuralDSPParser } from "../lib/NeuralDSPParser"
  * Error: the parser enters an infinite loop
  *
  */
-const assetsDir = path.join(import.meta.dir, "assets")
+const assetsDir = path.join(process.cwd(), "assets")
 const files = fs
     .readdirSync(assetsDir)
     .filter((file) => file.endsWith(".xml"))
